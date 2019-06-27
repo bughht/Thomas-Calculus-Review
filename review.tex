@@ -997,4 +997,62 @@
             \[=\cfrac{dH}{dt}\]
             \[=-k(H-H_s)\]
             \[=-ky\]
+        \subsection{Indeterminate Forms and L'H$\bf{\hat{o}}$pital's Rule}
+            \paragraph{Indeterminate Form $0/0$} Suppose that $f(a)=g(a)=0$, that $f$ and $g$ are differentiable on an open interval $I$ containing $a$, and that $g'(x)\ne 0$ on $I$ if $x\ne a$. Then
+            \[\lim\limits_{x\to a}\cfrac{f(x)}{g(x)}=\lim\limits_{x\to a}\cfrac{f'(x)}{g'(x)}\]
+            assuming that the limit on the right side of this equation exists.
+            \paragraph{Indeterminate Forms $\infty/\infty$, $\infty/0$, $\infty\cdot 0$, $\infty-\infty$}
+            $x\to a$ may be replaced by the one-sided limits $x\to a^{+}$ or $x\to a^{-}$
+            \paragraph{Indeterminated Power}
+            \text{}\\
+            \par If $\lim\limits_{x\to a}$ in $f(x)=L$ then 
+            \[\lim\limits_{x\to a}f(x)=\lim\limits_{x\to a}e^{\ln f(x)} =e^L\]
+            \par Here $a$ may be either finite or infinite.
+            \paragraph{Example} Apply l'hopital's Rule to show that $\lim\limits_{x\to 0^{+}} (1+x)^{1/x}=e$
+            \subparagraph{Solution}
+            \begin{equation}
+                \begin{aligned}
+                    \ln f(x)&=\ln (1+x)^{1/x}=\cfrac{1}{x}\ln (1+x)\\
+                    \lim\limits_{x\to 0^+} \ln f(x)&=\lim\limits_{x\to 0^+}\cfrac{\ln (1+x)}{x}\\
+                    &=\lim\limits_{x\to 0^+}\cfrac{\cfrac{1}{1+x}}{1}\\
+                    &=1\\
+                \end{aligned}                
+            \end{equation}
+            \paragraph{Proof of L'H$\bf{\hat{o}}$pital's Rule}
+            \begin{equation}
+                \begin{aligned}
+                    \lim\limits_{x\to a}\cfrac{f(x)}{g(x)}&=\lim\limits_{x\to a}\cfrac{f'(a)(x-a)+\epsilon_1 (x-a)}{g'(a)(x-a)+\epsilon_2(x-a)}\\
+                    &=\lim\limits_{x\to a} \cfrac{f'(a)+\epsilon_1}{g'(a)+\epsilon_2}\\
+                    &=\cfrac{f'(a)}{g'(a)}\\
+                    &=\lim\limits_{x\to a} \cfrac{f'(x)}{g'(x)}
+                \end{aligned}                
+            \end{equation}
+                \subparagraph{Cauchy's Mean Value Theorem} Suppose functions $f$ and $g$ are continuous on [a,b] and differentiable throughout $(a,b)$ and also suppose $g'(x)\ne 0$ throughout $(a,b)$. Then there exists a number $c$ in $(a,b)$ at which
+                \[\cfrac{f'(c)}{g'(c)}=\cfrac{f(b)-f(a)}{g(b)-g(a)}\]
+                \subparagraph{Proof}
+                \[g'(c)=\cfrac{g(b)-g(a)}{b-a}=0\]
+                \[F(x)=f(x)-f(a)-\cfrac{f(b)-f(a)}{g(b)-g(a)}[g(x)-g(a)]\]
+                \[F'(c)=f'(c)-\cfrac{f(b)-f(a)}{g(b)-g(a)}[g'(c)]=0\]
+                \[\cfrac{f'(c)}{g'(c)}=\cfrac{f(b)-f(a)}{g(b)-g(a)}\]
+                \subparagraph{Proof of L'H$\bf{\hat{o}}$pital's Rule}
+                \[\cfrac{f'(c)}{g'(c)}=\cfrac{f(x)-f(a)}{g(x)-g(a)}\]
+                \[\cfrac{f'(c)}{g'(c)}=\cfrac{f(x)}{g(x)}\]
+                \[\lim\limits_{x\to a^+}\cfrac{f(x)}{g(x)}=\lim\limits_{c\to a^+}\cfrac{f'(c)}{g'(c)}=\lim\limits_{x\to a^+}\cfrac{f'(x)}{g'(x)}\]
+        \subsection{Inverse Trigonometric Functions}
+            \paragraph{Defining the Inverses}
+            \paragraph{The Arcsine and Arccosine Functions}
+            \paragraph{Identities Involving Arcsine and Arccosine}
+            \[\cos^{-1}x+\cos^{-1}(-x)=\pi\]
+            \[\sin^{=1}x+\cos^{-1}x=\pi/2\]
+            \paragraph{Inverses of $\tan x$, $\cot x$, $\sec x$, and $\csc x$}
+            \[\sec^{-1}x=\cos ^{-1}\bigg(\cfrac{1}{x}\bigg)=\cfrac{\pi}{2}-\sin^{-1}\bigg(\cfrac{1}{x}\bigg)\]
+            \paragraph{The Derivative of $y=\sin ^{-1} u$}
+            \begin{equation}
+                \begin{aligned}
+                    (f^{-1})'(x)&=\cfrac{1}{f'(f^{-1}(x))}\\
+                    &=\cfrac{1}{\cos (\sin ^{-1}x)}\\
+                    &=\cfrac{1}{\sqrt{1-\sin ^2(\sin ^{-1}x)}}\\
+                    &=\cfrac{1}{\sqrt{1-x^2}}
+                \end{aligned}
+            \end{equation}
 \end{document}

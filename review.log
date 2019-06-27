@@ -1,7 +1,7 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2019.6.21)  26 JUN 2019 22:28
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2019.6.21)  27 JUN 2019 16:28
 entering extended mode
-**e:/latex/Thomas*Calculus/review
-("e:/latex/Thomas Calculus/review.tex"
+**e:/Thomas-Calculus-Review/review
+(e:/Thomas-Calculus-Review/review.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
 (D:\ctex\MiKTeX\tex\latex\base\article.cls
@@ -353,7 +353,7 @@ File: pgflibraryplothandlers.code.tex 2011/12/28 v2.10 (rcs-revision 1.16)
 File: tikzlibraryplotmarks.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
  (D:\ctex\MiKTeX\tex\generic\pgf\libraries\pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2010/10/15 v2.10 (rcs-revision 1.12)
-))) ("e:\latex\Thomas Calculus\review.aux")
+))) (e:\Thomas-Calculus-Review\review.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
@@ -452,7 +452,7 @@ Requested font "cmr12" at 14.4pt
  -> cmr12
 Requested font "cmbx12" at 14.4pt
  -> cmbx12
- ("e:\latex\Thomas Calculus\review.toc"
+ (e:\Thomas-Calculus-Review\review.toc
 Requested font "cmbx10" at 10.0pt
  -> cmbx10
 Requested font "cmex7" at 7.0pt
@@ -475,9 +475,9 @@ Requested font "cmbsy7" at 7.0pt
  -> cmbsy7
 Requested font "cmbsy5" at 5.0pt
  -> cmbsy5
-)
+ [2])
 \tf@toc=\write4
- [2] [3]
+ [3]
 Requested font "cmti10" at 10.0pt
  -> cmti10
  [4] [5]
@@ -619,14 +619,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 925--926
 
  []
 
-[32] [33] [34] [35] ("e:\latex\Thomas Calculus\review.aux") ) 
+[32] [33] [34]
+Underfull \hbox (badness 10000) in paragraph at lines 1007--1008
+
+ []
+
+[35] [36] [37] (e:\Thomas-Calculus-Review\review.aux) ) 
 Here is how much of TeX's memory you used:
  16363 strings out of 430478
- 376734 string characters out of 3191502
+ 376740 string characters out of 3191502
  517447 words of memory out of 3000000
  19199 multiletter control sequences out of 15000+200000
  14639 words of font info for 51 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 63i,12n,74p,709b,479s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 63i,12n,74p,710b,479s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on review.pdf (35 pages).
+Output written on review.pdf (37 pages).
