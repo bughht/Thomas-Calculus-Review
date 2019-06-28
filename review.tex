@@ -1055,4 +1055,377 @@
                     &=\cfrac{1}{\sqrt{1-x^2}}
                 \end{aligned}
             \end{equation}
+            \[\cfrac{d}{dx}(sin^{-1}u)=\cfrac{1}{\sqrt{1-u^2}}\cfrac{du}{dx},\quad |u|<1\]
+            \paragraph{The Derivative of $y=\tan ^{-1} u$}
+            \begin{equation}
+                \begin{aligned}
+                    (f^{-1})'(x)&=\cfrac{1}{f'(f^{-1}(x))}\\
+                    &=\cfrac{1}{\sec^2(\tan^{-1}x)}\\
+                    &=\cfrac{1}{1+\tan^2(\tan^{-1}x)}\\
+                    &=\cfrac{1}{\sqrt{1+x^2}}
+                \end{aligned}
+            \end{equation}
+            \[\cfrac{d}{dx}(sin^{-1}u)=\cfrac{1}{\sqrt{1+u^2}}\cfrac{du}{dx},\quad |u|<1\]
+            \paragraph{The Derivative of $y=\sec^{-1}u$}
+            \begin{equation}
+                \begin{aligned}
+                    y&=\sec ^{-1}x\\
+                    \sec y&=x\\
+                    \cfrac{d}{dx}(\sec y)&=\cfrac{d}{dx}x\\
+                    \sec y\tan y\cfrac{dy}{dx}&=1\\
+                    \cfrac{dy}{dx}&=\cfrac{1}{\sec y\tan y}\\
+                    \cfrac{dy}{dx}&=\pm \cfrac{1}{x\sqrt{x^2-1}}\\
+                \end{aligned}
+            \end{equation}
+            \[\cfrac{d}{dx}\sec ^{-1} x=\left\{
+                \begin{aligned}
+                    &+\cfrac{1}{x\sqrt{x^2-1}}\quad\text{if}x>1\\
+                    &-\cfrac{1}{x\sqrt{x^2-1}}\quad\text{if}x<-1\\
+                \end{aligned}
+            \right.\]
+            \[\cfrac{d}{dx}\sec ^{-1} x=\cfrac{1}{|x|\sqrt{x^2-1}}\]
+            \[\cfrac{d}{dx}\sec ^{-1} u=\cfrac{1}{|u|\sqrt{u^2-1}}\cfrac{du}{dx}\]
+            \paragraph{Inverse Function-Inverse Confunction Identities}
+            \[\cos ^{-1}x=\pi/2-\sin^{-1}x\]
+            \[\cot ^{-1}x=\pi/2-\tan^{-1}x\]
+            \[\csc ^{-1}x=\pi/2-\sec^{-1}x\]
+            \paragraph{Integration Formulas}
+            \begin{equation}
+                \begin{aligned}
+                    &\int\cfrac{du}{\sqrt{a^2-u^2}}=\sin ^{-1}\bigg(\cfrac{u}{a}\bigg)+C\\
+                    &\int\cfrac{du}{a^2+u^2}=\cfrac{1}{a}\tan^{-1}\bigg(\cfrac{u}{a}\bigg)+C\\
+                    &\int\cfrac{du}{u\sqrt{u^2-a^2}}=\cfrac{1}{a}\sec^{-1}\bigg|\cfrac{u}{a}\bigg|+C\\
+                \end{aligned}
+            \end{equation}
+        \subsection{Hyperbolic Functions}
+            \paragraph{Definitions and Identities}
+                \[\sinh x=\cfrac{e^x-e^{-x}}{2}\]
+                \[\cosh x=\cfrac{e^x+e^{-x}}{2}\]
+                \begin{equation}
+                    \begin{aligned}
+                        2\sinh x\cosh x&=2\bigg(\cfrac{e^x-e^{-x}}{2}\bigg)\bigg(\cfrac{e^x+e^{-x}}{2}\bigg)\\
+                        &=\cfrac{e^{2x}-e^{-2x}}{2}\\
+                        &=\sinh 2x
+                    \end{aligned}                    
+                \end{equation}
+                \[\tanh x=\cfrac{e^x+e^{-x}}{e^x-e^{-x}}\]
+                \[\coth x=\cfrac{e^x-e^{-x}}{e^x+e^{-x}}\]
+                \[\text{sech} x=\cfrac{2}{e^x+e^{-x}}\]
+                \[\text{csch} x=\cfrac{2}{e^x-e^{-x}}\]
+                \[\cosh ^2 x-\sinh^2 x=1\]
+                \[\cosh 2x=\cosh^2x+\sinh^2x\]
+                \[\sinh 2x=2\sinh x\cosh x\]
+                \[\cosh ^2x=\cfrac{\cosh 2x+1}{2}\]
+                \[\sinh ^2x=\cfrac{\cosh 2x-1}{2}\]
+                \[\tanh^2x=1-\text{sech}^2 x\]
+                \[\coth^2x=1+\text{csch}^2 x\]
+            \paragraph{Derivatives and Integrals of Hyperbolic Functions}
+                \[\cfrac{d}{dx}(\sinh u)=\cosh u\cfrac{du}{dx}\]
+                \[\cfrac{d}{dx}(\cosh u)=\sinh u\cfrac{du}{dx}\]
+                \[\cfrac{d}{dx}(\tanh u)=\text{sech}^2 u\cfrac{du}{dx}\]
+                \[\cfrac{d}{dx}(\coth u)=-\text{csch}^2 u\cfrac{du}{dx}\]
+                \[\cfrac{d}{dx}(\text{csch } u)=-\text{sech }u \tanh u\cfrac{du}{dx}\]
+                \[\cfrac{d}{dx}(\text{csch }u)=-\text{csch }u \coth u\cfrac{du}{dx}\]
+                \text{}\\
+                \[\int\sinh u\ du=\cosh u+C\]
+                \[\int\cosh u\ du=\sinh u+C\]
+                \[\int\text{sech}^2 u\ du=\tanh u+C\]
+                \[\int\text{csch}^2 u\ du=-\coth u+C\]
+                \[\int\text{sech } u\tanh u\ du=-\text{sech }u+C\]
+                \[\int\text{csch } u\coth u\ du=-\text{csch }u+C\]
+            \paragraph{Inverse Hyperbolic Function}
+                \[\text{sech}^{-1}=\cosh^{-1}\cfrac{1}{x}\]
+                \[\text{csch}^{-1}=\sinh^{-1}\cfrac{1}{x}\]
+                \[\coth^{-1}=\tanh^{-1}\cfrac{1}{x}\]
+            \paragraph{Derivatives of Inverse Hyperbolic Functions}
+                \[\cfrac{d(\sinh ^{-1}u)}{dx}=\cfrac{1}{\sqrt{1+u^2}}\cfrac{du}{dx}\quad\]
+                \[\cfrac{d(\cosh ^{-1}u)}{dx}=\cfrac{1}{\sqrt{1-u^2}}\cfrac{du}{dx}\quad u>1\]
+                \[\cfrac{d(\tanh ^{-1}u)}{dx}=\cfrac{1}{1-u^2}\cfrac{du}{dx}\quad |u|<1\]
+                \[\cfrac{d(\coth ^{-1}u)}{dx}=\cfrac{1}{1-u^2}\cfrac{du}{dx}\quad |u|>1\]
+                \[\cfrac{d(\text{sech} ^{-1}u)}{dx}=\cfrac{1}{u\sqrt{1-u^2}}\cfrac{du}{dx}\quad 0<u<1\]
+                \[\cfrac{d(\text{csch} ^{-1}u)}{dx}=\cfrac{1}{|u|\sqrt{1+u^2}}\cfrac{du}{dx}\quad u\ne 0\]
+                \[\int \cfrac{du}{\sqrt{a^2+u^2}}=\sinh ^{-1}(\cfrac{u}{a})+C,\qquad a>0\]
+                \[\int \cfrac{du}{\sqrt{u^2-a^2}}=\cosh ^{-1}(\cfrac{u}{a})+C,\qquad u>a>0\]
+                \[\int \cfrac{du}{a^2-u^2}=\left\{
+                    \begin{aligned}
+                        \cfrac{1}{a}\tanh ^{-1}(\cfrac{u}{a})+C,\quad u^2<a^2\\
+                        \cfrac{1}{a}\coth ^{-1}(\cfrac{u}{a})+C,\quad u^2>a^2\\
+                    \end{aligned}
+                \right.\]
+                \[\int \cfrac{du}{u \sqrt{a^2-u^2}}=-\cfrac{1}{a}\text{sech}^{-1}(\cfrac{u}{a})+C,\quad 0<u<a\]
+                \[\int \cfrac{du}{u\sqrt{a^2+u^2}}=-\cfrac{1}{a}\text{csch}^{-1}|\cfrac{u}{a}|+C,\qquad 0<u<a\]
+        \subsection{Relative Rates of Growth}
+            \paragraph{Growth Rate of Functions} Let $f(x)$ and $g(x)$ be positive for $x$ sufficiently large\\
+            1. $f$ grows faster than $g$ as $x\to \infty$ if
+            \[\lim\limits_{x\to \infty}\cfrac{f(x)}{g(x)}=\infty\]
+            2. $f$ grows faster than $g$ as $x\to \infty$ if
+            \[\lim\limits_{x\to \infty}\cfrac{f(x)}{g(x)}=0\]
+            3. $f$ and $g$ grow at the same rate as $x\to \infty$ if
+            \[\lim\limits_{x\to \infty}\cfrac{f(x)}{g(x)}=L\]
+            where $L$ is finite and positive.
+            \paragraph{Order and Oh-Notation}
+                \subparagraph{Definition}
+            A function $f$ is \textbf{of smaller order than} $\bf{g}$ as $x\to \infty$ if $\lim\limits_{x\to \infty}\cfrac{f(x)}{g(x)}=0$. We indicate this by writing $f=o(g)$.
+                \subparagraph{Definition} Let $f(x)$ and $g(x)$ be positive for $x$ sufficiently large. Then $f$ is of at most the order of $g$ as $x\to \infty$ if there is a positive integer $M$ for which
+                \[\cfrac{f(x)}{g(x)}\le M\]
+                for $x$ sufficiently large. We indicate this by writing $f=O(g)$.
+            \paragraph{Sequential vs. Binary Search}
+
+    \newpage
+    \section{Techniques of Integration}
+        \subsection{Using Basic Integration Formulas}
+            \paragraph{Basic Integration formulas}
+            \[\int k\ dx=kx +C\]
+            \[\int x^n\ dx=\cfrac{x^{n+1}}{n+1} +C\]
+            \[\int \cfrac{dx}{x}=\ln |x| +C\]
+            \[\int e^x\ dx=e^x +C\]
+            \[\int a^x\ dx=\cfrac{a^x}{\ln a} +C\]
+            \[\int \sin x\ dx=-\cos x +C\]
+            \[\int \cos x\ dx=\sin x +C\]
+            \[\int \sec^2 x\ dx=\tan x +C\]
+            \[\int \csc^2 x\ dx=-\cot x +C\]
+            \[\int \sec x\tan x\ dx=\sec x +C\]
+            \[\int \csc x\cot x\ dx=-\csc x +C\]
+            \[\int \tan x\ dx=\ln |\sec x| +C\]
+            \[\int \cot x\ dx=\ln |\sin x| +C\]
+            \[\int \sec x\ dx=\ln |\sec x+\tan x| +C\]
+            \[\int \csc x\ dx=-\ln |\csc x+\cot x| +C\]
+            \[\int \sinh x\ dx=\cosh x +C\]
+            \[\int \cosh x\ dx=\sinh x +C\]
+            \[\int \cfrac{dx}{\sqrt{a^2-x^2}}=\sin^{-1}(\cfrac{x}{a}) +C\]
+            \[\int \cfrac{dx}{a^2+x^2}=\cfrac{1}{a}\tan^{-1}(\cfrac{x}{a}) +C\]
+            \[\int \cfrac{dx}{x\sqrt{x^2-a^2}}dx=\cfrac{1}{a}\sec^{-1}|\cfrac{x}{a}| +C\]
+            \[\int \cfrac{dx}{\sqrt{a^2+x^2}}dx=\sinh^{-1}(\cfrac{x}{a}) +C\]
+            \[\int \cfrac{dx}{\sqrt{x^2-a^2}}dx=\cosh^{-1}(\cfrac{x}{a}) +C\]
+        \subsection{Integration by Parts}
+            \paragraph{Product Rule in Integral Form}
+            \[\int \cfrac{d}{dx}[f(x)g(x)]dx=\int[f'(x)g(x)+f(x)g'(x)]dx\]
+            \[\int \cfrac{d}{dx}[f(x)g(x)]dx=\int[f'(x)g(x)]+\int[f(x)g'(x)]dx\]
+            \[\int f(x)g'(x)dx=\int \cfrac{d}{dx}[f(x)g(x)]dx+\int f'(x)g(x)\]
+            \[\int f(x)g'(x)dx=f(x)g(x)-\int f'(x)g(x)dx\]
+            \subparagraph{Integration by Parts Formula}
+            \[\int u\ dv=uv-\int v\ du\]
+                \subparagraph{Example} Find
+                \[\int x\cos x\ dx\]
+                \subparagraph{Solution}
+                    \[u=x,\quad dv=\cos x\ dx\]
+                    \[du=dx,\quad v=\sin x\]
+                \par Then
+                    \[\int x\cos x\ dx=x\sin x-\int \sin x\ dx=x\sin x+\cos x+C\]
+            \paragraph{Evaluating Definite Integrals by Parts}
+                \subparagraph{Integration by Parts Formula for Definite Integrals}
+                \[\int_a^bf(x)g'(x)dx=f(x)g(x)\Bigg]_a^b=\int_a^bf'(x)g(x)dx\]
+            \paragraph{Tabular Integration Can Simplify Repeated Integrations}
+        \subsection{Trigonometric Integrals}
+            \paragraph{Products of Power of Sines and Cosinea}
+            \[\int \sin^mx\cos^nx\ dx\]
+            \par \textbf{Case 1: }If \textbf{m is odd}
+            \[\sin^mx=\sin^{2k+1}x=(\sin^2x)^k \sin x=(1-\cos^2)^k\sin x\]
+            \par Then we combine the single $\sin x$ with $dx$ in the integral and set $\sin x\ dx$ equal to $-d(cosx)$.\\
+            \par \textbf{Case 2: }If \textbf{m is even and n is odd}
+            \[\cos^nx=\cos^{2k+1}x=(\cos^2x)^k\cos x=(1-\sin^2x)^k\cos x\]
+            \par We then combine the single $\cos x$ with $dx$ and set $\cos x\ dx$ equal to $d(\sin x).$
+            \\
+            \par \textbf{Case 3: }If \textbf{both m and n are even}
+            \[\sin^2x=\cfrac{1-\cos 2x}{2},\qquad\cos^2x=\cfrac{1+\cos 2x}{2} \]
+            \par to reduce the integrand to one in lower power of $\cos 2x.$
+            \paragraph{Eliminating Square Roots}
+            \paragraph{Integrals of Powers of $\tan x$ and $\sec x$}
+                \subparagraph{Example} Evaluate 
+                \[\int \tan^4 x\ dx\]
+                \subparagraph{Solution}
+                \begin{equation}
+                    \begin{aligned}
+                        \int \tan^4x\ dx&=\int \tan^2x\cdot\tan ^2 x\ dx\\
+                        &=\int \tan^2x\cdot(\sec ^2x-1) dx\\
+                        &=\int \tan^2x\sec^2x\ dx-\int\tan^2x\ dx\\
+                        &=\int\tan^2\sec^2\ dx-\int(\sec^2-1)\ dx\\
+                        &=\int\tan^2\sec^2\ dx-\int\sec^2x\ dx+\int dx\\
+                        u=\tan x,\quad &du=\sec^2x\ dx\\
+                        \int u^2du&=\cfrac{1}{3}u^3+C_1\\ 
+                        \int \tan^4x\ dx&=\cfrac{1}{3}\tan^3x-\tan x+x+C\\
+                    \end{aligned}
+                \end{equation}
+            \paragraph{Products of Sines and Cosines}
+            \[\sin mx\sin nx=\cfrac{1}{2}[\cos(m-n)x-\cos(m+n)x]\]
+            \[\sin mx\cos nx=\cfrac{1}{2}[\sin(m-n)x+\sin(m+n)x]\]
+            \[\cos mx\cos nx=\cfrac{1}{2}[\cos(m-n)x+\cos(m+n)x]\]
+        \subsection{Trigonometric Substitutions}
+            \paragraph{Procedure for a Trigonometric Substitution}
+            \text{}\\
+            \par 1. Write down the substitution for $x$, calculate the differential $dx$, and specify the selected values of $\theta$ for the substitution.
+            \par 2. Substitute the trigonometric expression and the calculated differential into the integrand, and then simplify the results algebraically.
+            \par 3. Integrate the trigonometric integral, keeping in mind the restrictions on the angle $\theta$ for reversibility.
+            \par 4. Draw an appropriate reference triangle to reverse the substitution in the integration result and convert it back to the original variable $x$.
+        \subsection{Integration of Rational Functions by Partial Fractions}
+            \paragraph{the method of partial fractions}
+            \[\cfrac{5x-3}{x^2-2x-3}=\cfrac{A}{x+1}+\cfrac{B}{x-3}\]
+            \[A=2,\qquad B=3\]
+            \paragraph{General Description of the Method}
+                \subparagraph{Method of Partial Fractions when $f(x)/g(x)$ is Proper}
+                \text{}\\
+                \par 1. Let $x-r$ be a linear factor of $g(x)$. Suppose that $(x-r)^m$ is the highest power of $x-r$ that divides $g(x)$. Then, to this factor, assign the sum of the $m$ partial fractions:
+                \[\cfrac{A_1}{(x-r)}+\cfrac{A_2}{(x-r)^2}+\cdots+\cfrac{A_m}{(x-r)^m}\]
+                \par Do this for each distinct linear factor of $g(x)$.
+                \par 2. Let $x^2+px+q$ be an irreducible quadratic factor of $g(x)$ so that $x^2+px+q$ has no real roots. Suppose that $(x^2+px+q)^n$ is the highest power of this factor that divides $g(x)$. Then, to this factor, assign the sum of the $n$ partial fractions:
+                \[\cfrac{B_1x+C_1}{(x^2+px+q)}+\cfrac{B_2x+C_2}{(x^2+px+q)^2}+\cdots+\cfrac{B_nx+C_n}{(x^2+px+q)^n}\]
+                \par Do this for each distinct quadratic factor of $g(x)$.
+                \par 3. Set the original fraction $f(x)/g(x)$ equal to the sum of all these partial fractions. Clear the resulting equation of fractions and arrange the terms in decreasing power of $x$.
+                \par 4. Equate the coefficients of corresponding powers of x and solve the resulting equations for the undetermined coefficients.
+            \paragraph{The Heavisde "Cover-up" method for Linear Factors}
+                When the degree of the polynomial $f(x)$ is less than the degree of $g(x)$ and
+                \[g(x)=(x-r_1)(x-r_2)\cdots(x-r_n)\]
+                is a product of $n$ distinct linear factors, each raised to the first power, there is a quick way to expand $f(x)/g(x)$ by partial fractions.
+                \subparagraph{Heaviside Method}
+                \par 1. \textit{Write the quotient with $g(x)$ factored:}
+                \[\cfrac{f(x)}{g(x)}=\cfrac{f(x)}{(x-r_1)(x-r_2)\cdots(x-r_n)}\]
+                \par 2. \textit{Cover the factors $(x-r_1)$ of $g(x)$ one at a time }, each time replacing all the uncovered $x$'s by the number $r_i$. This gives a number $A_i$ for each root $r_i$:
+                \begin{equation}
+                    \begin{aligned}
+                        A_1&=\cfrac{f(r_1)}{(r_1-r_2)\cdots(r_1-r_n)}\\
+                        A_2&=\cfrac{f(r_2)}{(r_2-r_1)(r_2-r_3)\cdots(r_2-r_n)}\\
+                        \vdots\\
+                        A_n&=\cfrac{f(r_n)}{(r_n-r_1)(r_n-r_2)\cdots(r_n-r_{n-1})}\\
+                    \end{aligned}
+                \end{equation}
+                \par 3. \textit{Write the partial fraction expansion of $f(x)/g(x)$ as}
+                \[\cfrac{f(x)}{g(x)}=\cfrac{A_1}{(x-r_1)}+\cfrac{A_2}{(x-r_2)}+\cdots+\cfrac{A_n}{(x-r_n)}\]
+            \paragraph{Other Ways to Determine the Coefficients}
+        \subsection{Integral Tables and Computer Algebra Systems}
+            \paragraph{Integral Tables}
+            \paragraph{Reduction Formulas}
+            \paragraph{Integration with CAS}
+            \paragraph{Nonelemtary Integrals}
+            \[\text{erf}(x)=\cfrac{2}{\sqrt{\pi}}\int_0^x e^{-t^2}dt\]
+            \[\int \sin x^2dx\]
+            \[\int \sqrt{1+x^4}dx\]
+        \subsection{Numerical integration}
+            \paragraph{Trapezoidal Approximation}
+            \[\Delta x=\cfrac{b-a}{n}\quad \textbf{step size } \text{or} \textbf{ mesh size}\]
+            \[\Delta x\bigg(\cfrac{y_{i-1}+y_i}{2}\bigg)=\cfrac{\Delta x}{2}(y_{i-1}+y_i)\]
+            \begin{equation}
+                \begin{aligned}
+                    T&=\cfrac{1}{2}(y_0+y_1)\Delta x+\cfrac{1}{2}(y_1+y_2)\Delta x+\cdots+\cfrac{1}{2}(y_{n-1}+y_n)\Delta x\\
+                    &=\Delta x\bigg(\cfrac{1}{2}y_0+y_1+y_2+\cdots +y_{n-1}+\cfrac{1}{2}y_n\bigg)\\
+                    &=\cfrac{\Delta x}{2}(y_0+2y_1+2y_2+\cdots+2y_{n-1}+y_n)
+                \end{aligned}
+            \end{equation}
+            where
+            \[y_0=f(a),\quad y_1=f(x_1), \cdots,\quad y_{n-1}=f(x_{n-1}),\quad y_n=f(b)\]
+            The Trapezoidal Rule says: Use $T$ to estimate teh integral of $f$ from $a$ to $b$.
+            \paragraph{Simpson's Rule: Approximations Using Parabolas}\text{}\\
+                To approximate $\int_a^bf(x)dx$, use
+                \[S=\cfrac{\Delta x}{3}(y_0+4y_1+2y_2+4y_3+\cdots+2y_{n-2}+4y_{n-1}+y_n)\]
+                The $y$'s are the values of $f$ at the partition points
+                \[x_i=a+i\Delta x\]
+                The number $n$ is even, and $\Delta x=(b-a)/n$.
+            \paragraph{Error Analysis}
+                \subparagraph{Error Estimates in the Trapezoidal and Simpson's Rules}
+                If $f''$ is continuous and $M$ is any upper bound for the values of $|f''|$ on $[a,b]$
+                \[|E_T|\le\cfrac{M(b-a)^3}{12n^2}\quad \textit{Trapezoidal Rule}\]
+                If $f^{(4)}$ is continuous and $M$ is any upper bound for the values of $|f^{(4)}|$ on $[a,b]$ 
+                \[|E_S|\le\cfrac{M(b-a)^5}{180n^4}\quad \textit{Simpson's Rule}\]
+        \subsection{Improper Integrals}
+            \paragraph{Infinite Limits of Integration}
+            \[\int_a^\infty f(x)dx=\lim\limits_{b\to \infty}\int_a^b f(x)dx\]
+            \[\int_{-\infty}^bf(x)dx=\lim\limits_{b\to \infty}\int_a^b f(x)dx\]
+            \[\int_{-\infty}^\infty f(x)dx=\int_{-\infty}^cf(x)dx+\int_c^\infty f(x) dx\]
+            \paragraph{The Integral $\int_1^\infty \cfrac{dx}{x^p}$}
+                \subparagraph{Solution} If $p\ne 1$
+                \[\int_1^b\cfrac{dx}{x^p}=\cfrac{x^{-p+1}}{-p+1}\bigg]_1^b=\cfrac{1}{1-p}(b^{-p+1}-1)=\cfrac{1}{1-p}(\cfrac{1}{b^{p-1}}-1)\]
+                Thus,
+                \begin{equation}
+                    \begin{aligned}
+                        \int_1^\infty\cfrac{dx}{x^p}&=\lim\limits_{b\to\infty}\int_1^b\cfrac{dx}{x^p}\\
+                        &=\lim\limits_{b\to \infty}\bigg[\cfrac{1}{1-p}\bigg(\cfrac{1}{b^{p-1}-1}\bigg)\bigg]\\
+                        &=\left\{
+                            \begin{aligned}
+                                &\cfrac{1}{p-1},\quad p>1\\
+                                &\infty,\qquad\  p<1\\
+                            \end{aligned}
+                        \right.
+                    \end{aligned}
+                \end{equation}
+                because
+                \[\lim\limits_{b\to\infty}\cfrac{1}{b^{p-1}}=\left\{
+                    \begin{aligned}
+                        &0,\quad\ \, p>1\\
+                        &\infty,\quad p<1\\
+                    \end{aligned}    
+                \right.
+                \]
+                \par If $p=1$, the integral also diverges:
+                \begin{equation}
+                    \begin{aligned}
+                        \int_1^\infty \cfrac{dx}{x^p}&\\
+                        &=\int_1^\infty\cfrac{dx}{x}\\
+                        &=\lim\limits_{b\to\infty}\int_1^b\cfrac{dx}{x}\\
+                        &=\lim\limits_{b\to\infty}\ln x\bigg]_1^b\\
+                        &=\lim\limits_{b\to\infty}(\ln b-\ln 1)=\infty
+                    \end{aligned}
+                \end{equation}
+            \paragraph{Integrands with Vertical Asymptotes}
+                \subparagraph{Imporoper Integrals of Type II}\text{}\\
+                \par 1. If $f(x)$ is continuous on $(a,b]$ and discontinuous at $a$, then
+                \[\int_a^bf(x)dx=\lim\limits_{c\to a^+}\int_c^bf(x)dx\]
+                \par 2. If $f(x)$ is continuous on $[a,b)$ and discontinuous at $b$, then
+                \[\int_a^bf(x)dx=\lim\limits_{c\to b^-}\int_a^cf(x)dx\]
+                \par 3. If $f(x)$ is discontinuous at $c$, where $a<c<b$, and continuous on $[a,c)\cup(c,b]$, then
+                \[\int_a^bf(x)dx=\int_a^cf(x)dx+\int_c^bf(x)dx\]
+            \paragraph{Improper Integrals with a CAS}
+            \paragraph{Tests for convergence and Divergence}
+                \subparagraph{Direct Comparison Test} Let $f$ and $g$ be continuous on $[a,\infty)$ with $0\le f(x)\le g(x)$ for all $x\ge a$. Then
+                \par 1. $\int_a^\infty(x)dx$ converges if $\int_a^\infty(x)dx$ converges.
+                \par 2. $\int_a^\infty(x)dx$ diverges if $\int_a^\infty(x)dx$ diverges.
+                \subparagraph{Limit Comparison Test} If the positive functions $f$ and $g$ are continuous on $[a,\infty)$, and if 
+                \[\lim\limits_{x\to \infty}\cfrac{f(x)}{g(x)}=L,\quad 0<L<\infty\]
+                then
+                \[\int_a^\infty f(x)dx\quad\text{and}\quad\int_a^\infty g(x)dx\]
+                both converge or both diverge.
+        \subsection{Probability}
+            \paragraph{Random Variables}
+            A \textbf{random variable} is a function $X$ that assigns a numerical value to each outcome in a sample place.
+            \par Random variables that have only finitely many values are called \textbf{discrete} random variables. A \textbf{continuous random variable} can take on values in an entire interval, and it is associated with a \textit{distribution function}.
+            \paragraph{Probability Distributions}
+                A \textbf{probability density function} for a continuous random variable is a function $f$ defined over $(-\infty,\infty)$ and having the following properties:
+                \par 1. $f$ is continuous, except possibly at a finite number of points.
+                \par 2. $f$ is nonnegative, so $f\ge 0$.
+                \par 3. $\int_{-\infty}^\infty f(x)dx=1$.
+                If $X$ is a continuous random variable with probability density function $f$, the \textbf{probability} that $X$ assumes a value in the interval between $X=c$ and $X=d$ is the area integral
+                \[P(c\le X\le d)=\int_c^df(X)dX\]
+            \paragraph{Exponentially Decreasing Distributions}
+            \[f(x)=\left\{
+                \begin{aligned}
+                    &0\quad\qquad x<0\\
+                    &ce^{-cx}\ \ \ \, x\ge 0
+                \end{aligned}
+            \right.\]
+            \paragraph{Expected Values, Means, and Medians}
+            The \textbf{expected value} or \textbf{mean} of a continuous random variable $X$ with probability density function $f$ is the number
+            \[\mu=E(X)=\int_{-\infty}^\infty Xf(X)dx\]
+                \subparagraph{Exponential Density Function for a Random Variable $X$ with Mean $\mu$}
+                \[f(X)=\left\{
+                    \begin{aligned}
+                        &a\qquad\qquad\quad X<0\\
+                        &\mu^{-1}e^{-X/\mu}\,\quad X\ge 0
+                    \end{aligned}
+                \right.\]
+                \subparagraph{Definition} The \textbf{median} of a continuous random variable $X$ with probability density function $f$ is the number $m$ for which
+                \[\int_{-\infty}^m f(X)dX=\cfrac{1}{2}\qquad\text{and}\qquad\int_m^\infty f(X)dX=\cfrac{1}{2}\]
+            \paragraph{Variance and Standard Deviation} The \textbf{variance} of a random variable $X$ with probability density function $f$ is the expected value of $(X-\mu)^2f(X)dX$
+            \[\text{Var}(X)=\int_{-\infty}^\infty(X-\mu)^2f(X)dX\]
+            The \textbf{standard deviation} of $X$ is
+            \[\sigma_X=\sqrt{\text{Var}(X)}=\sqrt{\int_{-\infty}^\infty(X-\mu)^2f(X)dX}\]
+            \paragraph{Uniform Distributions}
+            \[f(x)=\cfrac{1}{b-a},\quad a\le x\le b\]
+            \paragraph{Normal Distributions}
+            \[f(x)=\cfrac{1}{\sigma\sqrt{2\pi}}\cdot e^{-(x-\mu)^2/2\sigma^2}\]
+    
+    \newpage
+    \section{First-Order Differential Equations}
+        \subsection{Solutions, Slope Fields, and Euler's Method}
+        A \textbf{first-order differential equation} is an equation
+        \[\cfrac{dy}{dx}=f(x,y)\]
+        \[\cfrac{d}{dx}y(x)=f(x,y(x))\]
+        
 \end{document}

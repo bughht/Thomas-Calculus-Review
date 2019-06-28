@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2019.6.21)  27 JUN 2019 16:28
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2019.6.21)  29 JUN 2019 01:26
 entering extended mode
 **e:/Thomas-Calculus-Review/review
 (e:/Thomas-Calculus-Review/review.tex
@@ -624,14 +624,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 1007--1008
 
  []
 
-[35] [36] [37] (e:\Thomas-Calculus-Review\review.aux) ) 
-Here is how much of TeX's memory you used:
- 16363 strings out of 430478
- 376740 string characters out of 3191502
- 517447 words of memory out of 3000000
- 19199 multiletter control sequences out of 15000+200000
- 14639 words of font info for 51 fonts, out of 3000000 for 9000
- 14 hyphenation exceptions out of 8191
- 63i,12n,74p,710b,479s stack positions out of 5000i,500n,10000p,200000b,50000s
+[35] [36] [37] [38]
+Underfull \hbox (badness 10000) in paragraph at lines 1128--1130
 
-Output written on review.pdf (37 pages).
+ []
+
+[39] [40] [41]
+Underfull \hbox (badness 10000) in paragraph at lines 1224--1225
+
+ []
+
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 1227--1229
+
+ []
+
+[43]
+Underfull \hbox (badness 10000) in paragraph at lines 1255--1256
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1266--1267
+
+ []
+
+[44] [45]
+Requested font "cmti7" at 7.0pt
+ -> cmti7
+Requested font "cmti7" at 5.0pt
+ -> cmti7
+ [46]
+Underfull \hbox (badness 10000) in paragraph at lines 1368--1369
+
+ []
+
+[47] [48] [49] [50] (e:\Thomas-Calculus-Review\review.aux) ) 
+Here is how much of TeX's memory you used:
+ 16366 strings out of 430478
+ 376773 string characters out of 3191502
+ 517446 words of memory out of 3000000
+ 19201 multiletter control sequences out of 15000+200000
+ 15337 words of font info for 53 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 63i,15n,74p,710b,479s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on review.pdf (50 pages).
