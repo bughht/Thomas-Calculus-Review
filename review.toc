@@ -332,3 +332,107 @@
 \contentsline {paragraph}{Normal Distributions}{49}
 \contentsline {section}{\numberline {9}First-Order Differential Equations}{50}
 \contentsline {subsection}{\numberline {9.1}Solutions, Slope Fields, and Euler's Method}{50}
+\contentsline {paragraph}{Slope Fields: Viewling Solution Curves}{50}
+\contentsline {paragraph}{Euler's Method}{50}
+\contentsline {subsection}{\numberline {9.2}First-Order Linear Equations}{50}
+\contentsline {paragraph}{Solving Linear Equations}{50}
+\contentsline {subparagraph}{Example}{51}
+\contentsline {subparagraph}{Solution}{51}
+\contentsline {paragraph}{$\bf {RL}$ Circuits}{51}
+\contentsline {subsection}{\numberline {9.3}Applications}{51}
+\contentsline {paragraph}{Motion with Resistance Proportional to Velocity}{51}
+\contentsline {paragraph}{Inaccuracy of the Exponential Population Growth Model}{52}
+\contentsline {paragraph}{Orthogonal Trajectories}{52}
+\contentsline {subsection}{\numberline {9.4}Graphical Solutions of Autonomous Equations}{52}
+\contentsline {paragraph}{Equilibrium Values and Phase Lines}{52}
+\contentsline {subparagraph}{Example}{52}
+\contentsline {subparagraph}{Solution}{52}
+\contentsline {paragraph}{Stable and Unstable Equilibria}{52}
+\contentsline {paragraph}{Newton's Law of Cooling}{52}
+\contentsline {paragraph}{A Falling Body Encountering Resistance}{52}
+\contentsline {paragraph}{Logistic Population Growth}{53}
+\contentsline {subsection}{\numberline {9.5}Systems of Equations and Phase Planes}{53}
+\contentsline {paragraph}{Phase Planes}{53}
+\contentsline {paragraph}{A Competitive-Hunter Model}{53}
+\contentsline {paragraph}{Limitations of Phase-Plane Analysis Method}{53}
+\contentsline {paragraph}{Another Type of Behavior}{53}
+\contentsline {section}{\numberline {10}Infinite Sequences and Series}{54}
+\contentsline {subsection}{\numberline {10.1}Sequence}{54}
+\contentsline {paragraph}{Representing Sequences}{54}
+\contentsline {paragraph}{Convergence and Divergence}{54}
+\contentsline {subparagraph}{Definitions}{54}
+\contentsline {subparagraph}{Definitions}{54}
+\contentsline {paragraph}{Calculating Limits of Sequences}{54}
+\contentsline {paragraph}{The Sandwich Theorem for Sequences}{54}
+\contentsline {paragraph}{The Continuous Function Theorem for Sequences}{54}
+\contentsline {paragraph}{Using L'Hopital's Rule}{54}
+\contentsline {paragraph}{Commonly Occuring Limits}{55}
+\contentsline {paragraph}{Bounded Monotonic Sequences}{55}
+\contentsline {subparagraph}{The Monotonic Sequence Theorem}{55}
+\contentsline {subsection}{\numberline {10.2}Infinite Series}{55}
+\contentsline {paragraph}{Geometric Series}{55}
+\contentsline {paragraph}{The $n$th-Term Test for a Divergent Series}{55}
+\contentsline {subparagraph}{Theorem}{55}
+\contentsline {subparagraph}{The $n$th-Term Test for Divergence}{55}
+\contentsline {paragraph}{Combining Series}{55}
+\contentsline {subparagraph}{Theorem}{55}
+\contentsline {paragraph}{Adding or Deleting Terms}{56}
+\contentsline {paragraph}{Reindexing}{56}
+\contentsline {subsection}{\numberline {10.3}The Integral Test}{56}
+\contentsline {paragraph}{Nondecreasing Partial Sum}{56}
+\contentsline {paragraph}{The Integral Test}{56}
+\contentsline {subparagraph}{$p$-series}{56}
+\contentsline {subparagraph}{Solution}{56}
+\contentsline {paragraph}{Error Estimation}{56}
+\contentsline {subparagraph}{Bounds for the Remainder in the Integral Test}{57}
+\contentsline {subsection}{\numberline {10.4}Comparison Tests}{57}
+\contentsline {paragraph}{The Comparison Test}{57}
+\contentsline {paragraph}{The Limit Comparison Test}{57}
+\contentsline {subsection}{\numberline {10.5}Absolute Convergence; The Ratio and Root Tests}{57}
+\contentsline {paragraph}{Definition}{57}
+\contentsline {paragraph}{The Absolute Convergence Test}{57}
+\contentsline {paragraph}{The Ratio Test}{57}
+\contentsline {paragraph}{The Root Test}{57}
+\contentsline {subsection}{\numberline {10.6}Alternating Series and Conditional Convergence}{58}
+\contentsline {paragraph}{The Alternating Series Test}{58}
+\contentsline {paragraph}{The Alternating Series Estimation Theorem}{58}
+\contentsline {paragraph}{Conditional Convergence}{58}
+\contentsline {subparagraph}{Definition}{58}
+\contentsline {paragraph}{Rearranging Series}{58}
+\contentsline {subparagraph}{The Rearrangement Theorem for Absolutely Convergent Series}{58}
+\contentsline {subsection}{\numberline {10.7}Power Series}{58}
+\contentsline {paragraph}{Power Series and Convergence}{58}
+\contentsline {subparagraph}{Definitions}{58}
+\contentsline {paragraph}{The convergence Theorem for Power Series}{58}
+\contentsline {paragraph}{The Radius of Convergence of a Power Series}{59}
+\contentsline {paragraph}{How to Test a Power Series for Convergence}{59}
+\contentsline {paragraph}{Operations on Power Series}{59}
+\contentsline {subparagraph}{The Series Multiplication Theorem for Power Series}{59}
+\contentsline {subparagraph}{Theorem}{59}
+\contentsline {subparagraph}{The Term-by-Term Differentiation Theorem}{59}
+\contentsline {subparagraph}{The Term-by-Term Integration Theorem}{60}
+\contentsline {subsection}{\numberline {10.8}Taylor and Maclaurin Series}{60}
+\contentsline {paragraph}{Series Representations}{60}
+\contentsline {paragraph}{Taylor and Maclaurin Series}{60}
+\contentsline {subparagraph}{Definitions}{60}
+\contentsline {paragraph}{Taylor Polynomials}{61}
+\contentsline {subparagraph}{Definition}{61}
+\contentsline {subsection}{\numberline {10.9}Convergence of Taylor Series}{61}
+\contentsline {paragraph}{Taylor's Theorem}{61}
+\contentsline {paragraph}{Taylor's Formula}{61}
+\contentsline {subparagraph}{Examples}{61}
+\contentsline {paragraph}{Estimating the Remainder}{62}
+\contentsline {subparagraph}{The Remainder Estimation Theorem}{62}
+\contentsline {paragraph}{A Proof of Taylor's Theorem}{62}
+\contentsline {subsection}{\numberline {10.10}The Binomial Series and Applications of Taylor Series}{62}
+\contentsline {paragraph}{The Binomial Series for Power and Roots}{62}
+\contentsline {subparagraph}{The Binomial Series}{62}
+\contentsline {paragraph}{Evaluating Nonelementary Integrals}{62}
+\contentsline {subparagraph}{Example}{62}
+\contentsline {paragraph}{Arctangent}{63}
+\contentsline {paragraph}{Evaluating Indeterminate Forms}{63}
+\contentsline {paragraph}{Euler's Identity}{63}
+\contentsline {subparagraph}{Definition}{63}
+\contentsline {paragraph}{Frequently used Taylor series}{63}
+\contentsline {section}{\numberline {11}Parametric Equations and Polar Coordinates}{64}
+\contentsline {subsection}{\numberline {11.1}Parametrizations of Plane Curves}{64}

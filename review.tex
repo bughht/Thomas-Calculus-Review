@@ -1427,5 +1427,371 @@
         A \textbf{first-order differential equation} is an equation
         \[\cfrac{dy}{dx}=f(x,y)\]
         \[\cfrac{d}{dx}y(x)=f(x,y(x))\]
-        
+            \paragraph{Slope Fields: Viewling Solution Curves}
+            \paragraph{Euler's Method}
+        \subsection{First-Order Linear Equations}
+            \[\cfrac{dy}{dx}+P(x)y=Q(x)\quad \text{Standard form}\]
+            \paragraph{Solving Linear Equations}
+            \begin{equation}
+                \begin{aligned}
+                    \cfrac{dy}{dx}+P(x)y&=Q(x)\\
+                    v(x)\cfrac{dy}{dx}+P(x)v(x)y&=v(x)Q(x)\\
+                    \cfrac{d}{dx}(v(x)\cdot y)&=v(x)Q(x)\\
+                    v(x)\cdot y&=\int v(x)Q(x)dx\\
+                    y&=\cfrac{1}{v(x)}\int v(x)Q(x)dx\\
+                    &\\
+                    \cfrac{d}{dx}(vy)&=v\cfrac{dy}{dx}+Pvy\\
+                    v\cfrac{dy}{dx}+y\cfrac{dv}{dx}&=v\cfrac{dy}{dx}+Pvy\\
+                    y\cfrac{dy}{dx}&=Pvy\\
+                    \cfrac{dv}{dx}&=Pv\\
+                    \cfrac{dv}{v}&=P\ dx\\
+                    \int \cfrac{dv}{v}&=\int P\ dx\\
+                    \ln v&=\int P\ dx\\
+                    e^{\ln v}&=e^{\int P\ dx}\\
+                    v&=e^{\int P\ dx}\\
+                \end{aligned}
+            \end{equation}
+            \par To solve the linear equation $y'+P(x)y=Q(x)$, multiply both sides by the integrating factor $v(x)=e^{\int P(x)dx}$ and integrate both sides.
+                \subparagraph{Example} Solve the equation
+                \[x\cfrac{dy}{dx}=x^2+cy,\quad x>0\]
+                \subparagraph{Solution}
+                \[\cfrac{dy}{dx}-\cfrac{3}{x}y=x\]
+                \begin{equation}
+                    \begin{aligned}
+                        v(x)=e^{\int P(x)dx}&=e^{\int(-3/x) dx}\\
+                        &=e^{-3\ln |x|}\\
+                        &=e^{-3\ln x}\\
+                        &=e^{\ln x^{-3}}=\cfrac{1}{x^3}\\
+                        \cfrac{1}{x^3}\cdot(\cfrac{dy}{dx}-\cfrac{3}{x}y)&=\cfrac{1}{x^3}\cdot x\\
+                        \cfrac{1}{x^3}\cfrac{dy}{dx}-\cfrac{3}{x^4}y&=\cfrac{1}{x^2}\\
+                        \cfrac{d}{dx}(\cfrac{1}{x^3}y)&=\cfrac{1}{x^2}\\
+                        \cfrac{1}{x^3}y&=\int \cfrac{1}{x^2} dx\\
+                        \cfrac{1}{x^3}y&=-\cfrac{1}{x}+C\\
+                        y&=-x^2+Cx^3,\quad x>0\\
+                    \end{aligned}
+                \end{equation}
+            \paragraph{$\bf{RL}$ Circuits}
+                \[L\cfrac{di}{dt}+Ri=V\]
+        \subsection{Applications}
+            \paragraph{Motion with Resistance Proportional to Velocity}
+            \[F=m\cfrac{dv}{dt}\]
+            \[m\cfrac{dv}{dt}=-kv\]
+            \[v=v_0e^{-(k/m)t}\]
+            \[\cfrac{ds}{dt}=v_0e^{-(k/m)t},\quad s(0)=0\]
+            \[s=-\cfrac{v_0m}{k}e^{-(k/m)t}+C\]
+            \par Substituting $s=0$ when $t=0$ gives
+            \[0=-\cfrac{v_0m}{k}+C\quad\text{and}\quad C=\cfrac{v_0m}{k}\]
+            \[s(t)=-\cfrac{v_0m}{k}e^{-(k/m)t}+\cfrac{v_0m}{k}=\cfrac{v_0m}{k}(1-e^{-(k/m)t})\]
+            \[\lim\limits_{t\to \infty}s(t)=\lim\limits_{t\to \infty}\cfrac{v_0m}{k}(1-e^{-(k/m)t})\]
+            \[=\cfrac{v_0m}{k}(1-0)=\cfrac{v_0m}{k}\]
+            \[\text{Distance coasted}=\cfrac{v_0m}{k}\]
+            \paragraph{Inaccuracy of the Exponential Population Growth Model}
+            \paragraph{Orthogonal Trajectories}
+            An \textbf{orthogonal trajectory} of a family of curves is a curve that intersects each curve of the family at right angles, or textit{orthogonally}.
+        \subsection{Graphical Solutions of Autonomous Equations}
+            \paragraph{Equilibrium Values and Phase Lines}
+            If $dy/dx=g(y)$ is an autonomous differential equation, then the values of $y$ for which $dy/dx=0$ are called \textbf{equilibrium values} or \textbf{rest points}.
+                \subparagraph{Example} Draw a phase line for the equation
+                \[\cfrac{dy}{dx}=(y+1)(y-2)\]
+                \subparagraph{Solution}
+                \par 1. \textit{Draw a number line for $y$ and mark the equilibrium values $y=-1$ and $y=2$, where $dy/dx=0$.}
+                \par 2. \textit{Identify and label the intervals where $y'>0$ and $y'<0$}.
+                \par 3. \textit{Calculate $y''$ and mark the intervals where $y''>0$ and $y''<0$.}
+                \[y'=(y+1)(y-2)=y^2-y-2\]
+                \begin{equation}
+                    \begin{aligned}
+                        y''&=\cfrac{d}{dx}(y')\\
+                        &=\cfrac{d}{dx}(y^2-y-2)\\
+                        &=2yy'-y'\\
+                        &=(2y-1)y'\\
+                        &=(2y-1)(y+1)(y-2)\\
+                    \end{aligned}
+                \end{equation}
+                \par 4. \textit{Sketch an assortment of solution curves in the xy-plane.}
+            \paragraph{Stable and Unstable Equilibria}
+            \paragraph{Newton's Law of Cooling}
+                \[\cfrac{dH}{dt}=-k(H-H_s),\quad k>0\]
+                \[\cfrac{d^2H}{dt^2}=-k\cfrac{dH}{dt}\]
+            \paragraph{A Falling Body Encountering Resistance}
+            \paragraph{Logistic Population Growth}
+                \[\cfrac{dP}{dt}=kP\]
+                \[\cfrac{dP}{dt}=r(M-P)P=rMP-rP^2\]
+        \subsection{Systems of Equations and Phase Planes}
+            \paragraph{Phase Planes}
+            \[\cfrac{dx}{dt}=F(x,y)\]
+            \[\cfrac{dy}{dt}=G(x,y)\]
+            \paragraph{A Competitive-Hunter Model}
+            \[\cfrac{dx}{dt}=(a-by)x\]
+            \[\cfrac{dy}{dt}=(m-nx)y\]
+            \paragraph{Limitations of Phase-Plane Analysis Method}
+            \paragraph{Another Type of Behavior}
+            The system
+            \[\cfrac{dx}{dt}=y+x-x(x^2+y^2)\]
+            \[\cfrac{dy}{dt}=-x+y-y(x^2+y^2)\]
+            \[\text{Limit cycle:}\quad x^2+y^2=1\]
+
+    \newpage
+    \section{Infinite Sequences and Series}
+        \subsection{Sequence}
+            \paragraph{Representing Sequences}
+            \paragraph{Convergence and Divergence}
+                \subparagraph{Definitions} The sequence $\{a_n\}$ \textbf{converges} to the number $L$ if for every positive number $\epsilon$ there corresponds an integer $N$ such that for all $n$.
+                \[n>N\quad \quad |a_n-L|<\epsilon\]
+                If no such number $L$ exists, we say that $\{a_n\}$ \textbf{diverges}.
+                \par If ${a_n}$ converges to $L$, we write $\lim\limits_{n\to\infty}a_n=L$, or simply $a_n\to L$, and call $L$ the \textbf{limit} of the sequence.
+                \subparagraph{Definitions} The sequence $\{a_n\}$ \textbf{diverges to infinity} if for every number $M$ there is an integer $N$ such that for all $n$ larger than $N$, $a_n>M$. If this condition holds we write
+                \[\lim\limits_{n\to\infty}a_n=\infty\quad \text{or}\quad a_n\to \infty\]
+                Similarly, if for every number $m$ there is an integer N such that for all $n>N$ we have $a_n<m$, then we say ${a_n}$ \textbf{diverges to negative infinity} and write
+                \[\lim\limits_{n\to\infty}a_n=-\infty\quad\text{or}\quad a_n\to -\infty\]
+            \paragraph{Calculating Limits of Sequences}
+                \begin{equation}
+                    \begin{aligned}
+                        &\lim\limits_{n\to\infty}(a_n+b_n)=A+B\\
+                        &\lim\limits_{n\to\infty}(a_n-b_n)=A-b\\
+                        &\lim\limits_{n\to\infty}(k\cdot b_n)=k\cdot B\\
+                        &\lim\limits_{n\to\infty}(a_n\cdot b_n)=A\cdot B\\
+                        &\lim\limits_{n\to\infty}(\frac{a_n}{b_n})=\frac{A}{B}\\
+                    \end{aligned}
+                \end{equation}
+            \paragraph{The Sandwich Theorem for Sequences} Let $\{a_n\},\{b_n\}, and \{c_n\}$ be sequences of real numbers. If $a_n\le b_n\le c_n$ holds for all $n$ beyond some index $N$, and if $\lim\limits_{n\to\infty}a_n=\lim\limits_{n\to\infty}c_n=L$, then $\lim\limits_{n\to\infty}b_n=L$ also.
+            \paragraph{The Continuous Function Theorem for Sequences} Let $\{a_n\}$ be a sequence of real numbers. If $a_n\to L$ and if $f$ is a function that is continuous at $L$ and defined at all $a_n$, then $f(a_n)\to f(L)$.
+            \paragraph{Using L'Hopital's Rule} Suppose that $f(x)$ is a function defined for all $x\ge n_0$ and that $\{a_n\}$ is a sequence of real numbers such that $a_n=f(n)$ for $n\ge n_0$. Then
+            \[\lim\limits_{x\to\infty}f(x)=L\quad \Rightarrow \quad \lim\limits_{n\to\infty}a_n=L\]
+            \paragraph{Commonly Occuring Limits}
+            \[\lim\limits_{n\to\infty}\cfrac{\ln n}{n}=0\]
+            \[\lim\limits_{n\to\infty}\sqrt[n]{n}=1\]
+            \[\lim\limits_{n\to\infty}x^{1/n}=1\]
+            \[\lim\limits_{n\to\infty}x^n=0\]
+            \[\lim\limits_{n\to\infty}\bigg(1+\cfrac{x}{n}\bigg)^n=e^x\]
+            \[\lim\limits_{n\to\infty}\cfrac{x^n}{n!}=9\]
+            \paragraph{Bounded Monotonic Sequences}
+                \subparagraph{The Monotonic Sequence Theorem} If a sequence $\{a_n\}$ is both bounded and monotonic, then the sequence converges.
+        \subsection{Infinite Series}
+            \[a_1+a_2+\cdots+a_n+\cdots=\sum_{n=1}^\infty a_n=L\]
+            \paragraph{Geometric Series}
+                \[a+ar+ar^2+\cdots+ar^{n-1}+\cdots=\sum_{n=1}^\infty ar^{n-1}\]
+                \par If $|r|<1$
+                \[\sum_{n=1}^\infty ar^{n-1}=\cfrac{a}{1-r},\qquad|r|<1\]
+                \par If $|r|\ge 1$, the series diverges.
+            \paragraph{The $n$th-Term Test for a Divergent Series}
+                \subparagraph{Theorem} If $\sum_{n=1}^\infty a_n$ converges, then $a_n\to 0$.
+                \subparagraph{The $n$th-Term Test for Divergence}
+                $\sum_{n=1}^\infty a_n$ diverges if $\lim\limits_{n\to\infty}a_n$ fails to exist or is different from zero.
+            \paragraph{Combining Series}
+                \subparagraph{Theorem}
+                \[\sum (a_n+b_n)=\sum a_n+\sum b_n=A+B\]
+                \[\sum (a_n-b_n)=\sum a-n-\sum b_n=A-B\]
+                \[\sum ka_n=k\sum a_n=kA\quad (\text{any number } k)\]
+            \paragraph{Adding or Deleting Terms}
+                \[\sum_{n=1}^\infty a_n=a_1+a_2+\cdots+a_{k-1}+\sum_{n=k}^\infty a_n\]
+            \paragraph{Reindexing}
+                \[\sum_{n=1}^\infty a_n=\sum_{n=1+h}^\infty a_{n-h}=a_1+a_2+\cdots\]
+                \[\sum_{n=1}^\infty a_n=\sum_{n=1-h}^\infty a_{n+h}=a_1+a_2+\cdots\]
+        \subsection{The Integral Test}
+            \paragraph{Nondecreasing Partial Sum} A series $\sum_{n=1}^\infty a_n$ of nonnegative terms converges if and only if its partial sums are bounded from above.
+            \paragraph{The Integral Test}
+            Let $\{a_n\}$ be a sequence of positive terms. Suppose that $a_n=f(n)$, where $f$ is a continuous, positive,decreasing function of $x$ for all $x\ge N$($N$ a positive integer). Then the series $\sum_{n=N}^\infty =a_n$ and the integral $\int_N^\infty f(x)dx$ both converge or both diverge. 
+                \subparagraph{$p$-series}
+                    \[\sum_{n=1}^\infty \cfrac{1}{n^p}=\cfrac{1}{1^p}+\cfrac{1}{2^p}+\cfrac{1}{3^p}+\cdots+\cfrac{1}{n^p}+\cdots\]
+                    \par converges if $p>1$, and diverges if $p\le 1$
+                \subparagraph{Solution}
+                If $p>1$, then $f(x)=1/x^p$ is a positive decreasing function of $x$. Since
+                \begin{equation}
+                    \begin{aligned}
+                        \int_1^\infty\cfrac{1}{x^p}dx&=\int_1^\infty x^{-p}dx\\
+                        &=\lim\limits_{b\to\infty}\bigg[\cfrac{x^{-p+1}}{-p+1}\bigg]_1^b\\
+                        &=\cfrac{1}{1-p}\lim\limits_{b\to\infty}\bigg(\cfrac{1}{b^{p-1}}-1\bigg)\\
+                        &=\cfrac{1}{1-p}(0-1)\\
+                        &=\cfrac{1}{p-1}\\
+                    \end{aligned}
+                \end{equation}
+                \par If $p\le 0$, the series diverges by the $n$th-term test.
+                \par If $0<p<1$,
+                \[\int_1^\infty \cfrac{1}{x^p}dx=\cfrac{1}{1-p}\lim\limits_{b\to\infty}(b^{1-p}-1)=\infty\]
+                \par If $p=1$,
+                \[1+\cfrac{1}{2}+\cfrac{1}{3}+\cdots+\cfrac{1}{n}+\cdots\]
+                \par is the \textbf{Harmonic Series}.
+            \paragraph{Error Estimation}
+                \subparagraph{Bounds for the Remainder in the Integral Test}
+                \text{}\\
+                \par Suppose $\{a_k\}$ is a sequence of positive terms with $a_k=f(k)$, where $f$ is a continuous positive decreasing function of $x$ for all $x\ge n$, and that $\sum a_n$ converges to $S$. Then the remainder $R_n=S-s_n$ satisfies the inequalities.
+                \[\int_{n+1}^\infty f(x)dx\le R_n\le \int_n^\infty f(x) dx\]
+        \subsection{Comparison Tests}
+            \paragraph{The Comparison Test} Let $\sum a_n$, $\sum c_n$, and $\sum d_n$ be series with nonnegative terms. Suppose that for some integer $N$
+            \[d_n\le a_n\le c_n\quad \text{for all}\quad n>N\]
+            \par (a) If $\sum c_n$ converges, then $\sum a_n$ also converges.
+            \par (b) If $\sum d_n$ diverges, then $\sum a_n $ also diverges.
+            \paragraph{The Limit Comparison Test}
+            Suppose that $a_n>0$ and $b_n>0$ for all $n\ge N$($N$ an integer). 
+            \par 1. If $\lim\limits_{n\to\infty}\cfrac{a_n}{b_n}=c>0$, then $\sum a_n$ and $\sum b_n$ both converge or both diverge.
+            \par 2. If $\lim\limits_{n\to\infty}\cfrac{a_n}{b_n}=0$ and $\sum b_n$ converges, then $\sum a_n$ converges.
+            \par 3. If $\lim\limits_{n\to\infty}\cfrac{a_n}{b_n}=\infty$ and $\sum b_n$ diverges, then $\sum a_n$ diverges.
+        \subsection{Absolute Convergence; The Ratio and Root Tests}
+            \paragraph{Definition} A series $\sum a_n$ \textbf{converges absolutely} (is \textbf{absolutely convergent}) if the corresponding series of absolute values, $\sum|a_n|$, converges.
+            \paragraph{The Absolute Convergence Test} If $\sum_{n=1}^\infty |a_n|$ converges, then $\sum_{n=1}^\infty a_n$ converges.
+            \paragraph{The Ratio Test} Let $\sum a_n$ be any series and suppose that
+            \[\lim\limits_{n\to\infty}\bigg|\cfrac{a_{n+1}}{a_n}\bigg|=\rho\]
+            Then
+            \par (a) the series converges absolutely if $\rho <1$,
+            \par (b) the series diverges if $\rho >1$ or $\rho$ is infinite,
+            \par (c) the test is inconclusive if $\rho=1$.
+            \paragraph{The Root Test}
+            Let $\sum a_n$ be any series and suppose that 
+            \[\lim\limits_{n\to\infty}\sqrt[n]{|a_n|}=\rho\]
+            Then
+            \par (a) the series converges absolutely if $\rho <1$,
+            \par (b) the series diverges if $\rho >1$ or $\rho$ is infinite,
+            \par (c) the test is inconclusive if $\rho =1$
+        \subsection{Alternating Series and Conditional Convergence}
+            \paragraph{The Alternating Series Test} The series
+            \[\sum_{n=1}^\infty(-1)^{n+1}u_n=u_1-u_2+u_3-u_4+\cdots\]
+            converges if all three of the following conditions are satisfied:
+            \par 1. The $u_n$'s are all positive.
+            \par 2. The positive $u_n$'s are (eventually) nonincreasing: $u_n\ge u_{n+1}$ for all $n\ge N$, for some integer $N$.
+            \par 3. $u_n\to 0$
+            \paragraph{The Alternating Series Estimation Theorem} If the alternating series $\sum_{n=1}^\infty (-1)^{n+1}u_n$ satisfies the three conditions of The Alternating Series Test, then for $n\ge N$,
+            \[s_n=u_1-u_2+\cdots+(-1)^{n+1}u_n\]
+            approximates the sum $L$ of the series with an error whose absolute value is less than $u_{n+1}$, the absolute value of the first unused term. Furthermore, the sum $L$ lies between any two successive partial sums $s_n$ and $s_{n+1}$, and the remainder, $L-s_n$, has the same sign as the first unused term.
+            \paragraph{Conditional Convergence}
+                \subparagraph{Definition} A convergent series that is not absolutely convergent is \textbf{conditionally convergent}.
+            \paragraph{Rearranging Series}
+                \subparagraph{The Rearrangement Theorem for Absolutely Convergent Series} If $\sum_{n=1}^\infty a_n$ converges absolutely, and $b_1$, $b_2$,$\cdots$,$b_n$,$\cdots$ is any arrangement of the sequence $\{a_n\}$, then $\sum b_n$ converges absolutely and
+                \[\sum_{n=1}^\infty b_n=\sum_{n=1}^\infty a_n\]
+        \subsection{Power Series}
+            \paragraph{Power Series and Convergence}
+                \subparagraph{Definitions} \textbf{A power series about $\bf{x=0}$} is a series of the form
+                \[\sum_{n=0}^\infty c_n x^n=c_0+c_1x+c_2x^2+\cdots+c_nx^n+\cdots\]
+                \par \textbf{A power series about $\bf{x=a}$} is a series of the form
+                \[\sum_{n=0}^\infty c_n(x-a)^n=c_0+c_1(x-a)+c_2(x-a)^2+\cdots+c_n(x-a)^n+\cdots\]
+                \par in which the \textbf{center} $a$ and the \textbf{coefficients} $c_0,c_1,c_2,\cdots,c_n,\cdots$ are constants.
+            \paragraph{The convergence Theorem for Power Series} If the power series $\sum_{n=0}^\infty a_n x^n=a_0+a_1x+a_2x^2+\cdots$ converges at $x=c\ne 0$, then it converges absolutely for all $x$ with $|x|<|c|$. If the series diverges at $x=d$, then it diverges for all $x$ with $|x|>|d|$.
+            \paragraph{The Radius of Convergence of a Power Series}
+            The convergence of the series $\sum c_n(x-a)^n$ is described by one of the following three cases:
+            \par 1. There is a positive number $R$ such that the series diverges for $x$ with $|x-a|>R$ but converges absolutely for $x$ with $|x-a|<R$. The series may or may not converge at either of the endpoints $x=a-R$ and $x=a+R$.
+            \par 2. The series converges absolutely for every $x$ ($R=\infty$).
+            \par 3. The series converges at $x=a$ and diverges elsewhere ($R=0$)\\
+            \par  $R$ is called the \textbf{radius of convergence} of the power series, and the interval of radius $R$ centered at $x=a$ is called the \textbf{interval of convergence}.
+            \paragraph{How to Test a Power Series for Convergence}
+            \text{}\\
+            \par 1. \textit{Use the Ratio Test(or Root Test) to find the interval where the series converges absolutely}. Ordinarily, this is an open interval
+            \[|x-a|<R\quad \text{or}\quad a-R<x<a+R\]
+            \par 2. \textit{If the interval of absolute convergence is finite, test for convergence or divergence at each endpoint}. Use a Comparison Test, the Integral Test, or the Alternating Series Test.
+            \par 3. \textit{If the interval of absolute convergence is $a-R<x<a+R$, the series diverges for $|x-a|>R$}(it does not even converge conditionally) because the $n$th term does not approach zero for those values of $x$.
+            \paragraph{Operations on Power Series}
+                \subparagraph{The Series Multiplication Theorem for Power Series} If $A(x)=\sum_{n=0}^\infty a_nx^n$ and $B(x)=\sum_{n=0}^\infty b_nx^n$ converge absolutely for $|x|<R$, and 
+                \[c_n=a_0b_n+a_1b_{n-1}+a_2b_{n-2}+\cdots+a_{n-1}b_1+a_nb_0=\sum_{k=0}^na_kb_{n-k}\]
+                then $\sum_{n=0}^\infty c_n x^n$ converges absolutely to $A(x)B(x)$ for $|x|<R$:
+                \[\Bigg(\sum_{n=0}^\infty a_n x^n\Bigg)\cdot\Bigg(\sum_{n=0}^\infty b_n x^n\Bigg)=\sum_{n=0}^\infty c_nx^n\]
+                \subparagraph{Theorem} If $\sum_{n=0}^\infty a_nx^n$ converges absolutely for $|x|<R$, then $\sum_{n=0}^\infty a_n(f(x))^n$ converges absolutely for any continuous function $f$ on $|f(x)|<R$.
+                \subparagraph{The Term-by-Term Differentiation Theorem} If $\sum c_n(x-a)^n$ has radius of convergence $R>0$, it defines a function
+                \[f(x)=\sum_{n=0}^\infty c_n(x-a)^n\qquad \text{on the interval}\qquad a-R<x<a+R\]
+                This function $f$ has derivatives of all orders inside the interval, and we obtain the derivatives by differentiating the original series term by term:
+                \[f'(x)=\sum_{n=1}^\infty nc_n(x-a)^{n-1}\]
+                \[f''(x)=\sum_{n=2}^\infty n(n-1)c_n(x-a)^{n-2}\]
+                and so on. Each of these derived series converges at every point of the interval $a-R<x<a+R$.
+                \subparagraph{The Term-by-Term Integration Theorem} Suppose that
+                \[f(x)=\sum_{n=0}^\infty c_n(x-a)^n\]
+                converges for $a-R<x<a+R(R>0)$. Then
+                \[\sum_{n=0}^\infty c_n\cfrac{(x-a)^{n+1}}{n+1}\]
+                converges for $a-R<x<a+R$ and
+                \[\int f(x)dx=\sum_{n=0}^\infty c_n \cfrac{(x-a)^{n+1}}{n+1}+C\]
+                for $a-R<x<a+R$.
+        \subsection{Taylor and Maclaurin Series}
+            \paragraph{Series Representations}
+            \[f(x)=\sum_{n=0}^\infty a_n(x-a)^n=a_0+a_1(x-a)+a_2(x-a)^2+\cdots+a_n(x-a)^n+\cdots\]
+            \[f'(x)=a_1+2a_x(x-a)+3a_3(x-a)^2+\cdots+na_n(x-a)^{n-1}+\cdots\]
+            \[f''(x)=1\cdot 2a_x+2\cdot 3a_3(x-a)+3\cdot 4a_4(x-a)^2+\cdots\]
+            \[f'''(x)=1\cdot 2\cdot 3 a_3+2\cdot 3\cdot 4 a_4(x-a)+3\cdot 4\cdot 5a_5(x-a)^2+\cdots\]
+            \[f^{(n)}(x)=n!a_n+\text{a sum of terms with (x-a) as a factor.}\]
+            Since these equations all hold at $x=a$, we have
+            \[f'(a)=a_1,\quad f''(a)=1\cdot 2a_2,\quad f'''(a)=1\cdot 2\cdot 3 a_3\]
+            \[f^{(n)}(a)=n!a_n\]
+            \[a_n=\cfrac{f^{(n)}(a)}{n!}\]
+            \[f(x)=f(a)+f'(a)(x-a)+\frac{f''(a)}{2!}(x-a)^2+\cdots+\frac{f^{(n)}(a)}{n!}(x-a)^n+\cdots\]
+            \paragraph{Taylor and Maclaurin Series}
+                \subparagraph{Definitions} Let $f$ be a function with derivatives of all orders throughout some interval containing $a$ as an interior point. Then the \textbf{Taylor series generated by $\bf{f}$ at $\bf{x=a}$} is
+                \[\sum_{k=0}^\infty \cfrac{f^{(k)}(a)}{k!}(x-a)^k=f(a)+f'(a)(x-a)+\cfrac{f''(a)}{2!}(x-a)^2+\cdots+\cfrac{f^{(n)}(a)}{n!}(x-a)^n+\cdots\]
+                The \textbf{Maclaurin series of $\bf{f}$} is the Taylor series generated by $f$ at $x=0$, or
+                \[\sum_{k=0}^\infty \cfrac{f^{(k)}(0)}{k!}x^k=f(a)+f'(0)x+\cfrac{f''(0)}{2!}x^2+\cdots+\cfrac{f^{(n)}(0)}{n!}x^n+\cdots\]
+            \paragraph{Taylor Polynomials}
+            \[P_1(x)=f(a)+f'(a)(x-a)\]
+                \subparagraph{Definition} Let $f$ be a function with derivatives of order $k$ for $k=1,2,\cdots,N$ in some interval containing $a$ as an interior point. Then for any integer $n$ from 0 through $N$, the \textbf{Taylor polynomial of order $\bf{n}$} generated by $f$ at $x=a$ is the polynomial
+                \[P_n(x)=f(a)+f'(a)(x-a)+\cfrac{f''(a)}{2!}(x-a)^2+\cdots+\cfrac{f^{(k)}(a)}{k!}(x-a)^k+\cdots+\cfrac{f^{(n)}(a)}{n!}(x-a)^n\]
+        \subsection{Convergence of Taylor Series}
+            \paragraph{Taylor's Theorem} If $f$ and its first $n$ derivatives $f',f'',\cdots,f^{(n)}$ are continuous on the closed interval between $a$ and $b$, and $f^{(n)}$ is differentiable on the open interval between $a$ and $b$, then there exists a number $c$ between $a$ and $b$ such that
+            \[f(b)=f(a)+f'(a)(b-a)+\cfrac{f''(a)}{2!}(b-a)^2+\cdots+\cfrac{f^{(n)}(a)}{n!}(b-a)^n+\cfrac{f^{(n+1)}(c)}{(n+1)!}(b-a)^{n+1}\]
+            \paragraph{Taylor's Formula}
+            If $f$ has derivatives of all orders in an interval $I$ containing $a$, then for each positive integer $n$ and for each $x$ in $I$,
+            \[f(x)=f(a)+f'(a)(x-a)+\cfrac{f''(a)}{2!}(x-a)^2+\cdots+\cfrac{f^{(n)}(a)}{n!}(x-a)^n+R_n(x)\]
+            where
+            \[R_n(x)=\cfrac{f^{(n+1)}(c)}{(n+1)!}(x-a)^{n+1}\quad \text{for some $c$ between $a$ and $x$.}\]\\
+            \par If $R_n(x)\to 0$ as $n\to \infty$ for all $x\in I$, we say that the Taylor series generated by $f$ at $x=a$ \textbf{converges}$f$ on $I$, and we write
+            \[f(x)=\sum_{k=0}^\infty\cfrac{f^{(k)}(a)}{k!}(x-a)^k\]
+            \subparagraph{Examples}
+            \[e^x=1+x+\cfrac{x^2}{2!}+\cdots+\cfrac{x^n}{n!}+R_n(x)\]
+            where $R_n(x)=\cfrac{e^c}{(n+1)!} x^{n+1}\quad$ for some $c$ between 0 and $x$. 
+            \[|R_n(x)|\le \cfrac{|x|^{n+1}}{(n+1)!}\quad \text{when }x\le 0, e^c<1\]
+            \[|R_n(x)|<e^x\cfrac{x^{n+1}}{(n+1)!}\quad \text{when } x>0, e^c<e^x\]
+            \[\lim\limits_{n\to \infty} \cfrac{x^{n+1}}{(n+1)!}=0\quad \text{for every $x$}\]
+            par $\lim\limits_{n\to\infty} R_n(x)=0$, and the series converges to $e^x$ for every $x$. Thus,
+            \[e^x=\sum_{k=0}^\infty\cfrac{x^k}{k!}=1+x+\cfrac{x^2}{2!}+\cdots+\cfrac{x^k}{k!}+\cdots\]
+            \[e=1+1+\cfrac{1}{2!}+\cdots+\cfrac{1}{n!}+R_n(1)\]
+            \[R_n(1)=e^c\cfrac{1}{(n+1)!}<\cfrac{3}{(n+1)!}\]
+            \paragraph{Estimating the Remainder}
+                \subparagraph{The Remainder Estimation Theorem} If there is a positive constant $M$ such that $|f^{(n+1)}(t)|\le M$ for all $t$ between $x$ and $a$, inclusive, then the remainder term $R_n(x)$ in Taylor's Theorem satisfies the inequality.
+                \[|R_n(x)|\le M\cfrac{|x-a|^{n+1}}{(n+1)!}\]
+                If this inequality holds for every $n$ and the other conditions of Taylor's Theorem are satisfied by $f$, then the series converges to $f(x)$.
+            \paragraph{A Proof of Taylor's Theorem}
+        \subsection{The Binomial Series and Applications of Taylor Series}
+            \paragraph{The Binomial Series for Power and Roots}
+                \subparagraph{The Binomial Series}
+                \text{}\\
+                For $-1<x<1$,
+                \[(1+x)^m=1+\sum_{k=1}^\infty
+                    \begin{pmatrix}
+                        m\\
+                        k\\
+                    \end{pmatrix}
+                x^k
+                \]
+                where we define
+                \[\begin{pmatrix}
+                    m\\1=m
+                \end{pmatrix},\quad
+                \begin{pmatrix}
+                    m\\2
+                \end{pmatrix}=\cfrac{m(m-1)}{2!}\]
+                and
+                \[\begin{pmatrix}
+                    m\\k
+                \end{pmatrix}=\cfrac{m(m-1)(m-2)\cdots(m-k+1)}{k!}\quad \text{for }k\ge 3\]
+            \paragraph{Evaluating Nonelementary Integrals}
+                Taylor series can be used to express nonelementary integrals in terms of series. Integrals like $\int \sin x^2 dx$ arise in the study of the diffraction of light.
+                \subparagraph{Example}
+                \[\sin x^2=x^2-\cfrac{x^6}{3!}+\cfrac{x^{10}}{5!}-\cfrac{x^{14}}{7!}+\cdots\]
+                \[\int\sin x^2 dx=C+\cfrac{x^3}{3}-\cfrac{x^7}{7\cdot 3!}+\cfrac{x^{11}}{11\cdot 5!}-\cdots\]
+            \paragraph{Arctangent}
+                \[\cfrac{d}{dx}\tan^{-1}x=\cfrac{1}{1+x^2}=1-x^2+x^4-x^6+\cdots\]
+                \[\tan^{-1}x=x-\cfrac{x^3}{3}+\cfrac{x^5}{5}-\cfrac{x^7}{7}\]
+                \[\tan^{-1}x=\sum_{n=0}^\infty\cfrac{(-1)^nx^{2n+1}}{2n+1},\quad |x|\le 1\]
+                \par when $x=1$
+                \[\cfrac{\pi}{4}=1-\cfrac{1}{3}+\cfrac{1}{5}-\cfrac{1}{7}+\cdots+\cfrac{(-1)^n}{2n+1}+\cdots\]
+            \paragraph{Evaluating Indeterminate Forms}
+            \paragraph{Euler's Identity}
+                \[e^{i\theta}=1+\cfrac{i\theta}{1!}+\cfrac{i^2\theta^2}{2!}+\cfrac{i^3\theta^3}{3!}+\cfrac{i^4\theta^4}{4!}+\cfrac{i^5\theta^4}{4!}+\cdots\]
+                \[=(1-\cfrac{\theta^2}{2!}+\cfrac{\theta^4}{4!}-\cfrac{\theta^6}{6!}+\cdots)+i(\theta-\cfrac{\theta^3}{3!}+\cfrac{\theta^5}{5!}-\cdots)=\cos \theta +i\sin \theta\]
+                \subparagraph{Definition} For any real number $\theta$, $e^{i\theta}=\cos \theta+i\sin\theta$
+                \[e^{i\pi}=-1\]
+            \paragraph{Frequently used Taylor series}
+            \[\cfrac{1}{1-x}=\sum_{n=0}^\infty x^n,\quad |x|<1\]
+            \[\cfrac{1}{1+x}=\sum_{n=0}^\infty (-1)^nx^n,\quad |x|<1\]
+            \[e^x=\sum_{n=0}^\infty \cfrac{x^n}{n!},\quad|x|<\infty\]
+            \[\sin x=\sum_{n=0}^\infty\cfrac{(-1)^n x^{2n+1}}{(2n+1)!},\quad |x|<\infty\]
+            \[\cos x=\sum_{n=0}^\infty\cfrac{(-1)^nx^{2n}}{(2n)!},\quad |x|<\infty\]
+            \[\ln(1+x)=\sum_{n=1}^\infty\cfrac{(-1)^{n-1}x^n}{n},\quad -1<x\le 1\]
+            \[\tan ^{-1}x=\sum_{n=0}^\infty\cfrac{(-1)^n x^{2n+1}}{2n+1},\quad |x|\le 1\]
+    
+    \newpage
+    \section{Parametric Equations and Polar Coordinates}
+        \subsection{Parametrizations of Plane Curves}
 \end{document}

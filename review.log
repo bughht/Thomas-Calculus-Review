@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2019.6.21)  29 JUN 2019 01:26
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2019.6.21)  2 JUL 2019 17:02
 entering extended mode
 **e:/Thomas-Calculus-Review/review
 (e:/Thomas-Calculus-Review/review.tex
@@ -659,14 +659,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 1368--1369
 
  []
 
-[47] [48] [49] [50] (e:\Thomas-Calculus-Review\review.aux) ) 
+[47] [48] [49] [50] [51] [52] [53] [54] [55]
+Underfull \hbox (badness 10000) in paragraph at lines 1616--1617
+
+ []
+
+[56] [57]
+Overfull \hbox (2.96794pt too wide) in paragraph at lines 1652--1653
+ \OT1/cmr/bx/n/10 The Al-ter-nat-ing Se-ries Es-ti-ma-tion The-o-rem[] \OT1/cmr/m/n/10 If the al-ter-nat-ing se-ries $[][](\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1)[]\OML/cmm/m/it/10 u[]$
+ []
+
+[58]
+Underfull \hbox (badness 10000) in paragraph at lines 1672--1673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1675--1676
+
+ []
+
+[59] [60]
+Underfull \hbox (badness 10000) in paragraph at lines 1727--1728
+
+ []
+
+[61] [62] [63] [64] (e:\Thomas-Calculus-Review\review.aux) ) 
 Here is how much of TeX's memory you used:
  16366 strings out of 430478
  376773 string characters out of 3191502
- 517446 words of memory out of 3000000
+ 517447 words of memory out of 3000000
  19201 multiletter control sequences out of 15000+200000
  15337 words of font info for 53 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  63i,15n,74p,710b,479s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on review.pdf (50 pages).
+Output written on review.pdf (64 pages).
