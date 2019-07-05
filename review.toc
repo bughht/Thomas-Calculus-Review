@@ -1,438 +1,536 @@
-\contentsline {section}{\numberline {1}Function}{4}
-\contentsline {subsection}{\numberline {1.1}Function and their Graphs}{4}
-\contentsline {paragraph}{Linear Functions}{4}
-\contentsline {paragraph}{Power Functions}{4}
-\contentsline {paragraph}{Polynomials}{4}
-\contentsline {paragraph}{Rational Functions}{4}
-\contentsline {paragraph}{Algebraic Functions}{4}
-\contentsline {paragraph}{Trigonometric Function}{4}
-\contentsline {paragraph}{Exponential Functions}{4}
-\contentsline {paragraph}{Logarithmic Functions}{4}
-\contentsline {paragraph}{Transcendental Functions}{4}
-\contentsline {subsection}{\numberline {1.2}Combining Functions; Shifting and Scaling Graphs}{4}
-\contentsline {paragraph}{Sums,Differences,Products, and Quotients}{4}
-\contentsline {paragraph}{Composite Functions}{4}
-\contentsline {subparagraph}{DEFINITION}{4}
-\contentsline {paragraph}{Shifting a Graph of a Function}{5}
-\contentsline {paragraph}{Scaling and Reflecting a Graph of a Function}{5}
-\contentsline {subsection}{\numberline {1.3}Trigonometric Function}{5}
-\contentsline {paragraph}{Angles}{5}
-\contentsline {paragraph}{The Six Basic Trigonometric Functions}{5}
-\contentsline {paragraph}{Trigonometric Identities}{5}
-\contentsline {subparagraph}{Addition Formulas}{5}
-\contentsline {subparagraph}{Double-Angle Formulas}{5}
-\contentsline {subparagraph}{Half-Angle Formulas}{5}
-\contentsline {subparagraph}{The Law of Cosines}{5}
-\contentsline {subparagraph}{Two Special Inequalities}{6}
-\contentsline {paragraph}{Transformations of Trigonometric Graphs}{6}
-\contentsline {section}{\numberline {2}Limits and Continuity}{7}
-\contentsline {subsection}{\numberline {2.1}Rates of Change and Tangents to Curves}{7}
-\contentsline {paragraph}{DEFINITION}{7}
-\contentsline {subsection}{\numberline {2.2}Limit of a Function and Limit Laws}{7}
-\contentsline {paragraph}{Limits of Function Value}{7}
-\contentsline {subparagraph}{``Informal'' definition}{7}
-\contentsline {paragraph}{The Limit Laws}{7}
-\contentsline {subparagraph}{Limit Laws}{7}
-\contentsline {subparagraph}{Limits of Polynomials}{7}
-\contentsline {subparagraph}{Limits of Rational Funcitions}{7}
-\contentsline {paragraph}{The Sandwich Theorem}{7}
-\contentsline {subparagraph}{Theorem}{8}
-\contentsline {subsection}{\numberline {2.3}The Precise Definition of a Limit}{8}
+\contentsline {section}{\numberline {1}Function}{5}
+\contentsline {subsection}{\numberline {1.1}Function and their Graphs}{5}
+\contentsline {paragraph}{Linear Functions}{5}
+\contentsline {paragraph}{Power Functions}{5}
+\contentsline {paragraph}{Polynomials}{5}
+\contentsline {paragraph}{Rational Functions}{5}
+\contentsline {paragraph}{Algebraic Functions}{5}
+\contentsline {paragraph}{Trigonometric Function}{5}
+\contentsline {paragraph}{Exponential Functions}{5}
+\contentsline {paragraph}{Logarithmic Functions}{5}
+\contentsline {paragraph}{Transcendental Functions}{5}
+\contentsline {subsection}{\numberline {1.2}Combining Functions; Shifting and Scaling Graphs}{5}
+\contentsline {paragraph}{Sums,Differences,Products, and Quotients}{5}
+\contentsline {paragraph}{Composite Functions}{5}
+\contentsline {subparagraph}{DEFINITION}{5}
+\contentsline {paragraph}{Shifting a Graph of a Function}{6}
+\contentsline {paragraph}{Scaling and Reflecting a Graph of a Function}{6}
+\contentsline {subsection}{\numberline {1.3}Trigonometric Function}{6}
+\contentsline {paragraph}{Angles}{6}
+\contentsline {paragraph}{The Six Basic Trigonometric Functions}{6}
+\contentsline {paragraph}{Trigonometric Identities}{6}
+\contentsline {subparagraph}{Addition Formulas}{6}
+\contentsline {subparagraph}{Double-Angle Formulas}{6}
+\contentsline {subparagraph}{Half-Angle Formulas}{6}
+\contentsline {subparagraph}{The Law of Cosines}{6}
+\contentsline {subparagraph}{Two Special Inequalities}{7}
+\contentsline {paragraph}{Transformations of Trigonometric Graphs}{7}
+\contentsline {section}{\numberline {2}Limits and Continuity}{8}
+\contentsline {subsection}{\numberline {2.1}Rates of Change and Tangents to Curves}{8}
 \contentsline {paragraph}{DEFINITION}{8}
-\contentsline {subsection}{\numberline {2.4}One-Sided Limits}{8}
-\contentsline {paragraph}{Two-sided limits}{8}
-\contentsline {subparagraph}{THEOREM}{8}
-\contentsline {subparagraph}{Limits Involving $(\qopname \relax o{sin}\theta )/\theta $}{8}
-\contentsline {subsection}{\numberline {2.5}Continuity}{8}
-\contentsline {paragraph}{DEFINITION}{8}
-\contentsline {paragraph}{Properties of Continuous Functions}{8}
-\contentsline {paragraph}{Composite of Continuous Functions}{9}
-\contentsline {paragraph}{Limits of Continuous Functions}{9}
-\contentsline {paragraph}{The Intermediate Value Theorem for Continuous Functions}{9}
-\contentsline {subsection}{\numberline {2.6}Limits Involving Infinity; Asymptotes of Graphs}{9}
-\contentsline {subparagraph}{EXAMPLE}{9}
+\contentsline {subsection}{\numberline {2.2}Limit of a Function and Limit Laws}{8}
+\contentsline {paragraph}{Limits of Function Value}{8}
+\contentsline {subparagraph}{``Informal'' definition}{8}
+\contentsline {paragraph}{The Limit Laws}{8}
+\contentsline {subparagraph}{Limit Laws}{8}
+\contentsline {subparagraph}{Limits of Polynomials}{8}
+\contentsline {subparagraph}{Limits of Rational Funcitions}{8}
+\contentsline {paragraph}{The Sandwich Theorem}{8}
+\contentsline {subparagraph}{Theorem}{9}
+\contentsline {subsection}{\numberline {2.3}The Precise Definition of a Limit}{9}
 \contentsline {paragraph}{DEFINITION}{9}
-\contentsline {paragraph}{EXAMPLE}{9}
-\contentsline {section}{\numberline {3}Derivatives}{10}
-\contentsline {subsection}{\numberline {3.1}Tangents and the Derivative at a Point}{10}
-\contentsline {paragraph}{DEFINITIONS}{10}
-\contentsline {subsection}{\numberline {3.2}The Derivative as a Function}{10}
-\contentsline {paragraph}{Calculating Derivatives from the Definition}{10}
-\contentsline {subparagraph}{Notations}{10}
-\contentsline {paragraph}{Differentiable on an Interval; One-Sided Derivatives}{10}
-\contentsline {paragraph}{Differentiable Functions Are Continuous}{10}
-\contentsline {subparagraph}{Differentiability Implies Continuity}{10}
-\contentsline {subsection}{\numberline {3.3}Differentiation Rules}{11}
-\contentsline {paragraph}{Power,Multiples, Sums, and Differences}{11}
-\contentsline {paragraph}{Second- and Higher-Order Derivatives}{11}
-\contentsline {subsection}{\numberline {3.4}The Derivative as a Rate of Change}{11}
-\contentsline {paragraph}{Motion Along a Line: Displacement, Velocity, Speed, Acceleration, and Jerk}{11}
-\contentsline {subsection}{\numberline {3.5}Derivatives of Trigonometric Functions}{11}
-\contentsline {subsection}{\numberline {3.6}The Chain Rule*}{12}
-\contentsline {paragraph}{Power Chain Rule}{12}
-\contentsline {subsection}{\numberline {3.7}Implicit Differentiation}{12}
-\contentsline {paragraph}{Implicitly Defined Functions}{12}
-\contentsline {subparagraph}{EXAMPLE 1}{12}
-\contentsline {subparagraph}{EXAMPLE 2}{12}
-\contentsline {subparagraph}{EXAMPLE 3}{12}
-\contentsline {subsection}{\numberline {3.8}Related Rates}{12}
-\contentsline {paragraph}{Related Rate Equations}{12}
-\contentsline {subsection}{\numberline {3.9}Linearization and Differentials}{13}
-\contentsline {paragraph}{Linearization}{13}
-\contentsline {paragraph}{Differentials}{13}
-\contentsline {paragraph}{Estimating with Differentials}{13}
-\contentsline {paragraph}{Error in Differential Approximation}{13}
-\contentsline {paragraph}{Sensitivity to Change}{13}
-\contentsline {section}{\numberline {4}Applications of Derivatives}{14}
-\contentsline {subsection}{\numberline {4.1}Extreme Values of Functions}{14}
-\contentsline {paragraph}{DEFINITIONS}{14}
-\contentsline {paragraph}{Local(Relative) Extreme Values}{14}
-\contentsline {paragraph}{Finding Extrema}{14}
-\contentsline {subparagraph}{Theorem---The First Derivative Theorem for Local Extreme Values}{14}
-\contentsline {subparagraph}{Definition}{14}
-\contentsline {subsection}{\numberline {4.2}The Mean Value Theorem*}{14}
-\contentsline {paragraph}{Rolle's Theorem}{14}
-\contentsline {paragraph}{The Mean Value Theorem*}{14}
-\contentsline {paragraph}{Corollary 1}{14}
-\contentsline {paragraph}{Corollary 2}{14}
-\contentsline {subsection}{\numberline {4.3}Monotonic Functions and the First Derivative Test}{14}
-\contentsline {paragraph}{Corollary 3}{14}
-\contentsline {subsection}{\numberline {4.4}Concavity and Curve Sketching}{15}
-\contentsline {paragraph}{Concavity}{15}
-\contentsline {paragraph}{The Second Derivative Test for Concavity}{15}
-\contentsline {paragraph}{Points of Inflection}{15}
+\contentsline {subsection}{\numberline {2.4}One-Sided Limits}{9}
+\contentsline {paragraph}{Two-sided limits}{9}
+\contentsline {subparagraph}{THEOREM}{9}
+\contentsline {subparagraph}{Limits Involving $(\qopname \relax o{sin}\theta )/\theta $}{9}
+\contentsline {subsection}{\numberline {2.5}Continuity}{9}
+\contentsline {paragraph}{DEFINITION}{9}
+\contentsline {paragraph}{Properties of Continuous Functions}{9}
+\contentsline {paragraph}{Composite of Continuous Functions}{10}
+\contentsline {paragraph}{Limits of Continuous Functions}{10}
+\contentsline {paragraph}{The Intermediate Value Theorem for Continuous Functions}{10}
+\contentsline {subsection}{\numberline {2.6}Limits Involving Infinity; Asymptotes of Graphs}{10}
+\contentsline {subparagraph}{EXAMPLE}{10}
+\contentsline {paragraph}{DEFINITION}{10}
+\contentsline {paragraph}{EXAMPLE}{10}
+\contentsline {section}{\numberline {3}Derivatives}{11}
+\contentsline {subsection}{\numberline {3.1}Tangents and the Derivative at a Point}{11}
+\contentsline {paragraph}{DEFINITIONS}{11}
+\contentsline {subsection}{\numberline {3.2}The Derivative as a Function}{11}
+\contentsline {paragraph}{Calculating Derivatives from the Definition}{11}
+\contentsline {subparagraph}{Notations}{11}
+\contentsline {paragraph}{Differentiable on an Interval; One-Sided Derivatives}{11}
+\contentsline {paragraph}{Differentiable Functions Are Continuous}{11}
+\contentsline {subparagraph}{Differentiability Implies Continuity}{11}
+\contentsline {subsection}{\numberline {3.3}Differentiation Rules}{12}
+\contentsline {paragraph}{Power,Multiples, Sums, and Differences}{12}
+\contentsline {paragraph}{Second- and Higher-Order Derivatives}{12}
+\contentsline {subsection}{\numberline {3.4}The Derivative as a Rate of Change}{12}
+\contentsline {paragraph}{Motion Along a Line: Displacement, Velocity, Speed, Acceleration, and Jerk}{12}
+\contentsline {subsection}{\numberline {3.5}Derivatives of Trigonometric Functions}{12}
+\contentsline {subsection}{\numberline {3.6}The Chain Rule*}{13}
+\contentsline {paragraph}{Power Chain Rule}{13}
+\contentsline {subsection}{\numberline {3.7}Implicit Differentiation}{13}
+\contentsline {paragraph}{Implicitly Defined Functions}{13}
+\contentsline {subparagraph}{EXAMPLE 1}{13}
+\contentsline {subparagraph}{EXAMPLE 2}{13}
+\contentsline {subparagraph}{EXAMPLE 3}{13}
+\contentsline {subsection}{\numberline {3.8}Related Rates}{13}
+\contentsline {paragraph}{Related Rate Equations}{13}
+\contentsline {subsection}{\numberline {3.9}Linearization and Differentials}{14}
+\contentsline {paragraph}{Linearization}{14}
+\contentsline {paragraph}{Differentials}{14}
+\contentsline {paragraph}{Estimating with Differentials}{14}
+\contentsline {paragraph}{Error in Differential Approximation}{14}
+\contentsline {paragraph}{Sensitivity to Change}{14}
+\contentsline {section}{\numberline {4}Applications of Derivatives}{15}
+\contentsline {subsection}{\numberline {4.1}Extreme Values of Functions}{15}
+\contentsline {paragraph}{DEFINITIONS}{15}
+\contentsline {paragraph}{Local(Relative) Extreme Values}{15}
+\contentsline {paragraph}{Finding Extrema}{15}
+\contentsline {subparagraph}{Theorem---The First Derivative Theorem for Local Extreme Values}{15}
 \contentsline {subparagraph}{Definition}{15}
-\contentsline {paragraph}{Second Derivative Test for local Extrema}{15}
-\contentsline {subsection}{\numberline {4.5}Applied Optimization}{15}
-\contentsline {subsection}{\numberline {4.6}Newton's Method}{15}
-\contentsline {subsection}{\numberline {4.7}Antiderivative}{15}
-\contentsline {paragraph}{DEFINITION}{15}
-\contentsline {paragraph}{THEOREM}{16}
-\contentsline {paragraph}{Indefinite Integrals}{16}
-\contentsline {subparagraph}{DEFINITION}{16}
-\contentsline {paragraph}{examples}{16}
-\contentsline {section}{\numberline {5}Integrals}{17}
-\contentsline {subsection}{\numberline {5.1}Area and Estimating with Finite Sums}{17}
-\contentsline {subsection}{\numberline {5.2}Sigma Notation and Limits of Finite Sums}{17}
-\contentsline {paragraph}{Riemann Sums}{17}
-\contentsline {subparagraph}{Riemann sum for $f$ on the interval $\bf {[a,b]}$.}{17}
-\contentsline {subsection}{\numberline {5.3}The Definite Integral}{17}
-\contentsline {paragraph}{Definition of the Definite Integral}{17}
-\contentsline {paragraph}{Integrable and Nonintegrable Functions}{18}
-\contentsline {subparagraph}{Integrability of Continuous Functions}{18}
-\contentsline {paragraph}{Properties of Definite Integrals}{18}
-\contentsline {subparagraph}{Theorem}{18}
-\contentsline {paragraph}{Area Under the Graph of a Nonnegative Funcion}{18}
-\contentsline {subparagraph}{Definition}{18}
-\contentsline {paragraph}{Average Value of a Continuous Function Revisited}{18}
-\contentsline {subsection}{\numberline {5.4}The Fundamental Theorem of Calculus}{19}
-\contentsline {paragraph}{Mean Value Theorem for Definite Integrals}{19}
-\contentsline {paragraph}{Fundamental Theorem, Part 1}{19}
-\contentsline {paragraph}{Proof of Theorem}{20}
-\contentsline {paragraph}{Fundamental Theorem, Part 2(The Evaluation Theorem)}{20}
-\contentsline {subparagraph}{The Fundamental Theorem of Calculus, Part 2}{20}
-\contentsline {subparagraph}{Example:}{21}
-\contentsline {paragraph}{The Integral of a Rate}{21}
-\contentsline {paragraph}{The Relationship Between Integration and Differrentiation}{21}
-\contentsline {subsection}{\numberline {5.5}Indefinite Integrals and the Substitution Method}{21}
-\contentsline {paragraph}{Substitution: Running the Chain Rule Backwards}{21}
-\contentsline {paragraph}{Example 1}{21}
-\contentsline {subparagraph}{Solution}{22}
-\contentsline {paragraph}{Example 2}{22}
-\contentsline {subparagraph}{Solution}{22}
-\contentsline {paragraph}{The Substitution Rule}{22}
-\contentsline {paragraph}{Example 3}{22}
-\contentsline {subparagraph}{Solution}{22}
-\contentsline {subsection}{\numberline {5.6}Definite Integral Substitutions and the Area Between Curves}{22}
-\contentsline {paragraph}{The Substitution Formula}{22}
-\contentsline {subparagraph}{Substitution in Definite Integrals}{22}
-\contentsline {subparagraph}{Proof}{23}
-\contentsline {paragraph}{Example 1}{23}
+\contentsline {subsection}{\numberline {4.2}The Mean Value Theorem*}{15}
+\contentsline {paragraph}{Rolle's Theorem}{15}
+\contentsline {paragraph}{The Mean Value Theorem*}{15}
+\contentsline {paragraph}{Corollary 1}{15}
+\contentsline {paragraph}{Corollary 2}{15}
+\contentsline {subsection}{\numberline {4.3}Monotonic Functions and the First Derivative Test}{15}
+\contentsline {paragraph}{Corollary 3}{15}
+\contentsline {subsection}{\numberline {4.4}Concavity and Curve Sketching}{16}
+\contentsline {paragraph}{Concavity}{16}
+\contentsline {paragraph}{The Second Derivative Test for Concavity}{16}
+\contentsline {paragraph}{Points of Inflection}{16}
+\contentsline {subparagraph}{Definition}{16}
+\contentsline {paragraph}{Second Derivative Test for local Extrema}{16}
+\contentsline {subsection}{\numberline {4.5}Applied Optimization}{16}
+\contentsline {subsection}{\numberline {4.6}Newton's Method}{16}
+\contentsline {subsection}{\numberline {4.7}Antiderivative}{16}
+\contentsline {paragraph}{DEFINITION}{16}
+\contentsline {paragraph}{THEOREM}{17}
+\contentsline {paragraph}{Indefinite Integrals}{17}
+\contentsline {subparagraph}{DEFINITION}{17}
+\contentsline {paragraph}{examples}{17}
+\contentsline {section}{\numberline {5}Integrals}{18}
+\contentsline {subsection}{\numberline {5.1}Area and Estimating with Finite Sums}{18}
+\contentsline {subsection}{\numberline {5.2}Sigma Notation and Limits of Finite Sums}{18}
+\contentsline {paragraph}{Riemann Sums}{18}
+\contentsline {subparagraph}{Riemann sum for $f$ on the interval $\bf {[a,b]}$.}{18}
+\contentsline {subsection}{\numberline {5.3}The Definite Integral}{18}
+\contentsline {paragraph}{Definition of the Definite Integral}{18}
+\contentsline {paragraph}{Integrable and Nonintegrable Functions}{19}
+\contentsline {subparagraph}{Integrability of Continuous Functions}{19}
+\contentsline {paragraph}{Properties of Definite Integrals}{19}
+\contentsline {subparagraph}{Theorem}{19}
+\contentsline {paragraph}{Area Under the Graph of a Nonnegative Funcion}{19}
+\contentsline {subparagraph}{Definition}{19}
+\contentsline {paragraph}{Average Value of a Continuous Function Revisited}{19}
+\contentsline {subsection}{\numberline {5.4}The Fundamental Theorem of Calculus}{20}
+\contentsline {paragraph}{Mean Value Theorem for Definite Integrals}{20}
+\contentsline {paragraph}{Fundamental Theorem, Part 1}{20}
+\contentsline {paragraph}{Proof of Theorem}{21}
+\contentsline {paragraph}{Fundamental Theorem, Part 2(The Evaluation Theorem)}{21}
+\contentsline {subparagraph}{The Fundamental Theorem of Calculus, Part 2}{21}
+\contentsline {subparagraph}{Example:}{22}
+\contentsline {paragraph}{The Integral of a Rate}{22}
+\contentsline {paragraph}{The Relationship Between Integration and Differrentiation}{22}
+\contentsline {subsection}{\numberline {5.5}Indefinite Integrals and the Substitution Method}{22}
+\contentsline {paragraph}{Substitution: Running the Chain Rule Backwards}{22}
+\contentsline {paragraph}{Example 1}{22}
 \contentsline {subparagraph}{Solution}{23}
-\contentsline {paragraph}{Definite Integrals of Symmetric Functions}{23}
-\contentsline {subparagraph}{Theorem}{23}
-\contentsline {paragraph}{Areas Between Curves}{23}
-\contentsline {subparagraph}{Definition}{23}
-\contentsline {paragraph}{Integration with Respect to $y$}{23}
-\contentsline {section}{\numberline {6}Applications of Definite Integrals}{24}
-\contentsline {subsection}{\numberline {6.1}Volumes Using Cross-Sections}{24}
-\contentsline {paragraph}{Definition}{24}
-\contentsline {subparagraph}{Calculating the Volume of a Solid}{24}
-\contentsline {paragraph}{Solid of Revolution: The Disk Method}{24}
-\contentsline {subparagraph}{Volume by Disks for Rotation About the $x$-axis}{24}
-\contentsline {paragraph}{Example}{24}
+\contentsline {paragraph}{Example 2}{23}
+\contentsline {subparagraph}{Solution}{23}
+\contentsline {paragraph}{The Substitution Rule}{23}
+\contentsline {paragraph}{Example 3}{23}
+\contentsline {subparagraph}{Solution}{23}
+\contentsline {subsection}{\numberline {5.6}Definite Integral Substitutions and the Area Between Curves}{23}
+\contentsline {paragraph}{The Substitution Formula}{23}
+\contentsline {subparagraph}{Substitution in Definite Integrals}{23}
+\contentsline {subparagraph}{Proof}{24}
+\contentsline {paragraph}{Example 1}{24}
 \contentsline {subparagraph}{Solution}{24}
-\contentsline {subparagraph}{Volume by Disks for Rotation About the $y$-axis}{24}
-\contentsline {paragraph}{Solids of Revolution: The Washer Method}{24}
-\contentsline {subparagraph}{Volume by Washers for Rotation About the $x$-axis}{24}
-\contentsline {subsection}{\numberline {6.2}Volumes Using Cylindrical Shells}{25}
-\contentsline {paragraph}{Slicing with Cylinders}{25}
-\contentsline {paragraph}{The Shell Method}{25}
-\contentsline {subsection}{\numberline {6.3}Arc Length}{25}
-\contentsline {paragraph}{Length of a Curve $y=f(x)$}{25}
-\contentsline {paragraph}{Dealing with Discontinuities in $dy/dx$}{25}
-\contentsline {subparagraph}{Formula for the Length of $x=g(y),\ c\le y \le d$}{25}
-\contentsline {paragraph}{The Differential Formula for Arc Length}{26}
-\contentsline {subsection}{\numberline {6.4}Areas of Surfaces of Revolution}{26}
-\contentsline {paragraph}{Defining Surface Area}{26}
-\contentsline {subparagraph}{Definition}{26}
-\contentsline {paragraph}{Revolution About the $y$-Axis}{26}
-\contentsline {subsection}{\numberline {6.5}Work and Wfuid Forces}{26}
-\contentsline {paragraph}{Work Done by a Constant Force}{26}
-\contentsline {paragraph}{Work Done by a Variable Force Along a Line}{26}
-\contentsline {paragraph}{Hooke's Law for Springs:$F=kx$}{26}
-\contentsline {subparagraph}{Hooke's Law}{26}
-\contentsline {paragraph}{Lifting Objects and Pumping Liquidsfrom Containers}{26}
-\contentsline {paragraph}{Fluid Pressure and Forces}{27}
-\contentsline {subparagraph}{The Pressure-Depth Equation}{27}
-\contentsline {subparagraph}{The Integral for Fluid Force Against a Vertical Flat Plate}{27}
-\contentsline {subsection}{\numberline {6.6}Moments and Centers of Mass}{27}
-\contentsline {paragraph}{Masses Along a Line}{27}
-\contentsline {paragraph}{Masses Distributed over a Plane Region}{27}
-\contentsline {paragraph}{Thin, Flat Plates}{27}
-\contentsline {subparagraph}{Moments, Mass and Center of Mass of a Thin Plate Covering a Region in the $xy$-Plane}{27}
-\contentsline {paragraph}{Plates Bounded by Two Curves}{28}
-\contentsline {paragraph}{Centroids}{28}
-\contentsline {paragraph}{Fluid Forces and Centroids}{28}
-\contentsline {paragraph}{The Theorems of Pappus}{28}
-\contentsline {subparagraph}{Pappus's Theorem for Volumes}{28}
-\contentsline {subparagraph}{Proof}{28}
-\contentsline {subparagraph}{Pappus's Theorem for Surface Areas}{28}
-\contentsline {section}{\numberline {7}Transcendental Functions}{29}
-\contentsline {subsection}{\numberline {7.1}Inverse Functions and Their Derivatives}{29}
-\contentsline {paragraph}{One-to-One Functions}{29}
-\contentsline {paragraph}{Inverse Functions}{29}
-\contentsline {paragraph}{Finding Inverses}{29}
-\contentsline {paragraph}{Derivatives of Inverses of Differentiable Functions}{29}
-\contentsline {subparagraph}{The Derivative Rule for Inverses}{29}
+\contentsline {paragraph}{Definite Integrals of Symmetric Functions}{24}
+\contentsline {subparagraph}{Theorem}{24}
+\contentsline {paragraph}{Areas Between Curves}{24}
+\contentsline {subparagraph}{Definition}{24}
+\contentsline {paragraph}{Integration with Respect to $y$}{24}
+\contentsline {section}{\numberline {6}Applications of Definite Integrals}{25}
+\contentsline {subsection}{\numberline {6.1}Volumes Using Cross-Sections}{25}
+\contentsline {paragraph}{Definition}{25}
+\contentsline {subparagraph}{Calculating the Volume of a Solid}{25}
+\contentsline {paragraph}{Solid of Revolution: The Disk Method}{25}
+\contentsline {subparagraph}{Volume by Disks for Rotation About the $x$-axis}{25}
+\contentsline {paragraph}{Example}{25}
+\contentsline {subparagraph}{Solution}{25}
+\contentsline {subparagraph}{Volume by Disks for Rotation About the $y$-axis}{25}
+\contentsline {paragraph}{Solids of Revolution: The Washer Method}{25}
+\contentsline {subparagraph}{Volume by Washers for Rotation About the $x$-axis}{25}
+\contentsline {subsection}{\numberline {6.2}Volumes Using Cylindrical Shells}{26}
+\contentsline {paragraph}{Slicing with Cylinders}{26}
+\contentsline {paragraph}{The Shell Method}{26}
+\contentsline {subsection}{\numberline {6.3}Arc Length}{26}
+\contentsline {paragraph}{Length of a Curve $y=f(x)$}{26}
+\contentsline {paragraph}{Dealing with Discontinuities in $dy/dx$}{26}
+\contentsline {subparagraph}{Formula for the Length of $x=g(y),\ c\le y \le d$}{26}
+\contentsline {paragraph}{The Differential Formula for Arc Length}{27}
+\contentsline {subsection}{\numberline {6.4}Areas of Surfaces of Revolution}{27}
+\contentsline {paragraph}{Defining Surface Area}{27}
+\contentsline {subparagraph}{Definition}{27}
+\contentsline {paragraph}{Revolution About the $y$-Axis}{27}
+\contentsline {subsection}{\numberline {6.5}Work and Wfuid Forces}{27}
+\contentsline {paragraph}{Work Done by a Constant Force}{27}
+\contentsline {paragraph}{Work Done by a Variable Force Along a Line}{27}
+\contentsline {paragraph}{Hooke's Law for Springs:$F=kx$}{27}
+\contentsline {subparagraph}{Hooke's Law}{27}
+\contentsline {paragraph}{Lifting Objects and Pumping Liquidsfrom Containers}{27}
+\contentsline {paragraph}{Fluid Pressure and Forces}{28}
+\contentsline {subparagraph}{The Pressure-Depth Equation}{28}
+\contentsline {subparagraph}{The Integral for Fluid Force Against a Vertical Flat Plate}{28}
+\contentsline {subsection}{\numberline {6.6}Moments and Centers of Mass}{28}
+\contentsline {paragraph}{Masses Along a Line}{28}
+\contentsline {paragraph}{Masses Distributed over a Plane Region}{28}
+\contentsline {paragraph}{Thin, Flat Plates}{28}
+\contentsline {subparagraph}{Moments, Mass and Center of Mass of a Thin Plate Covering a Region in the $xy$-Plane}{28}
+\contentsline {paragraph}{Plates Bounded by Two Curves}{29}
+\contentsline {paragraph}{Centroids}{29}
+\contentsline {paragraph}{Fluid Forces and Centroids}{29}
+\contentsline {paragraph}{The Theorems of Pappus}{29}
+\contentsline {subparagraph}{Pappus's Theorem for Volumes}{29}
 \contentsline {subparagraph}{Proof}{29}
-\contentsline {subsection}{\numberline {7.2}Natural Logarithms}{29}
-\contentsline {paragraph}{Definition of the Natural Logarithm Function}{29}
-\contentsline {subparagraph}{Definition}{30}
-\contentsline {paragraph}{The Derivative of $y=\qopname \relax o{ln}x$}{30}
-\contentsline {paragraph}{Properties of Logarithms}{30}
-\contentsline {subparagraph}{Algebraic Properties of the Nature Logarithm}{30}
-\contentsline {paragraph}{The Graph and Range of $\qopname \relax o{ln}x$}{30}
-\contentsline {paragraph}{The Integral $\DOTSI \intop \ilimits@ (1/u)du$}{30}
-\contentsline {paragraph}{The Integrals of $\qopname \relax o{tan}x$, $\qopname \relax o{cot}x$, $\qopname \relax o{sec}x$, and $\qopname \relax o{csc}x$}{31}
-\contentsline {paragraph}{Logarithmic Differentiation}{31}
-\contentsline {subsection}{\numberline {7.3}Exponential Function}{31}
-\contentsline {paragraph}{The Inverse of $\qopname \relax o{ln}x$ and the Number $e$}{31}
+\contentsline {subparagraph}{Pappus's Theorem for Surface Areas}{29}
+\contentsline {section}{\numberline {7}Transcendental Functions}{30}
+\contentsline {subsection}{\numberline {7.1}Inverse Functions and Their Derivatives}{30}
+\contentsline {paragraph}{One-to-One Functions}{30}
+\contentsline {paragraph}{Inverse Functions}{30}
+\contentsline {paragraph}{Finding Inverses}{30}
+\contentsline {paragraph}{Derivatives of Inverses of Differentiable Functions}{30}
+\contentsline {subparagraph}{The Derivative Rule for Inverses}{30}
+\contentsline {subparagraph}{Proof}{30}
+\contentsline {subsection}{\numberline {7.2}Natural Logarithms}{30}
+\contentsline {paragraph}{Definition of the Natural Logarithm Function}{30}
 \contentsline {subparagraph}{Definition}{31}
-\contentsline {subparagraph}{Inverse Equations for $e^x$ and $\qopname \relax o{ln}x$}{31}
-\contentsline {paragraph}{The Derivative and Integral of $e^x$}{32}
-\contentsline {paragraph}{Laws of Exponents}{32}
-\contentsline {paragraph}{The General Exponential Function $a^x$}{32}
+\contentsline {paragraph}{The Derivative of $y=\qopname \relax o{ln}x$}{31}
+\contentsline {paragraph}{Properties of Logarithms}{31}
+\contentsline {subparagraph}{Algebraic Properties of the Nature Logarithm}{31}
+\contentsline {paragraph}{The Graph and Range of $\qopname \relax o{ln}x$}{31}
+\contentsline {paragraph}{The Integral $\DOTSI \intop \ilimits@ (1/u)du$}{31}
+\contentsline {paragraph}{The Integrals of $\qopname \relax o{tan}x$, $\qopname \relax o{cot}x$, $\qopname \relax o{sec}x$, and $\qopname \relax o{csc}x$}{32}
+\contentsline {paragraph}{Logarithmic Differentiation}{32}
+\contentsline {subsection}{\numberline {7.3}Exponential Function}{32}
+\contentsline {paragraph}{The Inverse of $\qopname \relax o{ln}x$ and the Number $e$}{32}
 \contentsline {subparagraph}{Definition}{32}
-\contentsline {paragraph}{Proof of the Power Rule(General Version)}{32}
-\contentsline {subparagraph}{Definition}{32}
-\contentsline {subparagraph}{General Power Rule for Derivatives}{32}
-\contentsline {subparagraph}{Proof}{33}
-\contentsline {subparagraph}{Example}{33}
-\contentsline {paragraph}{The Number $e$ Expressed as a Limit}{33}
-\contentsline {subparagraph}{The Number $e$ as a Limit}{33}
-\contentsline {subparagraph}{Proof}{33}
-\contentsline {paragraph}{The Derivative of $a^u$}{33}
-\contentsline {paragraph}{Logarithms with Base $a$}{34}
-\contentsline {subparagraph}{Definition}{34}
-\contentsline {paragraph}{Derivatives and Integrals Involving $log_a x$}{34}
-\contentsline {subsection}{\numberline {7.4}Exponential Change and Separable Differential Equations}{34}
-\contentsline {paragraph}{Exponential Change}{34}
-\contentsline {paragraph}{Separable Differential Equations}{34}
-\contentsline {paragraph}{Unlimited Population Growth}{35}
-\contentsline {paragraph}{Radioactivity}{35}
-\contentsline {paragraph}{Heat Transfer: Newton's Law of Cooling}{35}
-\contentsline {subsection}{\numberline {7.5}Indeterminate Forms and L'H$\bf {\mathaccentV {hat}05E{o}}$pital's Rule}{35}
-\contentsline {paragraph}{Indeterminate Form $0/0$}{35}
-\contentsline {paragraph}{Indeterminate Forms $\infty /\infty $, $\infty /0$, $\infty \cdot 0$, $\infty -\infty $}{35}
-\contentsline {paragraph}{Indeterminated Power}{35}
-\contentsline {paragraph}{Example}{35}
-\contentsline {subparagraph}{Solution}{35}
-\contentsline {paragraph}{Proof of L'H$\bf {\mathaccentV {hat}05E{o}}$pital's Rule}{36}
-\contentsline {subparagraph}{Cauchy's Mean Value Theorem}{36}
-\contentsline {subparagraph}{Proof}{36}
-\contentsline {subparagraph}{Proof of L'H$\bf {\mathaccentV {hat}05E{o}}$pital's Rule}{36}
-\contentsline {subsection}{\numberline {7.6}Inverse Trigonometric Functions}{36}
-\contentsline {paragraph}{Defining the Inverses}{36}
-\contentsline {paragraph}{The Arcsine and Arccosine Functions}{36}
-\contentsline {paragraph}{Identities Involving Arcsine and Arccosine}{36}
-\contentsline {paragraph}{Inverses of $\qopname \relax o{tan}x$, $\qopname \relax o{cot}x$, $\qopname \relax o{sec}x$, and $\qopname \relax o{csc}x$}{37}
-\contentsline {paragraph}{The Derivative of $y=\qopname \relax o{sin}^{-1} u$}{37}
-\contentsline {paragraph}{The Derivative of $y=\qopname \relax o{tan}^{-1} u$}{37}
-\contentsline {paragraph}{The Derivative of $y=\qopname \relax o{sec}^{-1}u$}{37}
-\contentsline {paragraph}{Inverse Function-Inverse Confunction Identities}{38}
-\contentsline {paragraph}{Integration Formulas}{38}
-\contentsline {subsection}{\numberline {7.7}Hyperbolic Functions}{38}
-\contentsline {paragraph}{Definitions and Identities}{38}
-\contentsline {paragraph}{Derivatives and Integrals of Hyperbolic Functions}{39}
-\contentsline {paragraph}{Inverse Hyperbolic Function}{39}
-\contentsline {paragraph}{Derivatives of Inverse Hyperbolic Functions}{39}
-\contentsline {subsection}{\numberline {7.8}Relative Rates of Growth}{40}
-\contentsline {paragraph}{Growth Rate of Functions}{40}
-\contentsline {paragraph}{Order and Oh-Notation}{40}
-\contentsline {subparagraph}{Definition}{40}
-\contentsline {subparagraph}{Definition}{40}
-\contentsline {paragraph}{Sequential vs. Binary Search}{40}
-\contentsline {section}{\numberline {8}Techniques of Integration}{41}
-\contentsline {subsection}{\numberline {8.1}Using Basic Integration Formulas}{41}
-\contentsline {paragraph}{Basic Integration formulas}{41}
-\contentsline {subsection}{\numberline {8.2}Integration by Parts}{42}
-\contentsline {paragraph}{Product Rule in Integral Form}{42}
-\contentsline {subparagraph}{Integration by Parts Formula}{42}
-\contentsline {subparagraph}{Example}{42}
-\contentsline {subparagraph}{Solution}{42}
-\contentsline {paragraph}{Evaluating Definite Integrals by Parts}{42}
-\contentsline {subparagraph}{Integration by Parts Formula for Definite Integrals}{42}
-\contentsline {paragraph}{Tabular Integration Can Simplify Repeated Integrations}{42}
-\contentsline {subsection}{\numberline {8.3}Trigonometric Integrals}{43}
-\contentsline {paragraph}{Products of Power of Sines and Cosinea}{43}
-\contentsline {paragraph}{Eliminating Square Roots}{43}
-\contentsline {paragraph}{Integrals of Powers of $\qopname \relax o{tan}x$ and $\qopname \relax o{sec}x$}{43}
+\contentsline {subparagraph}{Inverse Equations for $e^x$ and $\qopname \relax o{ln}x$}{32}
+\contentsline {paragraph}{The Derivative and Integral of $e^x$}{33}
+\contentsline {paragraph}{Laws of Exponents}{33}
+\contentsline {paragraph}{The General Exponential Function $a^x$}{33}
+\contentsline {subparagraph}{Definition}{33}
+\contentsline {paragraph}{Proof of the Power Rule(General Version)}{33}
+\contentsline {subparagraph}{Definition}{33}
+\contentsline {subparagraph}{General Power Rule for Derivatives}{33}
+\contentsline {subparagraph}{Proof}{34}
+\contentsline {subparagraph}{Example}{34}
+\contentsline {paragraph}{The Number $e$ Expressed as a Limit}{34}
+\contentsline {subparagraph}{The Number $e$ as a Limit}{34}
+\contentsline {subparagraph}{Proof}{34}
+\contentsline {paragraph}{The Derivative of $a^u$}{34}
+\contentsline {paragraph}{Logarithms with Base $a$}{35}
+\contentsline {subparagraph}{Definition}{35}
+\contentsline {paragraph}{Derivatives and Integrals Involving $log_a x$}{35}
+\contentsline {subsection}{\numberline {7.4}Exponential Change and Separable Differential Equations}{35}
+\contentsline {paragraph}{Exponential Change}{35}
+\contentsline {paragraph}{Separable Differential Equations}{35}
+\contentsline {paragraph}{Unlimited Population Growth}{36}
+\contentsline {paragraph}{Radioactivity}{36}
+\contentsline {paragraph}{Heat Transfer: Newton's Law of Cooling}{36}
+\contentsline {subsection}{\numberline {7.5}Indeterminate Forms and L'H$\bf {\mathaccentV {hat}05E{o}}$pital's Rule}{36}
+\contentsline {paragraph}{Indeterminate Form $0/0$}{36}
+\contentsline {paragraph}{Indeterminate Forms $\infty /\infty $, $\infty /0$, $\infty \cdot 0$, $\infty -\infty $}{36}
+\contentsline {paragraph}{Indeterminated Power}{36}
+\contentsline {paragraph}{Example}{36}
+\contentsline {subparagraph}{Solution}{36}
+\contentsline {paragraph}{Proof of L'H$\bf {\mathaccentV {hat}05E{o}}$pital's Rule}{37}
+\contentsline {subparagraph}{Cauchy's Mean Value Theorem}{37}
+\contentsline {subparagraph}{Proof}{37}
+\contentsline {subparagraph}{Proof of L'H$\bf {\mathaccentV {hat}05E{o}}$pital's Rule}{37}
+\contentsline {subsection}{\numberline {7.6}Inverse Trigonometric Functions}{37}
+\contentsline {paragraph}{Defining the Inverses}{37}
+\contentsline {paragraph}{The Arcsine and Arccosine Functions}{37}
+\contentsline {paragraph}{Identities Involving Arcsine and Arccosine}{37}
+\contentsline {paragraph}{Inverses of $\qopname \relax o{tan}x$, $\qopname \relax o{cot}x$, $\qopname \relax o{sec}x$, and $\qopname \relax o{csc}x$}{38}
+\contentsline {paragraph}{The Derivative of $y=\qopname \relax o{sin}^{-1} u$}{38}
+\contentsline {paragraph}{The Derivative of $y=\qopname \relax o{tan}^{-1} u$}{38}
+\contentsline {paragraph}{The Derivative of $y=\qopname \relax o{sec}^{-1}u$}{38}
+\contentsline {paragraph}{Inverse Function-Inverse Confunction Identities}{39}
+\contentsline {paragraph}{Integration Formulas}{39}
+\contentsline {subsection}{\numberline {7.7}Hyperbolic Functions}{39}
+\contentsline {paragraph}{Definitions and Identities}{39}
+\contentsline {paragraph}{Derivatives and Integrals of Hyperbolic Functions}{40}
+\contentsline {paragraph}{Inverse Hyperbolic Function}{40}
+\contentsline {paragraph}{Derivatives of Inverse Hyperbolic Functions}{40}
+\contentsline {subsection}{\numberline {7.8}Relative Rates of Growth}{41}
+\contentsline {paragraph}{Growth Rate of Functions}{41}
+\contentsline {paragraph}{Order and Oh-Notation}{41}
+\contentsline {subparagraph}{Definition}{41}
+\contentsline {subparagraph}{Definition}{41}
+\contentsline {paragraph}{Sequential vs. Binary Search}{41}
+\contentsline {section}{\numberline {8}Techniques of Integration}{42}
+\contentsline {subsection}{\numberline {8.1}Using Basic Integration Formulas}{42}
+\contentsline {paragraph}{Basic Integration formulas}{42}
+\contentsline {subsection}{\numberline {8.2}Integration by Parts}{43}
+\contentsline {paragraph}{Product Rule in Integral Form}{43}
+\contentsline {subparagraph}{Integration by Parts Formula}{43}
 \contentsline {subparagraph}{Example}{43}
 \contentsline {subparagraph}{Solution}{43}
-\contentsline {paragraph}{Products of Sines and Cosines}{44}
-\contentsline {subsection}{\numberline {8.4}Trigonometric Substitutions}{44}
-\contentsline {paragraph}{Procedure for a Trigonometric Substitution}{44}
-\contentsline {subsection}{\numberline {8.5}Integration of Rational Functions by Partial Fractions}{44}
-\contentsline {paragraph}{the method of partial fractions}{44}
-\contentsline {paragraph}{General Description of the Method}{44}
-\contentsline {subparagraph}{Method of Partial Fractions when $f(x)/g(x)$ is Proper}{44}
-\contentsline {paragraph}{The Heavisde "Cover-up" method for Linear Factors}{45}
-\contentsline {subparagraph}{Heaviside Method}{45}
-\contentsline {paragraph}{Other Ways to Determine the Coefficients}{45}
-\contentsline {subsection}{\numberline {8.6}Integral Tables and Computer Algebra Systems}{45}
-\contentsline {paragraph}{Integral Tables}{45}
-\contentsline {paragraph}{Reduction Formulas}{45}
-\contentsline {paragraph}{Integration with CAS}{45}
-\contentsline {paragraph}{Nonelemtary Integrals}{45}
-\contentsline {subsection}{\numberline {8.7}Numerical integration}{46}
-\contentsline {paragraph}{Trapezoidal Approximation}{46}
-\contentsline {paragraph}{Simpson's Rule: Approximations Using Parabolas}{46}
-\contentsline {paragraph}{Error Analysis}{46}
-\contentsline {subparagraph}{Error Estimates in the Trapezoidal and Simpson's Rules}{46}
-\contentsline {subsection}{\numberline {8.8}Improper Integrals}{46}
-\contentsline {paragraph}{Infinite Limits of Integration}{46}
-\contentsline {paragraph}{The Integral $\DOTSI \intop \ilimits@ _1^\infty \cfrac {dx}{x^p}$}{47}
-\contentsline {subparagraph}{Solution}{47}
-\contentsline {paragraph}{Integrands with Vertical Asymptotes}{47}
-\contentsline {subparagraph}{Imporoper Integrals of Type II}{47}
-\contentsline {paragraph}{Improper Integrals with a CAS}{48}
-\contentsline {paragraph}{Tests for convergence and Divergence}{48}
-\contentsline {subparagraph}{Direct Comparison Test}{48}
-\contentsline {subparagraph}{Limit Comparison Test}{48}
-\contentsline {subsection}{\numberline {8.9}Probability}{48}
-\contentsline {paragraph}{Random Variables}{48}
-\contentsline {paragraph}{Probability Distributions}{48}
-\contentsline {paragraph}{Exponentially Decreasing Distributions}{48}
-\contentsline {paragraph}{Expected Values, Means, and Medians}{48}
-\contentsline {subparagraph}{Exponential Density Function for a Random Variable $X$ with Mean $\mu $}{48}
-\contentsline {subparagraph}{Definition}{49}
-\contentsline {paragraph}{Variance and Standard Deviation}{49}
-\contentsline {paragraph}{Uniform Distributions}{49}
-\contentsline {paragraph}{Normal Distributions}{49}
-\contentsline {section}{\numberline {9}First-Order Differential Equations}{50}
-\contentsline {subsection}{\numberline {9.1}Solutions, Slope Fields, and Euler's Method}{50}
-\contentsline {paragraph}{Slope Fields: Viewling Solution Curves}{50}
-\contentsline {paragraph}{Euler's Method}{50}
-\contentsline {subsection}{\numberline {9.2}First-Order Linear Equations}{50}
-\contentsline {paragraph}{Solving Linear Equations}{50}
-\contentsline {subparagraph}{Example}{51}
-\contentsline {subparagraph}{Solution}{51}
-\contentsline {paragraph}{$\bf {RL}$ Circuits}{51}
-\contentsline {subsection}{\numberline {9.3}Applications}{51}
-\contentsline {paragraph}{Motion with Resistance Proportional to Velocity}{51}
-\contentsline {paragraph}{Inaccuracy of the Exponential Population Growth Model}{52}
-\contentsline {paragraph}{Orthogonal Trajectories}{52}
-\contentsline {subsection}{\numberline {9.4}Graphical Solutions of Autonomous Equations}{52}
-\contentsline {paragraph}{Equilibrium Values and Phase Lines}{52}
+\contentsline {paragraph}{Evaluating Definite Integrals by Parts}{43}
+\contentsline {subparagraph}{Integration by Parts Formula for Definite Integrals}{43}
+\contentsline {paragraph}{Tabular Integration Can Simplify Repeated Integrations}{43}
+\contentsline {subsection}{\numberline {8.3}Trigonometric Integrals}{44}
+\contentsline {paragraph}{Products of Power of Sines and Cosinea}{44}
+\contentsline {paragraph}{Eliminating Square Roots}{44}
+\contentsline {paragraph}{Integrals of Powers of $\qopname \relax o{tan}x$ and $\qopname \relax o{sec}x$}{44}
+\contentsline {subparagraph}{Example}{44}
+\contentsline {subparagraph}{Solution}{44}
+\contentsline {paragraph}{Products of Sines and Cosines}{45}
+\contentsline {subsection}{\numberline {8.4}Trigonometric Substitutions}{45}
+\contentsline {paragraph}{Procedure for a Trigonometric Substitution}{45}
+\contentsline {subsection}{\numberline {8.5}Integration of Rational Functions by Partial Fractions}{45}
+\contentsline {paragraph}{the method of partial fractions}{45}
+\contentsline {paragraph}{General Description of the Method}{45}
+\contentsline {subparagraph}{Method of Partial Fractions when $f(x)/g(x)$ is Proper}{45}
+\contentsline {paragraph}{The Heavisde "Cover-up" method for Linear Factors}{46}
+\contentsline {subparagraph}{Heaviside Method}{46}
+\contentsline {paragraph}{Other Ways to Determine the Coefficients}{46}
+\contentsline {subsection}{\numberline {8.6}Integral Tables and Computer Algebra Systems}{46}
+\contentsline {paragraph}{Integral Tables}{46}
+\contentsline {paragraph}{Reduction Formulas}{46}
+\contentsline {paragraph}{Integration with CAS}{46}
+\contentsline {paragraph}{Nonelemtary Integrals}{46}
+\contentsline {subsection}{\numberline {8.7}Numerical integration}{47}
+\contentsline {paragraph}{Trapezoidal Approximation}{47}
+\contentsline {paragraph}{Simpson's Rule: Approximations Using Parabolas}{47}
+\contentsline {paragraph}{Error Analysis}{47}
+\contentsline {subparagraph}{Error Estimates in the Trapezoidal and Simpson's Rules}{47}
+\contentsline {subsection}{\numberline {8.8}Improper Integrals}{47}
+\contentsline {paragraph}{Infinite Limits of Integration}{47}
+\contentsline {paragraph}{The Integral $\DOTSI \intop \ilimits@ _1^\infty \cfrac {dx}{x^p}$}{48}
+\contentsline {subparagraph}{Solution}{48}
+\contentsline {paragraph}{Integrands with Vertical Asymptotes}{48}
+\contentsline {subparagraph}{Imporoper Integrals of Type II}{48}
+\contentsline {paragraph}{Improper Integrals with a CAS}{49}
+\contentsline {paragraph}{Tests for convergence and Divergence}{49}
+\contentsline {subparagraph}{Direct Comparison Test}{49}
+\contentsline {subparagraph}{Limit Comparison Test}{49}
+\contentsline {subsection}{\numberline {8.9}Probability}{49}
+\contentsline {paragraph}{Random Variables}{49}
+\contentsline {paragraph}{Probability Distributions}{49}
+\contentsline {paragraph}{Exponentially Decreasing Distributions}{49}
+\contentsline {paragraph}{Expected Values, Means, and Medians}{49}
+\contentsline {subparagraph}{Exponential Density Function for a Random Variable $X$ with Mean $\mu $}{49}
+\contentsline {subparagraph}{Definition}{50}
+\contentsline {paragraph}{Variance and Standard Deviation}{50}
+\contentsline {paragraph}{Uniform Distributions}{50}
+\contentsline {paragraph}{Normal Distributions}{50}
+\contentsline {section}{\numberline {9}First-Order Differential Equations}{51}
+\contentsline {subsection}{\numberline {9.1}Solutions, Slope Fields, and Euler's Method}{51}
+\contentsline {paragraph}{Slope Fields: Viewling Solution Curves}{51}
+\contentsline {paragraph}{Euler's Method}{51}
+\contentsline {subsection}{\numberline {9.2}First-Order Linear Equations}{51}
+\contentsline {paragraph}{Solving Linear Equations}{51}
 \contentsline {subparagraph}{Example}{52}
 \contentsline {subparagraph}{Solution}{52}
-\contentsline {paragraph}{Stable and Unstable Equilibria}{52}
-\contentsline {paragraph}{Newton's Law of Cooling}{52}
-\contentsline {paragraph}{A Falling Body Encountering Resistance}{52}
-\contentsline {paragraph}{Logistic Population Growth}{53}
-\contentsline {subsection}{\numberline {9.5}Systems of Equations and Phase Planes}{53}
-\contentsline {paragraph}{Phase Planes}{53}
-\contentsline {paragraph}{A Competitive-Hunter Model}{53}
-\contentsline {paragraph}{Limitations of Phase-Plane Analysis Method}{53}
-\contentsline {paragraph}{Another Type of Behavior}{53}
-\contentsline {section}{\numberline {10}Infinite Sequences and Series}{54}
-\contentsline {subsection}{\numberline {10.1}Sequence}{54}
-\contentsline {paragraph}{Representing Sequences}{54}
-\contentsline {paragraph}{Convergence and Divergence}{54}
-\contentsline {subparagraph}{Definitions}{54}
-\contentsline {subparagraph}{Definitions}{54}
-\contentsline {paragraph}{Calculating Limits of Sequences}{54}
-\contentsline {paragraph}{The Sandwich Theorem for Sequences}{54}
-\contentsline {paragraph}{The Continuous Function Theorem for Sequences}{54}
-\contentsline {paragraph}{Using L'Hopital's Rule}{54}
-\contentsline {paragraph}{Commonly Occuring Limits}{55}
-\contentsline {paragraph}{Bounded Monotonic Sequences}{55}
-\contentsline {subparagraph}{The Monotonic Sequence Theorem}{55}
-\contentsline {subsection}{\numberline {10.2}Infinite Series}{55}
-\contentsline {paragraph}{Geometric Series}{55}
-\contentsline {paragraph}{The $n$th-Term Test for a Divergent Series}{55}
-\contentsline {subparagraph}{Theorem}{55}
-\contentsline {subparagraph}{The $n$th-Term Test for Divergence}{55}
-\contentsline {paragraph}{Combining Series}{55}
-\contentsline {subparagraph}{Theorem}{55}
-\contentsline {paragraph}{Adding or Deleting Terms}{56}
-\contentsline {paragraph}{Reindexing}{56}
-\contentsline {subsection}{\numberline {10.3}The Integral Test}{56}
-\contentsline {paragraph}{Nondecreasing Partial Sum}{56}
-\contentsline {paragraph}{The Integral Test}{56}
-\contentsline {subparagraph}{$p$-series}{56}
-\contentsline {subparagraph}{Solution}{56}
-\contentsline {paragraph}{Error Estimation}{56}
-\contentsline {subparagraph}{Bounds for the Remainder in the Integral Test}{57}
-\contentsline {subsection}{\numberline {10.4}Comparison Tests}{57}
-\contentsline {paragraph}{The Comparison Test}{57}
-\contentsline {paragraph}{The Limit Comparison Test}{57}
-\contentsline {subsection}{\numberline {10.5}Absolute Convergence; The Ratio and Root Tests}{57}
-\contentsline {paragraph}{Definition}{57}
-\contentsline {paragraph}{The Absolute Convergence Test}{57}
-\contentsline {paragraph}{The Ratio Test}{57}
-\contentsline {paragraph}{The Root Test}{57}
-\contentsline {subsection}{\numberline {10.6}Alternating Series and Conditional Convergence}{58}
-\contentsline {paragraph}{The Alternating Series Test}{58}
-\contentsline {paragraph}{The Alternating Series Estimation Theorem}{58}
-\contentsline {paragraph}{Conditional Convergence}{58}
-\contentsline {subparagraph}{Definition}{58}
-\contentsline {paragraph}{Rearranging Series}{58}
-\contentsline {subparagraph}{The Rearrangement Theorem for Absolutely Convergent Series}{58}
-\contentsline {subsection}{\numberline {10.7}Power Series}{58}
-\contentsline {paragraph}{Power Series and Convergence}{58}
-\contentsline {subparagraph}{Definitions}{58}
-\contentsline {paragraph}{The convergence Theorem for Power Series}{58}
-\contentsline {paragraph}{The Radius of Convergence of a Power Series}{59}
-\contentsline {paragraph}{How to Test a Power Series for Convergence}{59}
-\contentsline {paragraph}{Operations on Power Series}{59}
-\contentsline {subparagraph}{The Series Multiplication Theorem for Power Series}{59}
-\contentsline {subparagraph}{Theorem}{59}
-\contentsline {subparagraph}{The Term-by-Term Differentiation Theorem}{59}
-\contentsline {subparagraph}{The Term-by-Term Integration Theorem}{60}
-\contentsline {subsection}{\numberline {10.8}Taylor and Maclaurin Series}{60}
-\contentsline {paragraph}{Series Representations}{60}
-\contentsline {paragraph}{Taylor and Maclaurin Series}{60}
-\contentsline {subparagraph}{Definitions}{60}
-\contentsline {paragraph}{Taylor Polynomials}{61}
-\contentsline {subparagraph}{Definition}{61}
-\contentsline {subsection}{\numberline {10.9}Convergence of Taylor Series}{61}
-\contentsline {paragraph}{Taylor's Theorem}{61}
-\contentsline {paragraph}{Taylor's Formula}{61}
-\contentsline {subparagraph}{Examples}{61}
-\contentsline {paragraph}{Estimating the Remainder}{62}
-\contentsline {subparagraph}{The Remainder Estimation Theorem}{62}
-\contentsline {paragraph}{A Proof of Taylor's Theorem}{62}
-\contentsline {subsection}{\numberline {10.10}The Binomial Series and Applications of Taylor Series}{62}
-\contentsline {paragraph}{The Binomial Series for Power and Roots}{62}
-\contentsline {subparagraph}{The Binomial Series}{62}
-\contentsline {paragraph}{Evaluating Nonelementary Integrals}{62}
-\contentsline {subparagraph}{Example}{62}
-\contentsline {paragraph}{Arctangent}{63}
-\contentsline {paragraph}{Evaluating Indeterminate Forms}{63}
-\contentsline {paragraph}{Euler's Identity}{63}
-\contentsline {subparagraph}{Definition}{63}
-\contentsline {paragraph}{Frequently used Taylor series}{63}
-\contentsline {section}{\numberline {11}Parametric Equations and Polar Coordinates}{64}
-\contentsline {subsection}{\numberline {11.1}Parametrizations of Plane Curves}{64}
+\contentsline {paragraph}{$\bf {RL}$ Circuits}{52}
+\contentsline {subsection}{\numberline {9.3}Applications}{52}
+\contentsline {paragraph}{Motion with Resistance Proportional to Velocity}{52}
+\contentsline {paragraph}{Inaccuracy of the Exponential Population Growth Model}{53}
+\contentsline {paragraph}{Orthogonal Trajectories}{53}
+\contentsline {subsection}{\numberline {9.4}Graphical Solutions of Autonomous Equations}{53}
+\contentsline {paragraph}{Equilibrium Values and Phase Lines}{53}
+\contentsline {subparagraph}{Example}{53}
+\contentsline {subparagraph}{Solution}{53}
+\contentsline {paragraph}{Stable and Unstable Equilibria}{53}
+\contentsline {paragraph}{Newton's Law of Cooling}{53}
+\contentsline {paragraph}{A Falling Body Encountering Resistance}{53}
+\contentsline {paragraph}{Logistic Population Growth}{54}
+\contentsline {subsection}{\numberline {9.5}Systems of Equations and Phase Planes}{54}
+\contentsline {paragraph}{Phase Planes}{54}
+\contentsline {paragraph}{A Competitive-Hunter Model}{54}
+\contentsline {paragraph}{Limitations of Phase-Plane Analysis Method}{54}
+\contentsline {paragraph}{Another Type of Behavior}{54}
+\contentsline {section}{\numberline {10}Infinite Sequences and Series}{55}
+\contentsline {subsection}{\numberline {10.1}Sequence}{55}
+\contentsline {paragraph}{Representing Sequences}{55}
+\contentsline {paragraph}{Convergence and Divergence}{55}
+\contentsline {subparagraph}{Definitions}{55}
+\contentsline {subparagraph}{Definitions}{55}
+\contentsline {paragraph}{Calculating Limits of Sequences}{55}
+\contentsline {paragraph}{The Sandwich Theorem for Sequences}{55}
+\contentsline {paragraph}{The Continuous Function Theorem for Sequences}{55}
+\contentsline {paragraph}{Using L'Hopital's Rule}{55}
+\contentsline {paragraph}{Commonly Occuring Limits}{56}
+\contentsline {paragraph}{Bounded Monotonic Sequences}{56}
+\contentsline {subparagraph}{The Monotonic Sequence Theorem}{56}
+\contentsline {subsection}{\numberline {10.2}Infinite Series}{56}
+\contentsline {paragraph}{Geometric Series}{56}
+\contentsline {paragraph}{The $n$th-Term Test for a Divergent Series}{56}
+\contentsline {subparagraph}{Theorem}{56}
+\contentsline {subparagraph}{The $n$th-Term Test for Divergence}{56}
+\contentsline {paragraph}{Combining Series}{56}
+\contentsline {subparagraph}{Theorem}{56}
+\contentsline {paragraph}{Adding or Deleting Terms}{57}
+\contentsline {paragraph}{Reindexing}{57}
+\contentsline {subsection}{\numberline {10.3}The Integral Test}{57}
+\contentsline {paragraph}{Nondecreasing Partial Sum}{57}
+\contentsline {paragraph}{The Integral Test}{57}
+\contentsline {subparagraph}{$p$-series}{57}
+\contentsline {subparagraph}{Solution}{57}
+\contentsline {paragraph}{Error Estimation}{57}
+\contentsline {subparagraph}{Bounds for the Remainder in the Integral Test}{58}
+\contentsline {subsection}{\numberline {10.4}Comparison Tests}{58}
+\contentsline {paragraph}{The Comparison Test}{58}
+\contentsline {paragraph}{The Limit Comparison Test}{58}
+\contentsline {subsection}{\numberline {10.5}Absolute Convergence; The Ratio and Root Tests}{58}
+\contentsline {paragraph}{Definition}{58}
+\contentsline {paragraph}{The Absolute Convergence Test}{58}
+\contentsline {paragraph}{The Ratio Test}{58}
+\contentsline {paragraph}{The Root Test}{58}
+\contentsline {subsection}{\numberline {10.6}Alternating Series and Conditional Convergence}{59}
+\contentsline {paragraph}{The Alternating Series Test}{59}
+\contentsline {paragraph}{The Alternating Series Estimation Theorem}{59}
+\contentsline {paragraph}{Conditional Convergence}{59}
+\contentsline {subparagraph}{Definition}{59}
+\contentsline {paragraph}{Rearranging Series}{59}
+\contentsline {subparagraph}{The Rearrangement Theorem for Absolutely Convergent Series}{59}
+\contentsline {subsection}{\numberline {10.7}Power Series}{59}
+\contentsline {paragraph}{Power Series and Convergence}{59}
+\contentsline {subparagraph}{Definitions}{59}
+\contentsline {paragraph}{The convergence Theorem for Power Series}{59}
+\contentsline {paragraph}{The Radius of Convergence of a Power Series}{60}
+\contentsline {paragraph}{How to Test a Power Series for Convergence}{60}
+\contentsline {paragraph}{Operations on Power Series}{60}
+\contentsline {subparagraph}{The Series Multiplication Theorem for Power Series}{60}
+\contentsline {subparagraph}{Theorem}{60}
+\contentsline {subparagraph}{The Term-by-Term Differentiation Theorem}{60}
+\contentsline {subparagraph}{The Term-by-Term Integration Theorem}{61}
+\contentsline {subsection}{\numberline {10.8}Taylor and Maclaurin Series}{61}
+\contentsline {paragraph}{Series Representations}{61}
+\contentsline {paragraph}{Taylor and Maclaurin Series}{61}
+\contentsline {subparagraph}{Definitions}{61}
+\contentsline {paragraph}{Taylor Polynomials}{62}
+\contentsline {subparagraph}{Definition}{62}
+\contentsline {subsection}{\numberline {10.9}Convergence of Taylor Series}{62}
+\contentsline {paragraph}{Taylor's Theorem}{62}
+\contentsline {paragraph}{Taylor's Formula}{62}
+\contentsline {subparagraph}{Examples}{62}
+\contentsline {paragraph}{Estimating the Remainder}{63}
+\contentsline {subparagraph}{The Remainder Estimation Theorem}{63}
+\contentsline {paragraph}{A Proof of Taylor's Theorem}{63}
+\contentsline {subsection}{\numberline {10.10}The Binomial Series and Applications of Taylor Series}{63}
+\contentsline {paragraph}{The Binomial Series for Power and Roots}{63}
+\contentsline {subparagraph}{The Binomial Series}{63}
+\contentsline {paragraph}{Evaluating Nonelementary Integrals}{63}
+\contentsline {subparagraph}{Example}{63}
+\contentsline {paragraph}{Arctangent}{64}
+\contentsline {paragraph}{Evaluating Indeterminate Forms}{64}
+\contentsline {paragraph}{Euler's Identity}{64}
+\contentsline {subparagraph}{Definition}{64}
+\contentsline {paragraph}{Frequently used Taylor series}{64}
+\contentsline {section}{\numberline {11}Parametric Equations and Polar Coordinates}{65}
+\contentsline {subsection}{\numberline {11.1}Parametrizations of Plane Curves}{65}
+\contentsline {paragraph}{Parametric Equations}{65}
+\contentsline {subparagraph}{Definition}{65}
+\contentsline {paragraph}{Cycloids}{65}
+\contentsline {paragraph}{Brachistochrones and Tautochrones}{65}
+\contentsline {subsection}{\numberline {11.2}Calculus with Parametric Curves}{65}
+\contentsline {paragraph}{Tangents and Areas}{65}
+\contentsline {paragraph}{Length of a Parametrically Defined Curve}{65}
+\contentsline {subparagraph}{Example}{66}
+\contentsline {paragraph}{Length of a Curve $y=f(x)$}{66}
+\contentsline {paragraph}{The Arc Length Differential}{66}
+\contentsline {paragraph}{Areas of Surfaces of Revolution}{66}
+\contentsline {subparagraph}{Area of Surface of Revolution for Parametrized Curves}{66}
+\contentsline {subsection}{\numberline {11.3}Polar Coordinates}{66}
+\contentsline {paragraph}{Definition of Polar Coordinates}{66}
+\contentsline {paragraph}{Polar Equations and Graphs}{67}
+\contentsline {subsection}{\numberline {11.4}Graphing Polar Coordinate Equations}{67}
+\contentsline {paragraph}{Symmetry}{67}
+\contentsline {subparagraph}{Symmetry Test for Polar Graphs in the Cartesian $xy$-Plane}{67}
+\contentsline {paragraph}{Slope}{67}
+\contentsline {subparagraph}{Slope of the Curve $r=f(\theta )$ in the Cartesian $xy$-Plane}{67}
+\contentsline {paragraph}{Converting a Graph from the $r\theta -$ to $xy-$Plane}{67}
+\contentsline {subsection}{\numberline {11.5}Areas and Lengths in Polar Coordinates}{67}
+\contentsline {paragraph}{Area in the Plane}{67}
+\contentsline {subparagraph}{Area of the Region $0\le r_1(\theta )\le r\le r_2(\theta ),\alpha \le \theta \le \beta $}{67}
+\contentsline {paragraph}{Length of a Polar Curve}{68}
+\contentsline {subsection}{\numberline {11.6}Conic Sections}{68}
+\contentsline {paragraph}{Parabolas}{68}
+\contentsline {subparagraph}{Definition}{68}
+\contentsline {paragraph}{Ellipses}{68}
+\contentsline {subparagraph}{Definition}{68}
+\contentsline {paragraph}{Hyperbolas}{68}
+\contentsline {subparagraph}{Definitions}{68}
+\contentsline {subsection}{\numberline {11.7}Conics in Polar Coordinates}{69}
+\contentsline {paragraph}{Eccentricity}{69}
+\contentsline {paragraph}{Polar Equations}{69}
+\contentsline {subparagraph}{Polar Equation for a Conic with Eccentricity $e$}{69}
+\contentsline {subparagraph}{Polar Equation for the Ellipse with Eccentricity $e$ and Semimajor Axis $a$}{69}
+\contentsline {subparagraph}{The Standard Polar Equation for Lines}{69}
+\contentsline {subparagraph}{Circle}{69}
+\contentsline {section}{\numberline {12}Vectors and the Geometry of Space}{70}
+\contentsline {subsection}{\numberline {12.1}Three-Dimensional Coordinate System}{70}
+\contentsline {paragraph}{Distance and Spheres in Space}{70}
+\contentsline {subparagraph}{The Distance Between $P_1(x_1,y_1,z_1)$ and $P_2(x_2,y_2,z_2)$}{70}
+\contentsline {subparagraph}{The Standard Equation for the Sphere of Radius $a$ and Center $(x_0,y_0,z_0$}{70}
+\contentsline {subsection}{\numberline {12.2}Vectors}{70}
+\contentsline {paragraph}{Component Form}{70}
+\contentsline {paragraph}{Vector Algebro Operations}{70}
+\contentsline {paragraph}{Unit Vector}{70}
+\contentsline {paragraph}{Midpoint of a Line Segment}{70}
+\contentsline {paragraph}{Applications}{70}
+\contentsline {subsection}{\numberline {12.3}The Dot Product}{70}
+\contentsline {paragraph}{Angle Between Vectors}{70}
+\contentsline {paragraph}{Orthogonal Vector}{71}
+\contentsline {paragraph}{Dot Product Properties and Vector Projections}{71}
+\contentsline {paragraph}{Work}{71}
+\contentsline {subsection}{\numberline {12.4}The Cross Product}{71}
+\contentsline {paragraph}{The Cross Product of Two Vectors in Space}{71}
+\contentsline {subparagraph}{Parallel Vectors}{71}
+\contentsline {subparagraph}{Properties of the Cross Product}{71}
+\contentsline {paragraph}{$|u\times v|$ is the Area of a Parallelogram}{71}
+\contentsline {paragraph}{Dertiminant Formula for $u\times v$}{71}
+\contentsline {paragraph}{Torque}{71}
+\contentsline {paragraph}{Triple Scalar or Box Product}{72}
+\contentsline {subparagraph}{Calculating the Triple Scalar Product as a Determinant}{72}
+\contentsline {subsection}{\numberline {12.5}Lines and Planes in Space}{72}
+\contentsline {paragraph}{Lines and Line Segments in Space}{72}
+\contentsline {subparagraph}{Vector Equation for a Line}{72}
+\contentsline {subparagraph}{Parametric Equations for a Line}{72}
+\contentsline {paragraph}{The Distance from a Point to a Line in Space}{72}
+\contentsline {paragraph}{An Equation for a Plane in Space}{72}
+\contentsline {paragraph}{Lines of Intesection}{72}
+\contentsline {paragraph}{The Distance from a Point to a Plane}{72}
+\contentsline {paragraph}{Angles Between Planes}{72}
+\contentsline {subsection}{\numberline {12.6}Cylinders and Quadric Surfaces}{72}
+\contentsline {paragraph}{Cylinders}{72}
+\contentsline {paragraph}{Quadric Surface}{73}
+\contentsline {subparagraph}{Ellipsoid}{73}
+\contentsline {subparagraph}{Elliptical Paraboloid}{73}
+\contentsline {subparagraph}{Elliptical Cone}{73}
+\contentsline {subparagraph}{Hyperboloid of One Sheet}{73}
+\contentsline {subparagraph}{Hyperboloid of Two Sheets}{73}
+\contentsline {subparagraph}{Hyperbolic Paraboloid}{73}
+\contentsline {section}{\numberline {13}Vector-Valued Functions and Motion in Space}{74}
+\contentsline {subsection}{\numberline {13.1}Curves in Space and Their Tangents}{74}
+\contentsline {paragraph}{Limits and Continuity}{74}
+\contentsline {subparagraph}{Definition}{74}
+\contentsline {subparagraph}{Definition}{74}
+\contentsline {paragraph}{Derivatives and Motion}{74}
+\contentsline {paragraph}{Differentiation Rules}{74}
+\contentsline {paragraph}{Vector Functions of Constant Length}{74}
+\contentsline {subsection}{\numberline {13.2}Integrals of Vector Function; Projectile Motion}{75}
+\contentsline {paragraph}{Integrals of Vector Functions}{75}
+\contentsline {paragraph}{The Vector and Parametric Equations for Ideal Projectile Motion}{75}
+\contentsline {paragraph}{Projectile Motion with Wind Gusts}{75}
+\contentsline {subsection}{\numberline {13.3}Arc Length in Space}{75}
+\contentsline {paragraph}{Arc Length Along a Space Curve}{75}
+\contentsline {subparagraph}{Arc Length Formula}{75}
+\contentsline {subparagraph}{Arc Length Parameter with Base Point $P(t_0)$}{75}

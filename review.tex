@@ -1794,4 +1794,293 @@
     \newpage
     \section{Parametric Equations and Polar Coordinates}
         \subsection{Parametrizations of Plane Curves}
+            \paragraph{Parametric Equations}
+                \subparagraph{Definition} If $x$ and $y$ are given as functions
+                \[x=f(t),\quad y=g(t)\]
+                over an interval $I$ of $t$-values, then the set of points $(x,y)=(f(t),g(t))$ defined by these equations is a \textbf{parametric curve}. The equations are \textbf{parametric equations} for the curve.
+                \par $t$: parameter
+                \par $I$: parameter interval
+            \paragraph{Cycloids}
+                \[x=a(t-\sin t),\quad y=a(1-\cos t)\]
+            \paragraph{Brachistochrones and Tautochrones}
+                \[mgy=\cfrac{1}{2}mv^2-\cfrac{1}{2}m(0)^2\]
+                \[v=\sqrt{2gy}\]
+                \[\cfrac{ds}{dT}=\sqrt{2gy}\]
+                \[dT=\cfrac{ds}{\sqrt{2gy}}=\cfrac{\sqrt{1+(dy/dx)^2}dx}{\sqrt{2gy}}\]
+                \[T_f=\int_{x=0}^{x=a\pi}\sqrt{\cfrac{1+(dy/dx)^2}{2gy}}dx\]
+        \subsection{Calculus with Parametric Curves}
+            \paragraph{Tangents and Areas}
+                \[\cfrac{dy}{dt}=\cfrac{dy}{dx}\cdot\cfrac{dx}{dt}\]
+                \[\cfrac{dy}{dx}=\cfrac{dy/dt}{dx/dt}\]
+                \[\cfrac{d^2y}{dx^2}=\cfrac{dy'/dt}{dx/dt}\]
+            \paragraph{Length of a Parametrically Defined Curve}
+                \[L=\int_a^b\sqrt{[f'(t)]^2+[g'(t)]^2}dt\]
+                \[L=\int_a^b\sqrt{\bigg(\cfrac{dx}{dt}\bigg)^2+\bigg(\cfrac{dy}{dt}\bigg)^2}dt\]
+                \subparagraph{Example} Find the perimeter of the ellipse $\cfrac{x^2}{a^2}+\cfrac{y^2}{b^2}=1$
+                \begin{equation}
+                    \begin{aligned}
+                        (\cfrac{dx}{dt})^2+(\cfrac{dy}{dt})^2&=a^2\cos^2 t+b^2\sin^2t\\
+                        &=a^2-(a^2-b^2)\sin^2t\\
+                        &=a^2[1-e^2\sin^2t]\\
+                        P&=4a\int_0^{\pi/2}\sqrt{1-e^2\sin^2t}dt\\
+                        \sqrt{1-e^2\sin^2t}&=1-\cfrac{1}{2}e^2\sin^2t-\cfrac{1}{2\cdot 4}e^4\sin^4t-\cdots\\
+                        P&=4a\int_0^{\pi/2}\sqrt{1-e^2\sin^2t}dt\\
+                        &=4a[\cfrac{\pi}{2}-(\cfrac{1}{2}e^2)(\cfrac{1}{2}\cdot\cfrac{\pi}{2})-(\cfrac{1}{2\cdot 4}e^4)(\cfrac{1\cdot 3}{2\cdot 4}\cdot\cfrac{\pi}{2})-\cdots]\\
+                        &=2\pi a[1-(\cfrac{1}{2})^2e^2-(\cfrac{1\cdot 3}{2\cdot 4})^2\cfrac{e^4}{3}-(\cfrac{1\cdot 3\cdot 5}{2\cdot 4\cdot 6})^2\cfrac{e^6}{5}-\cdots]
+                    \end{aligned}
+                \end{equation}
+            \paragraph{Length of a Curve $y=f(x)$}
+                \[(\cfrac{dx}{dt})^2+(\cfrac{dy}{dt})^2=1+[f'(t)]^2\]
+            \paragraph{The Arc Length Differential}
+                \[s(t)=\int_a^t\sqrt{[f'(z)]^2+[g'(z)]^2}dz\]
+                \[\cfrac{ds}{dt}=\sqrt{[f'(t)]^2+[g'(t)]^2}=\sqrt{(\cfrac{dx}{dt})^2+(\cfrac{dy}{dt})^2}\]
+                \[ds=\sqrt{dx^2+dy^2}\]
+            \paragraph{Areas of Surfaces of Revolution}
+                \subparagraph{Area of Surface of Revolution for Parametrized Curves}
+                \text{}\\
+                \par \textbf{1. Revolution about the x-axis}
+                \[S=\int_a^b 2\pi y\sqrt{(\cfrac{dx}{dt})^2+(\cfrac{dy}{dt})^2}dt\]
+                \par \textbf{2. Revolution about the y-axis}
+                \[S=\int_a^b 2\pi x\sqrt{(\cfrac{dx}{dt})^2+(\cfrac{dy}{dt})^2}dt\]
+        \subsection{Polar Coordinates}
+            \paragraph{Definition of Polar Coordinates}
+                \[P(r,\theta)\]
+            \paragraph{Polar Equations and Graphs}
+                \[x=r\cos \theta,\quad y=r\sin\theta,\quad r^2=x^2+y^2,\quad \tan\theta=\cfrac{y}{x}\]
+        \subsection{Graphing Polar Coordinate Equations}
+            \paragraph{Symmetry}
+                \subparagraph{Symmetry Test for Polar Graphs in the Cartesian $xy$-Plane}
+                \text{}\\
+                \par 1. Symmetry about the x-axis
+                \par 2. Symmetry about the y-axis
+                \par 3. Symmetry about the the origin 
+            \paragraph{Slope}
+                \subparagraph{Slope of the Curve $r=f(\theta)$ in the Cartesian $xy$-Plane}
+                \[\cfrac{dy}{dx}\bigg|_{(r,\theta)}=\cfrac{f'(\theta)\sin \theta+f(\theta)\cos \theta}{f'(\theta)\sin \theta-f(\theta)\cos \theta}\]
+                provided $dx/d\theta\ne 0$ at $(r,\theta)$.
+            \paragraph{Converting a Graph from the $r\theta-$ to $xy-$Plane}
+                \par 1. first graph the function $r=f(\theta)$ in the Cartesian $r\theta$-plane
+                \par 2. then use that Cartesian graph as a "table" and guide to sketch the polar coordinate graph in the $xy$-plane.
+                \[x=r\cos\theta=f(\theta)\cos\theta\]
+                \[y=r\sin\theta=f(\theta)\sin\theta\]
+        \subsection{Areas and Lengths in Polar Coordinates}
+            \paragraph{Area in the Plane}
+                \[A_k=\cfrac{1}{2}r_k ^2\Delta \theta_k=\cfrac{1}{2}(f(\theta_k))^2\Delta\theta_k\]
+                \[\sum_{k=1}^{n}A_k=\sum_{k=1}^n\cfrac{1}{2}(f(\theta_k))^2\Delta\theta_k\]
+                \[A=\lim\limits_{||p||\to 0}\sum_{k=1}^n\cfrac{1}{2}(f(\theta_k))^2\Delta\theta_k\]
+                \[=\int_\alpha^\beta \cfrac{1}{2}(f(\theta))^2d\theta\]
+                \[dA=\cfrac{1}{2}r^2d\theta=\cfrac{1}{2}(f(\theta))^2d\theta\]
+                \subparagraph{Area of the Region $0\le r_1(\theta)\le r\le r_2(\theta),\alpha\le\theta\le\beta$}
+                \[A=\int_\alpha^\beta \cfrac{1}{2}r_2^2d\theta-\int_\alpha^\beta \cfrac{1}{2}r_1^2d\theta=\int_\alpha^\beta \cfrac{1}{2}(r_2^2-r_1^2)d\theta\]
+            \paragraph{Length of a Polar Curve}
+                \[L=\int_\alpha^\beta\sqrt{(\cfrac{dx}{d\theta})^2+(\cfrac{dy}{d\theta})^2}d\theta\]
+                \[L=\int_\alpha^\beta\sqrt{r^2+(\cfrac{dr}{d\theta})^2}d\theta\]
+        \subsection{Conic Sections}
+            \paragraph{Parabolas}
+                \subparagraph{Definition} A set that consists of all the points in a plane equidistant from a give fixed point and a given fixed line in the plane is a \textbf{parabola}. The fixed point is the \textbf{focus} of the parabola. The fixed line is the \textbf{directrix}.
+            \[y=\cfrac{x^2}{4p}\quad\text{or}\quad x^2=4py\]
+            \[y=-\cfrac{x^2}{4p}\quad\text{or}\quad x^2=-4py\]
+            \paragraph{Ellipses}
+                \subparagraph{Definition} An \textbf{ellipse} is the set of points in a plane whose distance from two fixed points in the plane have a constant sum. The two fixed points are the \textbf{foci} of the ellipse.
+                \par The line through the foci of an ellipse is the ellipse's \textbf{focal axis}. The point on the axis halfway between the foci is the \textbf{center}. The points where the focal axis and ellipse cross are the ellipse's \textbf{vertices}.
+                \[\cfrac{x^2}{a^2}+\cfrac{y^2}{b^2}=1\]
+                \[\cfrac{dy}{dx}=-\cfrac{b^2x}{a^2y}\]
+                \[c=\sqrt{a^2-b^2}\]
+            \paragraph{Hyperbolas}
+                \subparagraph{Definitions} A \textbf{hyperbola} is the set of points in a plane whose distances from two fixed points in the plane have a constant difference. The two fixed points are the \textbf{foci} of the hyperbola.
+                \par The line through the foci of a hyperbola is the \textbf{focal axis}. The point on the axis halfway between the foci is the hyperbola's \textbf{center}. The points where hte focal axis and hyperbola cross are the \textbf{vertices.}
+                \[\cfrac{x^2}{a^2}-\cfrac{y^2}{a^2}=1\]
+                \[c^2=a^2+b^2\]
+                \[\cfrac{dy}{dx}=\cfrac{b^2x}{a^2y}\]
+                \[\textbf{asymptotes:}\quad y=\pm\cfrac{b}{a}x\]
+        \subsection{Conics in Polar Coordinates}
+            \paragraph{Eccentricity}
+                \[(x^2/a^2)+(y^2/b^2)=1\quad(a>b)\]
+                \[e=\frac{c}{a}=\cfrac{\sqrt{a^2-b^2}}{a}\]
+                \newline
+                \[(x^2/a^2)-(y^2/b^2)=1\quad(a>b)\]
+                \[e=\frac{c}{a}=\cfrac{\sqrt{a^2+b^2}}{a}\]
+                \par The \textbf{eccentricity} of a parabola is $e=1$.
+                \[\text{Eccentricity}=\cfrac{\text{distance between foci}}{\text{distance between vertices}}\]
+                \[PF=e\cdot PD\]
+                \par The path traced by $P$ is
+                \par (a) a parabola if $e=1$.
+                \par (b) an ellipse of eccentricity $e$ if $e<1$.
+                \par (c) a hyperbola of eccentricity $e$ if $e>1$.
+            \paragraph{Polar Equations}
+                \[PF=r\]
+                \[r=e(k-r\cos\theta)\]
+                \subparagraph{Polar Equation for a Conic with Eccentricity $e$}
+                    \[r=\cfrac{ke}{1+e\cos\theta}\]
+                    where $x=k>0$ is the vertical directrix. 
+                \subparagraph{Polar Equation for the Ellipse with Eccentricity $e$ and Semimajor Axis $a$}
+                    \[r=\cfrac{a(1-e^2)}{1+e\cos\theta}\]
+                \subparagraph{The Standard Polar Equation for Lines}
+                    \[r\cos(\theta-\theta_0)=r_0\]
+                \subparagraph{Circle}
+                    \[a^2=r_0^2+r^2-2r_0r\cos(\theta-\theta_0)\]
+                    \[P_0(r_0,\theta_0)\]
+        
+    \newpage
+    \section{Vectors and the Geometry of Space}
+        \subsection{Three-Dimensional Coordinate System}
+            \paragraph{Distance and Spheres in Space}
+                \subparagraph{The Distance Between $P_1(x_1,y_1,z_1)$ and $P_2(x_2,y_2,z_2)$}
+                \[|P_1P_2|=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}\]
+                \subparagraph{The Standard Equation for the Sphere of Radius $a$ and Center $(x_0,y_0,z_0$}
+                \[(x-x_0)^2+(y-y_0)^2+(z-z_0)^2=a^2\]
+        \subsection{Vectors}
+            \paragraph{Component Form}
+                \[\overrightarrow{AB}\]
+                \[\textbf{Two-dimensional vector:}\quad v=\langle v_1,v_2\rangle\]
+                \[\textbf{Three-dimensional vector:}\quad v=\langle v_1,v_2,v_3\rangle\]
+                \[\textbf{magnitude\\length:}\quad|v|=\sqrt{v_1^2+v_2^2+v_3^2}\]
+                \[\textbf{zero vector 0}=\langle 0,0\rangle\quad\text{or}\quad =\langle 0,0,0\rangle\]
+            \paragraph{Vector Algebro Operations}
+                \[u=\langle u_1,u_2,u_3\rangle\quad v=\langle v_1,v_2,v_3\rangle\]
+                \[u+v=\langle u_1+v_1,u_2+v_2,u_3+v_3\rangle\]
+                \[ku=\langle ku_1,ku_2,ku_3\rangle\]
+            \paragraph{Unit Vector}
+                \[i=\langle 1,0,0\rangle\quad j=\langle 0,1,0\rangle\quad k=\langle 0,0,1\rangle\]
+                \[v=\langle v_1,v_2,v_3\rangle=v_1i+v_2j+v_3k\]
+                \[\textbf{Unit vector }\quad u=\cfrac{\overrightarrow{v}}{|\overrightarrow{v}|}\]
+            \paragraph{Midpoint of a Line Segment}
+                \[(\cfrac{x_1+x_2}{2}+\cfrac{y_1+y_2}{2}+\cfrac{z_1+z_2}{2})\]
+            \paragraph{Applications}
+        
+        \subsection{The Dot Product}
+            \paragraph{Angle Between Vectors}
+                \[\theta=\cos^{-1}(\cfrac{u_1v_1+u_2v_2+u_3v_3}{|u||v|})\]
+                \[u\cdot v=u_1v_1+u_2v_2+u_3v_3\]
+                \[\theta=\cos^{-1}(\cfrac{u\cdot v}{|u||v|})\]
+            \paragraph{Orthogonal Vector}
+                Vector \textbf{u} and \textbf{v} are orthogonal if $u\cdot v=0$.
+            \paragraph{Dot Product Properties and Vector Projections}
+                \[u\cdot v=v\cdot u\]
+                \[(cu)\cdot v=u\cdot(cv=c(u\cdot v))\]
+                \[u\cdot(v+w)=u\cdot v+u\cdot w\]
+                \[u\cdot u=|u|^2\]
+                \[0\cdot u=0\]
+                \[\text{proj}_v u=(\cfrac{u\cdot v}{|v|^2})v\]
+                \[|u|\cos\theta =\cfrac{u\cdot v}{|v|}=u\cdot\cfrac{v}{|v|}\]
+            \paragraph{Work}
+                \[W=F\cdot D\]
+        \subsection{The Cross Product}
+            \paragraph{The Cross Product of Two Vectors in Space}
+                \[u\times v=(|u||v|\sin\theta)n\]
+                \subparagraph{Parallel Vectors}
+                    Nonzero vectors \textbf{u} and \textbf{v} are parallel if and only if $u\times v=0$
+                \subparagraph{Properties of the Cross Product}
+                    \[(ru)\times(sv)=(rs)(u\times v)\]
+                    \[u\times(v+w)=u\times v+u\times w\]
+                    \[v\times u=-(u\times v)\]
+                    \[(v+w)\times u=v\times u+w\times u\]
+                    \[0\times u=0\]
+                    \[u\times (v\times w)=(u\cdot w)v-(u\cdot v)w\]
+            \paragraph{$|u\times v|$ is the Area of a Parallelogram}
+                \[|u\times v|=|u||v||\sin\theta||n|=|u||v|\sin\theta\]
+            \paragraph{Dertiminant Formula for $u\times v$}
+                \[u=\langle u_1,u_2,u_3\rangle\qquad v=\langle v_1,v_2,v_3\rangle\]
+                \[u\times v=(u_2v_3-u_3v_2)i-(u_1v_3-u_3v_1)j+(u_1v_2-u_2v_1)k=
+                \begin{vmatrix}
+                    i&j&k\\
+                    u_1&u_2&u_3\\
+                    v_1&v_2&v_3\\
+                \end{vmatrix}\]
+            \paragraph{Torque}
+                \[\text{Torque vector}=(|r||F|\sin \theta)n\]
+            \paragraph{Triple Scalar or Box Product}
+                The product $(u\times v)\cdot w$ is called the \textbf{triple scalar product} of $u,v,w$
+                \[|(u\times v)\cdot w|=|u\times v||w||\cos\theta\]
+                \subparagraph{Calculating the Triple Scalar Product as a Determinant}
+                    \[(u\times v)\cdot w=
+                    \begin{vmatrix}
+                        u_1&u_2&u_3\\
+                        v_1&v_2&v_3\\
+                        w_1&w_2&w_3\\
+                    \end{vmatrix}\]
+        \subsection{Lines and Planes in Space}
+            \paragraph{Lines and Line Segments in Space}
+                \subparagraph{Vector Equation for a Line}
+                \[\textbf{r}(t)=\textbf{r}_0+t\textbf{v},\quad -\infty<t<\infty\]
+                where \textbf{r} is the position vector of a point $P(x,y,z)$ on $L$ and $r_0$ is the position vector of $P_0(x_0,y_0,z_0)$.
+                \subparagraph{Parametric Equations for a Line}
+                The standard parametrization of the line through $P_0(x_0,y_0,z_0)$ parallel to $v=v_1 i+v_2j+v_3k$
+                    \[x=x_0+tv_1,\qquad y=y_0+tv_2,\qquad z=z_0+tv_3,\qquad -\infty<t<\infty\]
+            \paragraph{The Distance from a Point to a Line in Space}
+                \[d=\cfrac{|\overrightarrow{PS}\times v|}{|v|}\]
+            \paragraph{An Equation for a Plane in Space}
+                The plane through $P_0(x_0,y_0,z_0)$ normal to $n=Ai+Bj+Ck$ has
+                \[n\cdot \overrightarrow{P_0P}=0\]
+                \[A(x-x_0)+B(y-y_0)+C(z-z_0)=0\]
+                \[Ax+By+Cz=D,\quad D=Ax_0+By_0+Cz_0\]
+            \paragraph{Lines of Intesection}
+                Two planes are \textbf{parallel} if and only if their normals are parallel, or $n_1=kn_2$ for some scalar $k$.
+            \paragraph{The Distance from a Point to a Plane}
+                \[d=\bigg|\overrightarrow{PS}\cdot\cfrac{n}{|n|}\bigg|\]
+            \paragraph{Angles Between Planes}
+                \[\theta =\cos^{-1}(\cfrac{n_1\cdot n_2}{|n_1||n_2|})\]
+        \subsection{Cylinders and Quadric Surfaces}
+            \paragraph{Cylinders}
+            \paragraph{Quadric Surface}
+                \[Ax^2+By^2+Cz^2+Dz=E\]
+                \subparagraph{Ellipsoid}
+                    \[\cfrac{x^2}{a^2}+\cfrac{y^2}{b^2}+\cfrac{z^2}{c^2}=1\]
+                \subparagraph{Elliptical Paraboloid}
+                    \[\cfrac{x^2}{a^2}+\cfrac{y^2}{b^2}=\cfrac{z}{c}\]
+                \subparagraph{Elliptical Cone}
+                    \[\cfrac{x^2}{a^2}+\cfrac{y^2}{b^2}=\cfrac{z^2}{c^2}\]
+                \subparagraph{Hyperboloid of One Sheet}
+                    \[\cfrac{x^2}{a^2}+\cfrac{y^2}{b^2}-\cfrac{z^2}{c^2}=1\]
+                \subparagraph{Hyperboloid of Two Sheets}
+                    \[\cfrac{z^2}{c^2}-\cfrac{x^2}{a^2}-\cfrac{y^2}{b^2}=1\]
+                \subparagraph{Hyperbolic Paraboloid}
+                    \[\cfrac{y^2}{b^2}-\cfrac{x^2}{a^2}=\cfrac{z}{c},\quad c>0\]
+    
+    \newpage
+    \section{Vector-Valued Functions and Motion in Space}
+        \subsection{Curves in Space and Their Tangents}
+            \[r(t)=f(t)i+g(t)j+h(t)k\]
+            \paragraph{Limits and Continuity}
+                \subparagraph{Definition}
+                    Let $r(t)=f(t)i+g(t)j+h(t)k$ be a vector function with domain $D$, and $L$ a vector. We say that $r$ has \textbf{limit L} as $t$ approaches $t_0$ and write
+                    \[\lim\limits_{t\to t_0}r(t)=L\]
+                    if, for every number $\epsilon>0$, there exists a corresponding number $\delta>0$ such that for all $t\in D$
+                    \[|r(t)-L|<\epsilon\quad \text{whenever}\quad 0<|t-t_0|<\delta\]
+                    \[\lim\limits_{t\to t_0}r(t)=(\lim\limits_{t\to t_0}f(t))i+(\lim\limits_{t\to t_0}g(t))j+(\lim\limits_{t\to t_0}h(t))k\]
+                \subparagraph{Definition} A vector function $r(t)$ is continuous at a point $t=t_0$ in its domain if $\lim\limits_{t\to t_0} r(t)=r(t_0)$. The function is continuous if it is continuous over its interval domain.
+            \paragraph{Derivatives and Motion}
+                \[r'(t)=\cfrac{dr}{dt}=\lim\limits_{\Delta t\to 0}\cfrac{r(t+\Delta t)-r(t)}{\Delta t}=\cfrac{df}{dt}i+\cfrac{dg}{dt}j+\cfrac{dh}{dt}k\]
+            \paragraph{Differentiation Rules}
+                \text{}\\
+                \[\cfrac{d}{dt}C=0\]
+                \[\cfrac{d}{dt}[cu(t)]=cu'(t)\]
+                \[\cfrac{d}{dt}[f(t)u(t)]=f'(t)u(t)+f(t)u'(t)\]
+                \[\cfrac{d}{dt}[u(t)+v(t)]=u'(t)+v'(t)\]
+                \[\cfrac{d}{dt}[u(t)-v(t)]=u'(t)-v'(t)\]
+                \[\cfrac{d}{dt}[u(t)\cdot v(t)]=u'(t)\cdot v(t)+u(t)\cdot v'(t)\]
+                \[\cfrac{d}{dt}[u(t)\times v(t)]=u'(t)\times v(t)+u(t)\times v'(t)\]
+                \[\cfrac{d}{dt}[u(f(t))]=f'(t)u'(f(t))\]
+            \paragraph{Vector Functions of Constant Length}
+                If $r$ is a differentiable vector function of a $t$ of a constant length, then
+                \[r\cdot\cfrac{dr}{dt}=0\]
+        \subsection{Integrals of Vector Function; Projectile Motion}
+            \paragraph{Integrals of Vector Functions}
+                \[\int r(t)dt=R(t)+C\]
+                \[\int_a^br(t)dt=(\int_a^bf(t)dt)i+(\int_a^bg(t)dt)j+(\int_a^bh(t)dt)k\]
+                \[\int_a^br(t)=R(t)\Bigg]_a^b=R(b)-R(a)\]
+            \paragraph{The Vector and Parametric Equations for Ideal Projectile Motion}
+                \[r=(v_0\cos\alpha)ti+((v_0\sin\alpha)t-\cfrac{1}{2}gt^2)j\]
+                \[y_{\text{max}}=\cfrac{(v_0\sin\alpha)^2}{2g}\]
+                \[t=\cfrac{2v_0\sin\alpha}{g}\]
+                \[R=\cfrac{v_0^2}{g}\sin 2\alpha\]
+                \[r=(x_0+(v_0\cos\alpha)t)i+(y_0+(v_0\sin\alpha)t-\cfrac{1}{2}gt^2)j\]
+            \paragraph{Projectile Motion with Wind Gusts}
+        \subsection{Arc Length in Space}
+            \paragraph{Arc Length Along a Space Curve}
+                \[L=\int_a^b\sqrt{(\cfrac{dx}{dt})^2+(\cfrac{dy}{dt})^2+(\cfrac{dz}{dt})^2}dt\]
+                \subparagraph{Arc Length Formula}
+                    \[L=\int_a^b|v|dt\]
+                \subparagraph{Arc Length Parameter with Base Point $P(t_0)$}
+                    \[s(t)=\int_{t_0}^t\sqrt{[x'(\tau)]^2+[y'(\tau)]^2+[z'(\tau)]^2}=\int_{t_0}^t|v(\tau)|d\tau\]
 \end{document}
