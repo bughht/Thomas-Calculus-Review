@@ -652,3 +652,61 @@
 \contentsline {paragraph}{Arrow Diagrams}{89}
 \contentsline {section}{\numberline {15}Multiple Integrals}{90}
 \contentsline {subsection}{\numberline {15.1}Double and Iterated Integrals over Rectangles}{90}
+\contentsline {paragraph}{Double Integrals}{90}
+\contentsline {paragraph}{Double Integrals as Volumes}{90}
+\contentsline {paragraph}{Fubini's Theorem for Calculating Double Integrals}{90}
+\contentsline {subparagraph}{Fubini's Theorem (First Form)}{90}
+\contentsline {subsection}{\numberline {15.2}Double Integrals over General Regions}{90}
+\contentsline {paragraph}{Double Integrals over Bounded}{90}
+\contentsline {paragraph}{Volumes}{90}
+\contentsline {subparagraph}{Fubini's Theorem (Stronger Form)}{90}
+\contentsline {paragraph}{Finding Limits of Integration}{91}
+\contentsline {paragraph}{Properties of Double Integrals}{91}
+\contentsline {subsection}{\numberline {15.3}Area by Double Integration}{91}
+\contentsline {paragraph}{Areas of Bounded Regions in the Plane}{91}
+\contentsline {subparagraph}{Definition}{91}
+\contentsline {paragraph}{Average Value}{91}
+\contentsline {subsection}{\numberline {15.4}Double Integrals in Polar Form}{91}
+\contentsline {paragraph}{Integrals in Polar Coordinates}{91}
+\contentsline {paragraph}{Finding Limits of Integration}{91}
+\contentsline {subparagraph}{Area in Polar Coordinates}{91}
+\contentsline {paragraph}{Changing Cartesian Integrals into Polar Integrals}{92}
+\contentsline {subsection}{\numberline {15.5}Triple Integrals in Rectangular Coordinates}{92}
+\contentsline {paragraph}{Triple Integrals}{92}
+\contentsline {paragraph}{Volume of a Region in Space}{92}
+\contentsline {paragraph}{Finding Limits of Integration in the Order $dz\ dy\ dx$}{92}
+\contentsline {paragraph}{Average Value of a Function in Space}{92}
+\contentsline {paragraph}{Properties of Triple Integrals}{92}
+\contentsline {subsection}{\numberline {15.6}Moments and Centers of Mass}{92}
+\contentsline {paragraph}{Masses and First Moments}{92}
+\contentsline {paragraph}{Three-Dimensional Solid}{92}
+\contentsline {subparagraph}{Mass:}{92}
+\contentsline {subparagraph}{First moments about the coordinate planes:}{92}
+\contentsline {subparagraph}{Center of Mass:}{92}
+\contentsline {paragraph}{Two-Dimensional Plate}{92}
+\contentsline {subparagraph}{Mass:}{93}
+\contentsline {subparagraph}{First moments about the coordinate planes:}{93}
+\contentsline {subparagraph}{Center of Mass:}{93}
+\contentsline {paragraph}{Moments of Interia}{93}
+\contentsline {subsection}{\numberline {15.7}Triple Integrals in Cylindrical and Spherical Coordinates}{93}
+\contentsline {paragraph}{Integration in Cylindrical Coordinates}{93}
+\contentsline {subparagraph}{Definition}{93}
+\contentsline {subparagraph}{Equations Relating Rectangular $(x,y,z)$ and Cylindrical $(r,\theta ,z)$ Coordinates}{93}
+\contentsline {paragraph}{How to Integrate in Cylindrical Coordinates}{93}
+\contentsline {paragraph}{Spherical Coordinates and Integration}{93}
+\contentsline {subparagraph}{Definition}{94}
+\contentsline {subparagraph}{Equations Relating Spherical Coordinates to Cartesian and Cylindrical Coordinates}{94}
+\contentsline {paragraph}{How to Integrate in Spherical Coordinates}{94}
+\contentsline {paragraph}{Coordinate Conversion Formulas}{94}
+\contentsline {subparagraph}{Cylindrical To Rectangular}{94}
+\contentsline {subparagraph}{Spherical To Rectangular}{94}
+\contentsline {subparagraph}{Spherical To Cylindrical}{94}
+\contentsline {subparagraph}{Corresponding formulas for $dV$ in triple integrals:}{94}
+\contentsline {subsection}{\numberline {15.8}Substitutions in Multiple Integrals}{94}
+\contentsline {paragraph}{Substitutions in Double Integrals}{94}
+\contentsline {subparagraph}{Definition}{95}
+\contentsline {subparagraph}{Substitution for Double Integrals}{95}
+\contentsline {paragraph}{Substitutions in Triple Integrals}{95}
+\contentsline {section}{\numberline {16}Integrals and Vector Fields}{96}
+\contentsline {subsection}{\numberline {16.1}Line Integrals}{96}
+\contentsline {subsection}{\numberline {16.2}Definition}{96}
