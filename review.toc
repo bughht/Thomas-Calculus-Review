@@ -709,4 +709,95 @@
 \contentsline {paragraph}{Substitutions in Triple Integrals}{95}
 \contentsline {section}{\numberline {16}Integrals and Vector Fields}{96}
 \contentsline {subsection}{\numberline {16.1}Line Integrals}{96}
-\contentsline {subsection}{\numberline {16.2}Definition}{96}
+\contentsline {paragraph}{Definition}{96}
+\contentsline {paragraph}{How to Evaluate a Line Integral}{96}
+\contentsline {paragraph}{Additivity}{96}
+\contentsline {paragraph}{Mass and Moment Calculations}{96}
+\contentsline {paragraph}{Mass and Moment formulas for coil springs, wires and thin rods lying along a smooth curve $C$ in space}{96}
+\contentsline {subparagraph}{Mass}{96}
+\contentsline {subparagraph}{First moments about the coordinate planes}{96}
+\contentsline {subparagraph}{Coordinates of the center of mass}{96}
+\contentsline {subparagraph}{Moments of inertia about axes and other lines}{96}
+\contentsline {paragraph}{Line Integrals in the Plane}{97}
+\contentsline {subsection}{\numberline {16.2}Vector Fields and Line Integrals: Work, Circulation and Flux}{97}
+\contentsline {paragraph}{Vector Fields}{97}
+\contentsline {paragraph}{Gradient Fields}{97}
+\contentsline {paragraph}{Line Integrals of Vector Fields}{97}
+\contentsline {subparagraph}{Evaluating the Line Integral of $F=Mi+Nj+Pk$ Along $C:r(t)=g(t)i+h(t)j+k(t)k$}{97}
+\contentsline {paragraph}{Line Integrals with Respect to $dx$, $dy$, or $dz$}{97}
+\contentsline {paragraph}{Work Done by a Force over a Curve in Space}{97}
+\contentsline {subparagraph}{Different ways to write the work integral}{98}
+\contentsline {paragraph}{Flow Integrals and Circulation for Velocity Fields}{98}
+\contentsline {paragraph}{FLux Across a Simple Closed Plane Curve}{98}
+\contentsline {paragraph}{Calculating Flux Across a Smooth Closed Plane Curve}{98}
+\contentsline {subsection}{\numberline {16.3}Path Independence, Conservative Fields and Potential Functions}{98}
+\contentsline {paragraph}{Path Independence}{98}
+\contentsline {subparagraph}{Definition}{98}
+\contentsline {subparagraph}{Definition}{98}
+\contentsline {paragraph}{Line Integrals in Conservative Fields}{98}
+\contentsline {subparagraph}{FUndamental Theorem of Line Integrals}{98}
+\contentsline {subparagraph}{Conservatives Fields are Gradient Fields}{98}
+\contentsline {subparagraph}{Loop Property of Conservative Fields}{99}
+\contentsline {paragraph}{Finding Potentials for Conservative Fields}{99}
+\contentsline {subparagraph}{Component Test for Conservative Fields}{99}
+\contentsline {paragraph}{Exact Differential Forms}{99}
+\contentsline {subparagraph}{Definitions}{99}
+\contentsline {subparagraph}{Component Test for Exactness of $Mdx+Ndy+Pdz$}{99}
+\contentsline {subsection}{\numberline {16.4}Green's Theorem in the Plane}{99}
+\contentsline {paragraph}{Spin Around an Axis: The k-Component of Curl}{99}
+\contentsline {subparagraph}{Definition}{99}
+\contentsline {paragraph}{Divergence}{99}
+\contentsline {subparagraph}{Definition}{99}
+\contentsline {paragraph}{Two Forms for Green's Theorem}{99}
+\contentsline {subparagraph}{Green's Theorem (Circulation-Curl or Tangential Form)}{100}
+\contentsline {subparagraph}{Green's Theorem (Circulation-Curl or Tangential Form)}{100}
+\contentsline {paragraph}{Using Green's Theorem to Evaluate Line Integrals}{100}
+\contentsline {paragraph}{Proof of Green's Theorem for Special Regions}{100}
+\contentsline {subsection}{\numberline {16.5}Surfaces and Area}{100}
+\contentsline {paragraph}{Parametrizations of Surfaces}{100}
+\contentsline {paragraph}{Surface Area}{100}
+\contentsline {subparagraph}{Definition}{100}
+\contentsline {subparagraph}{Definition}{100}
+\contentsline {subparagraph}{Surface Area Differential for a Parametrized Surface}{101}
+\contentsline {paragraph}{Implicit Surfaces}{101}
+\contentsline {subparagraph}{Formula for the Surface Area of an Implicit Surface}{101}
+\contentsline {subparagraph}{Formula for the Surface Area of a Graph $z=f(x,y)$}{101}
+\contentsline {subsection}{\numberline {16.6}Surface Integrals}{101}
+\contentsline {paragraph}{Surface Integrals}{101}
+\contentsline {subparagraph}{parametrically defined surface}{101}
+\contentsline {subparagraph}{implicitly defined surface}{101}
+\contentsline {subparagraph}{explicitly defined surface}{101}
+\contentsline {paragraph}{Orientation of a Surface}{101}
+\contentsline {paragraph}{Surface Integrals of Vector Fields}{101}
+\contentsline {subparagraph}{Definition}{102}
+\contentsline {paragraph}{Moments and Masses of Thin Shells}{102}
+\contentsline {subparagraph}{Mass}{102}
+\contentsline {subparagraph}{First moments about the coordinate planes}{102}
+\contentsline {subparagraph}{Coordinates of center of mass}{102}
+\contentsline {subparagraph}{Moments of inertia about coordinate axes}{102}
+\contentsline {subsection}{\numberline {16.7}Stokes' Theorem}{102}
+\contentsline {paragraph}{The Curl Vector Field}{102}
+\contentsline {paragraph}{Stokes' Theorem}{103}
+\contentsline {subparagraph}{Stokes' Theorem}{103}
+\contentsline {paragraph}{Paddle Wheel interpretation of $\nabla \times F$}{103}
+\contentsline {paragraph}{Proof Ourtline of Stokes' Theorem for Polyhedral Surfaces}{103}
+\contentsline {paragraph}{Stokes' Theorem for Surfaces with Holes}{103}
+\contentsline {paragraph}{An Important Identity}{103}
+\contentsline {paragraph}{Conservative Fields and Stokes' Theorem}{103}
+\contentsline {subparagraph}{Curl F=O Related to the Closed-Loop Property}{103}
+\contentsline {subsection}{\numberline {16.8}The Divergence Theorem and a Unified Theory}{103}
+\contentsline {paragraph}{Divergence in Three Dimensions}{103}
+\contentsline {paragraph}{Divergence Theorem}{103}
+\contentsline {subparagraph}{Divergence Theorem}{103}
+\contentsline {subparagraph}{Corollary}{104}
+\contentsline {paragraph}{Divergence and Curl}{104}
+\contentsline {paragraph}{Proof of the Divergence Theorem for Special Regions}{104}
+\contentsline {paragraph}{Divergence Theorem for other Regions}{104}
+\contentsline {paragraph}{Gauss's Law: One of the Four Great Laws of Electromagnetic Theorey}{104}
+\contentsline {paragraph}{Continuity Equation of Hydrodynamics}{104}
+\contentsline {paragraph}{Unifying the Integral Theorem}{105}
+\contentsline {subparagraph}{Tangential form of Green's Theorem}{105}
+\contentsline {subparagraph}{Stokes' Theorem}{105}
+\contentsline {subparagraph}{Normal form of Green's Theorem}{105}
+\contentsline {subparagraph}{Divergence Theorem}{105}
+\contentsline {subparagraph}{A Unifying FUndamental Theorem of Vector Integral Calculus}{105}

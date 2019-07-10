@@ -2595,7 +2595,221 @@
     \newpage
     \section{Integrals and Vector Fields}
         \subsection{Line Integrals}
-            \subsection{Definition} If $f$ is defined on a curve $C$ given parametrically by $r(t)=g(t)i+h(t)j+k(t)k$, $a\le t\le b$, then the \textbf{line integral of $\bf{f}$ over $\bf{C}$} is
+            \paragraph{Definition} If $f$ is defined on a curve $C$ given parametrically by $r(t)=g(t)i+h(t)j+k(t)k$, $a\le t\le b$, then the \textbf{line integral of $\bf{f}$ over $\bf{C}$} is
             \[\int_C f(x,y,z)ds=\lim\limits_{n\to\infty}\sum_{k=1}^nf(x_k,y_k,z_k)\Delta s_k\]
-            
+            provided this limit exists.
+            \paragraph{How to Evaluate a Line Integral} To integrate a continuous function $f(x,y,z)$ over a curve $C$.
+            \par 1. Find a smooth parametrization of $C$.
+            \[r(t)=g(t)i+h(t)j+k(t)k,\qquad a\le t\le b\]
+            \par 2. Evaluate the integral as
+            \[\int_Cf(x,y,z)ds=\int_a^bf(g(t),h(t),k(t))|v(t)|dt\]
+            \paragraph{Additivity}
+                \[\int_Cfds=\int_{C_1}fds+\int_{C_2}fds+\cdots+\int_{c_n}fds\]
+            \paragraph{Mass and Moment Calculations}
+                \[ds=\sqrt{\bigg(\cfrac{dx}{dt}\bigg)^2+\bigg(\cfrac{dy}{dt}\bigg)^2+\bigg(\cfrac{dz}{dt}\bigg)^2}dt\]
+                \[M=\int_a^b\delta(x(t),y(t),z(t))\sqrt{\bigg(\cfrac{dx}{dt}\bigg)^2+\bigg(\cfrac{dy}{dt}\bigg)^2+\bigg(\cfrac{dz}{dt}\bigg)^2}dt\]
+            \paragraph{Mass and Moment formulas for coil springs, wires and thin rods lying along a smooth curve $C$ in space}
+                \subparagraph{Mass}
+                \[M=\int_C\delta\,ds\]
+                \subparagraph{First moments about the coordinate planes}
+                \[M_{yz}=\int_Cx\delta\,ds,\quad M_{xz}=\int_Cy\delta\,ds,\quad M_{xy}=\int_Cz\delta\,ds\]
+                \subparagraph{Coordinates of the center of mass}
+                \[\overline{x}=M_{yz}/M,\qquad \overline{y}=M_{xz}/M,\qquad \overline{z}=M_{xy}/M\]
+                \subparagraph{Moments of inertia about axes and other lines}
+                \[I_x=\int_C(y^2+z^2)\delta\,ds,\quad I_y=\int_C(x^2+z^2)\delta\,ds,\quad I_z=\int_C(x^2+y^2)\delta\,ds,\quad I_L=\int_Cr^2\delta\, ds\]
+            \paragraph{Line Integrals in the Plane}
+                \[\int_Cfds=\lim\limits_{n\to\infty}\sum_{k=1}^nf(x_k,y_k)\Delta s_k\]
+        \subsection{Vector Fields and Line Integrals: Work, Circulation and Flux}
+            \paragraph{Vector Fields}
+                \[F(x,y,z)=M(x,y,z)i+N(x,y,z)j+P(x,y,z)k\]
+                \[F(x,y)=M(x,y)i+N(x,y)j\]
+                \[v(t)=f(t)i+g(t)j+h(t)k\]
+            \paragraph{Gradient Fields}
+                \[\nabla f=\cfrac{\partial f}{\partial}i+\cfrac{\partial f}{\partial y}j+\cfrac{\partial f}{\partial z}k\]
+            \paragraph{Line Integrals of Vector Fields}
+                \[\int_CF\cdot T\, ds=\int_C\bigg(F\cdot\cfrac{dr}{ds}\bigg)ds=\int_CF\cdot dr\]
+                \subparagraph{Evaluating the Line Integral of $F=Mi+Nj+Pk$ Along $C:r(t)=g(t)i+h(t)j+k(t)k$}
+                \[\int_cF\cdot dr=\int_a^bF(r(t))\cdot\cfrac{dr}{dt}dt\]
+            \paragraph{Line Integrals with Respect to $dx$, $dy$, or $dz$}
+                \[\int_CM(x,y,z)dx=\int_a^bM(g(t),h(t),k(t))g'(t)dt\]
+                \[\int_CN(x,y,z)dy=\int_a^bN(g(t),h(t),k(t))h'(t)dt\]
+                \[\int_CP(x,y,z)dz=\int_a^bP(g(t),h(t),k(t))k'(t)dt\]
+                \[\int_CM(x,y,z)dx+\int_CN(x,y,z)dy+\int_CP(x,y,z)dz=\int_CMdx+Ndy+Pdz\]
+            \paragraph{Work Done by a Force over a Curve in Space}
+                \[W=\int_CF\cdot Tds=\int_a^bF(r(t))\cdot\cfrac{dr}{dt}dt\]
+                \subparagraph{Different ways to write the work integral}
+                \begin{equation}
+                    \begin{aligned}
+                        W&=\int_CF\cdot Tds\\
+                        &=\int_CF\cdot dr\\
+                        &=\int_a^b F\cdot\cfrac{dr}{dt}dt\\
+                        &=\int_a^b(Mg'(t)+Nh'(t)+Pk'(t))dt\\
+                        &=\int_CMdx+Ndy+Pdz\\
+                    \end{aligned}
+                \end{equation}
+            \paragraph{Flow Integrals and Circulation for Velocity Fields}
+                \[\text{Flow}=\int_CF\cdot T ds\]
+            \paragraph{FLux Across a Simple Closed Plane Curve}
+                \[\text{Flux of $F$ across $C$}=\int_CF\cdot n\,ds\]
+                \paragraph{Calculating Flux Across a Smooth Closed Plane Curve}
+                    \[\text{(Flux of $F=Mi+Nj$ across C)}=\oint\limits_CMdy-Ndx\]
+        \subsection{Path Independence, Conservative Fields and Potential Functions}
+            \paragraph{Path Independence}
+                \subparagraph{Definition} Let \textbf{F} be a vector field defined on an open region $D$ in space, and suppose that for any two points $A$ and $B$ in $D$ the line integral $\int_CF\cdot dr$ along a path $C$
+                from $A$ to $B$ is the same over all paths from $A$ to $B$. Then the integral $\int_CF\cdot dr$ is \textbf{path independent in \bf{D}} and the field \textbf{F} is \textbf{conservative on $\bf{D}$.}
+                \subparagraph{Definition} If \textbf{F} is a vector field defined on $D$ and $F=\partial f$ for some scalar function $f$ on $D$, then $f$ is called a \textbf{potential function for F}.
+            \paragraph{Line Integrals in Conservative Fields}
+                \subparagraph{FUndamental Theorem of Line Integrals} Let $C$ be a smooth curve joining the point $A$ to the point $B$ in the plane or in space and parametrized by $r(t)$. Let $f$ be a differentiable function with a continuous gradient vector $F=\partial f$ on a domain $D$ containing $C$. Then
+                \[\int_CF\cdot dr=f(B)-f(A)\]
+                \subparagraph{Conservatives Fields are Gradient Fields} Let $F=Mi+Nj+Pk$ be a vector field whose components are continuous throughout an open connected region $D$ in space. Then $F$ is conservative if and only if $F$ is a gradient field $\partial f$ for a differentiable function $f$.
+                \subparagraph{Loop Property of Conservative Fields} The following statements are equivalent.
+                \par 1. $\oint_CF\cdot dr=0$ around every loop ( that is, closed curve $C$) in $D$.
+                \par 2. The field $F$ is conservative on $D$.
+            \paragraph{Finding Potentials for Conservative Fields}
+                \subparagraph{Component Test for Conservative Fields} Let $F=M(x,y,z)i+N(x,y,z)j+P(x,y,z)k$ be a field on an open simply connected domain whose component functions have continuous first partial derivatives. Then, $F$ is conservative if and only if 
+                \[\cfrac{\partial P}{\partial y}=\cfrac{\partial N}{\partial z},\qquad\cfrac{\partial M}{\partial z}=\cfrac{\partial P}{\partial x},\qquad\cfrac{\partial N}{\partial x}=\cfrac{\partial M}{\partial y}\]
+            \paragraph{Exact Differential Forms}
+                \subparagraph{Definitions} Any expression $M(x,y,z)dx+N(x,y,z)dy+P(x,y,z)dz$ is a \textbf{differential form}. A differential form is \textbf{exact} on a domain $D$ in space if
+                    \[Mdx+Ndy+Pdz=\cfrac{\partial f}{\partial x}dx+\cfrac{\partial f}{\partial y}dy+\cfrac{\partial }{\partial z}dz=df\]
+                for some scalar function $f$ throughout $D$.
+                \subparagraph{Component Test for Exactness of $Mdx+Ndy+Pdz$}
+                The differential form $Mdx+Ndy+Pdz$ is exact on an open simply connected domain if and only if
+                \[\cfrac{\partial P}{\partial y}=\cfrac{\partial N}{\partial z},\qquad\cfrac{\partial M}{\partial z}=\cfrac{\partial P}{\partial x},\qquad\cfrac{\partial N}{\partial x}=\cfrac{\partial M}{\partial y}\]
+                This is equivalent to saying that the field $F=Mi+Nj+Pk$ is conservative.
+        \subsection{Green's Theorem in the Plane}
+            \paragraph{Spin Around an Axis: The k-Component of Curl}
+                \subparagraph{Definition} The \textbf{circulation density} of a vector field $F=Mi+Nj$ at the point $(x,y)$ is the scalar expression
+                \[\cfrac{\partial N}{\partial x}-\cfrac{\partial M} {\partial y}\]
+                This expression is also called \textbf{the k-component of the curl}, denoted by (curl $F$)$\cdot k$.
+            \paragraph{Divergence}
+                \subparagraph{Definition} The \textbf{divergence (flux density)} of a vector field $F=Mi+Nj$ at the point $(x,y)$ is
+                \[\text{div}F=\cfrac{\partial M}{\partial x}+\cfrac{\partial N}{\partial y}\]
+            \paragraph{Two Forms for Green's Theorem}
+                \subparagraph{Green's Theorem (Circulation-Curl or Tangential Form)} Let $C$ be a piecewise smooth, simple closed curve enclosing a region $R$ in the plane. Let $F=Mi+Nj$ be a vector field with $M$ and $N$ having continuous first partial derivatives in an open region containing $R$. Then the counterclockwise circulation of $F$ around $C$ equals the double integral of (curl $F$)$\cdot k$ over $R$.
+                \[\oint\limits_CF\cdot Tds=\oint\limits_CMdx+Ndy=\iint\limits_R\bigg(\cfrac{\partial N}{\partial x}-\cfrac{\partial M}{\partial y}\bigg)dxdy\]
+                \subparagraph{Green's Theorem (Circulation-Curl or Tangential Form)} Let $C$ be a piecewise smooth, simple closed curve enclosing a region $R$ in the plane. Let $F=Mi+Nj$ be a vector field with $M$ and $N$ having continuous first partial derivatives in an open region containing $R$. Then the outward flux of $F$ across $C$ equals the double integral of div $F$ over the region $R$ enclosed by $C$.
+                \[\oint\limits_CF\cdot Tds=\oint\limits_CMdx-Ndy=\iint\limits_R\bigg(\cfrac{\partial N}{\partial x}+\cfrac{\partial M}{\partial y}\bigg)dxdy\]
+            \paragraph{Using Green's Theorem to Evaluate Line Integrals}
+            \paragraph{Proof of Green's Theorem for Special Regions}
+        \subsection{Surfaces and Area}
+            \paragraph{Parametrizations of Surfaces}
+                \[r(u,v)=f(u,v)i+g(u,v)j+h(u,v)k\]
+                \[x=f(u,v),\qquad y=g(u,v),\qquad z=h(u,v)\]
+            \paragraph{Surface Area}
+                \[r(u,v)=f(u,v)i+g(u,v)j+h(u,v)k,\qquad a\le u\le b,\quad c\le v\le d\]
+                \[r_u=\cfrac{\partial r}{\partial u}=\cfrac{\partial f}{\partial u}i+\cfrac{\partial g}{\partial u}j+\cfrac{\partial h}{\partial u}k\]
+                \[r_v=\cfrac{\partial r}{\partial v}=\cfrac{\partial f}{\partial v}i+\cfrac{\partial g}{\partial v}j+\cfrac{\partial h}{\partial v}k\]
+                \subparagraph{Definition} A parametrized surface $r(u,v)=f(u,v)i+g(u,v)j+h(u,v)k$ is \textbf{smooth} if $r_u$ and $r_v$ are continuous and $r_u\times r_v$ is never zero on the interior of the parameter domain.
+                \subparagraph{Definition} The \textbf{area} of the smooth surface
+                \[r(u,v)=f(u,v)i+g(u,v)j+h(u,v)k,\qquad a\le u\le b,\quad c\le v\le d\]
+                is
+                \[A=\iint\limits_R|r_u\times r_v|dA=\int_c^d\int_a^b|r_u\times r_v|dudv\]
+                \subparagraph{Surface Area Differential for a Parametrized Surface}
+                \[d\sigma=|r_u\times r_v|dudv\qquad\qquad\text{Surface area differential}\] 
+                \[\iint\limits_Sd\sigma\qquad\qquad\quad\text{Differential formula for surface area}\]
+            \paragraph{Implicit Surfaces}
+                \subparagraph{Formula for the Surface Area of an Implicit Surface}
+                    The area of the surface $F(x,y,z)=c$ over a closed and bounded plane region $R$ is 
+                    \[\text{Surface area}=\iint\limits_R\cfrac{|\nabla F|}{|\nabla F\cdot p|}dA\]
+                    where $p=i,j$ or $k$ is normal to $R$ and $\nabla F\cdot p\ne 0$. 
+                \subparagraph{Formula for the Surface Area of a Graph $z=f(x,y)$}
+                For a graph $z=f(x,y)$ over a region $R$ in the $xy$-plane, the surface area formula is 
+                \[A=\iint\limits_R\sqrt{f_x^2+f_y^2+1}dxdy\]
+        \subsection{Surface Integrals}
+            \paragraph{Surface Integrals}
+                \[\iint\limits_SG(x,y,z)d\sigma=\lim\limits_{n\to\infty}\sum_{k=1}^nG(x_k,y_k,z_k)\Delta\sigma_k\]
+                \subparagraph{parametrically defined surface}
+                \[\iint\limits_SG(x,y,z)d\sigma=\iint\limits_RG(f(u,v),g(u,v),h(u,v))|r_u\times r_v|dudv\]
+                \subparagraph{implicitly defined surface}
+                \[\iint\limits_SG(x,y,z)d\sigma=\iint\limits_RG(x,y,z)\cfrac{|\nabla F|}{|\nabla F\cdot p|}dA\]
+                \subparagraph{explicitly defined surface}
+                \[\iint\limits_SG(x,y,z)d\sigma=\iint\limits_RG(x,y,f(x,y))\sqrt{f_x^2+f_y^2+1}dxdy\]
+            \paragraph{Orientation of a Surface}
+            \paragraph{Surface Integrals of Vector Fields}
+                \subparagraph{Definition} Let $F$ be a vector field in three-dimensional space with continuous components defined over a smooth surface $S$ having a chosen field of normal unit vectors $n$ orienting $S$. Then the \textbf{surface integral of $F$ over $S$} is
+                \[\iint\limits_SF\cdot nd\sigma\]
+            \paragraph{Moments and Masses of Thin Shells}
+                \[\delta=\delta(x,y,z)=\text{density at }(x,y,z)\text{ as mass per unit area}\]
+                \subparagraph{Mass}
+                \[M=\iint\limits_S\delta d\sigma\]
+                \subparagraph{First moments about the coordinate planes}
+                \[M_{yz}=\iint\limits_Sx\delta d\sigma,\quad M_{xz}=\iint\limits_Sy\delta d\sigma,\quad M_{xy}=\iint\limits_Sz\delta d\sigma\]
+                \subparagraph{Coordinates of center of mass}
+                \[\overline{x}=M_{yz}/M,\quad\overline{y}=M_{xz}/M,\quad\overline{z}=M_{xy}/M,\quad\]
+                \subparagraph{Moments of inertia about coordinate axes}
+                \[r(x,y,z)=\text{distance from point }(x,y,z)\text{ to line }l\]
+                \[I_x=\iint\limits_S(y^2+z^2)\delta d\sigma\]
+                \[I_y=\iint\limits_S(x^2+z^2)\delta d\sigma\]
+                \[I_z=\iint\limits_S(x^2+y^2)\delta d\sigma\]
+                \[I_L=\iint\limits_Sr^2\delta d\sigma\]
+        \subsection{Stokes' Theorem}
+            \paragraph{The Curl Vector Field}
+                \[\text{curl }F=\bigg(\cfrac{\partial P}{\partial y}-\cfrac{\partial N}{\partial z}\bigg)i+\bigg(\cfrac{\partial M}{\partial z}-\cfrac{\partial P}{\partial x}\bigg)i+\bigg(\cfrac{\partial N}{\partial x}-\cfrac{\partial M}{\partial y}\bigg)k\]
+                \[\nabla=i\cfrac{\partial}{\partial x}+j\cfrac{\partial}{\partial y}+k\cfrac{\partial}{\partial z}\]
+                \[\nabla\times F=
+                \begin{vmatrix}
+                    i&j&k\\
+                    \cfrac{\partial}{\partial x}&\cfrac{\partial}{\partial y}&\cfrac{\partial}{\partial z}\\
+                    M&N&P\\
+                \end{vmatrix}
+                =\bigg(\cfrac{\partial P}{\partial y}-\cfrac{\partial N}{\partial z}\bigg)i+\bigg(\cfrac{\partial M}{\partial z}-\cfrac{\partial P}{\partial x}\bigg)j+\bigg(\cfrac{\partial N}{\partial x}-\cfrac{\partial M}{\partial y}\bigg)k\]
+                \[\text{curl }F=\nabla \times F\]
+            \paragraph{Stokes' Theorem}
+                \subparagraph{Stokes' Theorem}
+                Let $S$ be a piecewise smooth oriented surface having a piecewise smooth boundary curve $C$. Let $F=Mi+Nj+Pk$ be a vector field whose components have continuous first partial derivatives on an open region containing $S$. Then the circulation of $F$ around $C$ in the direction counterclockwise with respect to the surface's unit normal vector $n$ equals the integral of the curl vector field $\nabla \times F$ over $S$:
+                \[\oint\limits_CF\cdot dr=\iint\limits_S\times F\cdot nd\sigma\]
+            \paragraph{Paddle Wheel interpretation of $\nabla\times F$}
+                \[(\nabla\times F\cdot u)_Q=\lim\limits_{\rho\to 0}\cfrac{1}{\pi\rho^2}\oint\limits_CF\cdot dr\]
+            \paragraph{Proof Ourtline of Stokes' Theorem for Polyhedral Surfaces}
+            \paragraph{Stokes' Theorem for Surfaces with Holes}
+            \paragraph{An Important Identity}
+                \[\text{curl grad} f=0\qquad \text{or}\qquad \nabla\times\nabla f=0\]
+                \[\nabla\times\nabla f=
+                \begin{vmatrix}
+                    i&j&k\\
+                    \cfrac{\partial}{\partial x}&\cfrac{\partial}{\partial y}&\cfrac{\partial}{\partial z}\\
+                    \cfrac{\partial f}{\partial x}&\cfrac{\partial f}{\partial y}&\cfrac{\partial f}{\partial z}\\
+                \end{vmatrix}=(f_{zy}-f_{yz})i-(f_{zx}-f_{xz})j+(f_{yx}-f_{xy})k\]
+            \paragraph{Conservative Fields and Stokes' Theorem}
+                \subparagraph{Curl F=O Related to the Closed-Loop Property} If $\nabla\times F=0$ at every point of a simply connected open region $D$ in space, then on an y piecewise smooth closed path $C$ in $D$,
+                \[\oint\limits_CF\cdot dr=0\]
+        \subsection{The Divergence Theorem and a Unified Theory}
+            \paragraph{Divergence in Three Dimensions}
+                \[\text{div }F=\nabla\cdot F=\cfrac{\partial M}{\partial x}+\cfrac{\partial N}{\partial y}+\cfrac{\partial P}{\partial z}\]
+            \paragraph{Divergence Theorem}
+                \subparagraph{Divergence Theorem} Let $F$ be a vector field whose components have continuous first parital derivatives, and let $S$ be a piecewise smooth oriented close surface. The flux of $F$ across $S$ in the direction of the surface's outward unit normal field $n$ equals the triple integral of the divergence $\nabla\cdot F$ over the region $D$ enclosed by the surface:
+                \[\iint\limits_SF\cdot nd\sigma=\iiint\limits_D\nabla\cdot FdV\]
+                \subparagraph{Corollary} The outward flux across a piecewise smooth oriented closed surface $S$ is zero for any vector field $F$ having zero divergence at every point of the region enclosed by the surface.
+            \paragraph{Divergence and Curl}
+                If $F=Mi+Nj+Pk$ is a vector field with continuous second partial derivatives, then
+                \[\text{div(curl $F$)}=\nabla\cdot(\nabla\times F)=0\]
+            \paragraph{Proof of the Divergence Theorem for Special Regions}
+            \paragraph{Divergence Theorem for other Regions}
+                \[\iint\limits_SF\cdot nd\sigma=\iiint\limits_D\nabla\cdot FdV\]
+            \paragraph{Gauss's Law: One of the Four Great Laws of Electromagnetic Theorey}
+            \[\iint\limits_SE\cdot nd\sigma=\cfrac{q}{\epsilon_0}\]
+            \paragraph{Continuity Equation of Hydrodynamics}
+                \[\nabla\cdot F+\cfrac{\partial \delta}{\partial t}=0\]
+                \[\iint\limits_S F\cdot nd\sigma\]
+                \[\Delta V\approx v\cdot n\Delta\sigma\Delta t\]
+                \[\Delta m\approx \delta v\cdot n\Delta\sigma\Delta t\]
+                \[\cfrac{\Delta m}{\Delta t}\approx \delta v\cdot n\Delta\sigma\]
+                \[\cfrac{\sum\Delta m}{\Delta t}\approx\sum\delta v\cdot n\Delta \sigma\]
+                \[\cfrac{dm}{dt}=\iint\limits_S\delta v\cdot nd\sigma\]
+                \[\cfrac{dm}{dt}=\iint\limits_S F\cdot nd\sigma\]
+                \[\cfrac{1}{\text{volume of }B}\iiint\limits_B\nabla\cdot F dV\]
+                \[(\nabla\cdot F)_P=\cfrac{1}{\text{volume of }B}\iiint\limits_B\nabla\cdot FdV=\cfrac{\text{rate at which mass leaves $B$ across its surface $S$}}{\text{volume of $B$}}\]
+                \[\nabla\cdot F=-\cfrac{\partial\delta}{\partial t}\]
+                \[\iint\limits_SF\cdot nd\sigma=\iiint\limits_D\nabla\cdot F dV\]
+            \paragraph{Unifying the Integral Theorem}
+                \subparagraph{Tangential form of Green's Theorem}
+                    \[\oint\limits_C F\cdot Tds=\iint\limits_R\nabla\times F\cdot kdA\]
+                \subparagraph{Stokes' Theorem}
+                    \[\oint\limits_CF\cdot Tds=\iint\limits_S\nabla\times F\cdot n d\sigma\]
+                \subparagraph{Normal form of Green's Theorem}
+                    \[\oint\limits_CF\cdot nds=\iint\limits_R\nabla\cdot FdA\]
+                \subparagraph{Divergence Theorem}
+                    \[\iint\limits_SF\cdot nd\sigma=\iiint\limits_D\nabla\cdot FdV\]
+                \subparagraph{A Unifying FUndamental Theorem of Vector Integral Calculus}
+                The integral of a differential operator acting on a field over a region equals the sum of the field components appropriate to the operator over the boundary of the region.
 \end{document}

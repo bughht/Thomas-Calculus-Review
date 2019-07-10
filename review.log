@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2019.6.21)  9 JUL 2019 19:58
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2019.6.21)  10 JUL 2019 23:22
 entering extended mode
 **e:/Thomas-Calculus-Review/review
 (e:/Thomas-Calculus-Review/review.tex
@@ -734,14 +734,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 2451--2452
 
  []
 
-[90] [91] [92] [93] [94] [95] [96] (e:\Thomas-Calculus-Review\review.aux) ) 
+[90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101] [102] [103] [104] [105] (e:\Thomas-Calculus-Review\review.aux) ) 
 Here is how much of TeX's memory you used:
  16366 strings out of 430478
  376773 string characters out of 3191502
- 519447 words of memory out of 3000000
+ 518447 words of memory out of 3000000
  19201 multiletter control sequences out of 15000+200000
  15337 words of font info for 53 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  63i,15n,74p,710b,479s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on review.pdf (96 pages).
+Output written on review.pdf (105 pages).
